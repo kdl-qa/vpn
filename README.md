@@ -1,2 +1,0 @@
-# vpn
-frisbyjs autotest scripts
