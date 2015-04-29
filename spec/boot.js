@@ -1,8 +1,8 @@
-frisby = require('frisby');
+frisby = require('/usr/local/lib/node_modules/frisby');
 path = require('path');
 fs = require('fs');
 jf = require('/usr/local/lib/node_modules/npm/node_modules/jsonfile');
-qs = require('/usr/local/lib/node_modules/npm/node_modules/qs');
+qs = require('/usr/local/lib/node_modules/frisby/node_modules/qs');
 formData = require('/usr/local/lib/node_modules/npm/node_modules/form-data');
 util = require('util');
 category = require('./classes/categories/categories');

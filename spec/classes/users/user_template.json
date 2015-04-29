@@ -1,8 +1,8 @@
 {
   "first_name": "Test",
   "last_name": "User",
-  "email": "test@gmail.com",
-  "plainPassword": "test1234",
+  "email": "test2@gmail.com",
+  "password": "test1234",
   "phone": "09671231212",
   "avatar": ""
 }

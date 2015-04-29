@@ -4,7 +4,7 @@ frisby.create('Registration. Private person')
         firstName: userFirstName,
         lastName: userLastName,
         email: userEmail,
-        password: userPassword,
+        plainPassword: userPassword,
         phone: userPhone
         //userAvatar: userAvatar
     }, {json: true})
