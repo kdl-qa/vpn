@@ -64,16 +64,6 @@ housesId =  housesData.pop().id;
 flatsData = flats.getFlats();
 flatsId =  flatsData.pop().id;
 
-//------------------------------Categories Data-------------------------------//
-
-catData = category.getCategories();
-var catId;
-for (var i = 0; i < catData.length; i++){
-    catId = catData[i].id;
-    catData = category.getCategories();
-    eval("URL_category_types_" + i + "= url + 'lists/category-types/' + catId"); // GET LISTS CATEGORY-TYPES {CATEGORYID}
-    eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
-}
 
 //------------------------------Appliances Data-------------------------------//
 appliancesData = appliances.getAppliances();
@@ -132,11 +122,24 @@ waterheatId =  waterheatData.pop().id;
 wcData = wc.getWc();
 wcId =  wcData.pop().id;
 
-
+//------------------------------Delete Advert Image Data-------------------------------//
 var advertId = '55376f32d69b5af43a8b459c';
 var imageId = '55376ab6d69b5a07118b4581';
 
-//catId = catData.shift().id;
+
+//------------------------------------------------Project Endpoint Link Data------------------------------------------------//
+
+
+//------------------------------Categories & Additionals Lists Data-------------------------------//
+
+catData = category.getCategories();
+var catId;
+for (var i = 0; i < catData.length; i++){
+    catId = catData[i].id;
+    catData = category.getCategories();
+    eval("URL_category_types_" + i + "= url + 'lists/category-types/' + catId"); // GET LISTS CATEGORY-TYPES {CATEGORYID}
+    eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
+}
 
 // GET LISTS ADDITIONALS {CATEGORYID}
 //URL_additionals = url + 'lists/additionals/' + catId; // + '?categoryId=' + catId;
