@@ -9,5 +9,9 @@ frisby.create('Get Additionals')
         id: String,
         name: String
     }])
-    .expectBodyContains('Участок правильной формы')
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            additionals_cat1.saveAdditionals_cat1(json);
+        }
+    })
     .toss()

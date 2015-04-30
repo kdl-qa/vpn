@@ -9,5 +9,9 @@ frisby.create('Get Additionals')
         id: String,
         name: String
     }])
-    .expectBodyContains('Лифт')
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            additionals_cat0.saveAdditionals_cat0(json);
+        }
+    })
     .toss()

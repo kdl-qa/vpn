@@ -130,7 +130,7 @@ var imageId = '55376ab6d69b5a07118b4581';
 //------------------------------------------------Project Endpoint Link Data------------------------------------------------//
 
 
-//------------------------------Categories & Additionals Lists Data-------------------------------//
+//------------------------------Categories & Additionals Lists API-------------------------------//
 
 catData = category.getCategories();
 var catId;
@@ -140,6 +140,19 @@ for (var i = 0; i < catData.length; i++){
     eval("URL_category_types_" + i + "= url + 'lists/category-types/' + catId"); // GET LISTS CATEGORY-TYPES {CATEGORYID}
     eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
 }
+
+additionals_cat0Data = additionals_cat0.getAdditionals_cat0();
+additionals_cat0Id = additionals_cat0Data.pop().id;
+
+additionals_cat1Data = additionals_cat1.getAdditionals_cat1();
+additionals_cat1Id = additionals_cat1Data.pop().id;
+
+additionals_cat2Data = additionals_cat2.getAdditionals_cat2();
+additionals_cat2Id = additionals_cat2Data.pop().id;
+
+additionals_cat3Data = additionals_cat3.getAdditionals_cat3();
+additionals_cat3Id = additionals_cat3Data.pop().id;
+
 
 // GET LISTS ADDITIONALS {CATEGORYID}
 //URL_additionals = url + 'lists/additionals/' + catId; // + '?categoryId=' + catId;
@@ -239,3 +252,7 @@ URL_delete_image = url + 'adverts/' + advertId + '/images/' + imageId +'/delete'
 
 // POST SEARCH ADVERTS LIST
 URL_search_adverts = url + 'search/1/100';
+
+//-----------------------------------Realty API-----------------------------------//
+// POST ADD COMMERCIALS REALTY
+URL_realties_commercials_add = url + 'realties/commercials/add';

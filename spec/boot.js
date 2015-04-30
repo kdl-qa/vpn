@@ -15,6 +15,10 @@ districts = require('./classes/lists/districts');
 houses = require('./classes/lists/houses');
 flats = require('./classes/lists/flats');
 
+additionals_cat0 = require('./classes/lists/additionals_cat0');
+additionals_cat1 = require('./classes/lists/additionals_cat1');
+additionals_cat2 = require('./classes/lists/additionals_cat2');
+additionals_cat3 = require('./classes/lists/additionals_cat3');
 appliances = require('./classes/lists/appliances');
 areaunits = require('./classes/lists/areaunits');
 balconies = require('./classes/lists/balconies');
