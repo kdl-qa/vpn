@@ -49,11 +49,20 @@ citiesId =  citiesData.pop().id;
 streetsData = streets.getStreets();
 streetsId =  streetsData.pop().id;
 
-//------------------------------Streets Data-------------------------------//
+//------------------------------Districts Data-------------------------------//
 
 districtsData = districts.getDistricts();
 districsId =  districtsData.pop().id;
 
+//------------------------------Houses Data-------------------------------//
+
+housesData = houses.getHouses();
+housesId =  housesData.pop().id;
+
+//------------------------------Flats Data-------------------------------//
+
+flatsData = flats.getFlats();
+flatsId =  flatsData.pop().id;
 
 //------------------------------Categories Data-------------------------------//
 
@@ -101,9 +110,6 @@ URL_countries =  url + 'lists/countries';
 // GET LISTS DISTRICTS {CITYID}
 URL_districts = url + 'lists/districts/' + citiesId;
 
-// GET LISTS FLAT-NUMBERS {HOUSEID}
-
-
 // GET LISTS FURNITURES
 URL_furnitures = url + 'lists/furnitures';
 
@@ -112,6 +118,9 @@ URL_heatings = url + 'lists/heatings';
 
 // GET LISTS HOUSE-NUMBERS {STREETID}
 URL_house_numbers = url + 'lists/house-numbers/' + streetsId;
+
+// GET LISTS FLAT-NUMBERS {HOUSEID}
+URL_flats_numbers = url + 'lists/flat-numbers/' + housesId;
 
 // GET LISTS MARKET-TYPES
 URL_market_types = url + 'lists/market-types';
