@@ -91,6 +91,10 @@ balconiesId =  balconiesData.pop().id;
 communicationsData = communications.getCommunications();
 communicationsId =  communicationsData.pop().id;
 
+//------------------------------Communications Data-------------------------------//
+currencyData = currency.getCurrency();
+currencyId =  currencyData.pop().id;
+
 //------------------------------Furnitures Data-------------------------------//
 furnituresData = furnitures.getFurnitures();
 furnituresId =  furnituresData.pop().id;
@@ -160,6 +164,9 @@ URL_communications = url + 'lists/communications';
 
 // GET LISTS COUNTRIES
 URL_countries =  url + 'lists/countries';
+
+// GET LISTS COUNTRIES
+URL_currency =  url + 'lists/currency';
 
 // GET LISTS DISTRICTS {CITYID}
 URL_districts = url + 'lists/districts/' + citiesId;

@@ -19,6 +19,7 @@ appliances = require('./classes/lists/appliances');
 areaunits = require('./classes/lists/areaunits');
 balconies = require('./classes/lists/balconies');
 communications = require('./classes/lists/communications');
+currency = require('./classes/lists/currency');
 furnitures = require('./classes/lists/furnitures');
 heatings = require('./classes/lists/heatings');
 markets = require('./classes/lists/markets');
