@@ -52,7 +52,7 @@ streetsId =  streetsData.pop().id;
 //------------------------------Districts Data-------------------------------//
 
 districtsData = districts.getDistricts();
-districsId =  districtsData.pop().id;
+districtsId =  districtsData.pop().id;
 
 //------------------------------Houses Data-------------------------------//
 
@@ -122,6 +122,20 @@ waterheatId =  waterheatData.pop().id;
 wcData = wc.getWc();
 wcId =  wcData.pop().id;
 
+//------------------------------Realty Data-------------------------------//
+realtiesData = realties.getRealties();
+
+houseNumber = realtiesData.houseNumber;
+latitude = realtiesData.latitude;
+longitude = realtiesData.longitude;
+area = realtiesData.area;
+effectiveArea = realtiesData.effectiveArea;
+roomCount = realtiesData.roomCount;
+floor = realtiesData.floor;
+floorNumber = realtiesData.floorNumber;
+buildYear = realtiesData.buildYear;
+
+
 //------------------------------Delete Advert Image Data-------------------------------//
 var advertId = '55376f32d69b5af43a8b459c';
 var imageId = '55376ab6d69b5a07118b4581';
@@ -140,6 +154,20 @@ for (var i = 0; i < catData.length; i++){
     eval("URL_category_types_" + i + "= url + 'lists/category-types/' + catId"); // GET LISTS CATEGORY-TYPES {CATEGORYID}
     eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
 }
+categoryId = catData.pop().id;
+
+category_type0Data = category_type0.getCategory_type0();
+category_type0Id = category_type0Data.pop().id;
+
+category_type1Data = category_type1.getCategory_type1();
+category_type1Id = category_type1Data.pop().id;
+
+category_type2Data = category_type2.getCategory_type2();
+category_type2Id = category_type1Data.pop().id;
+
+category_type3Data = category_type3.getCategory_type3();
+category_type3Id = category_type3Data.pop().id;
+
 
 additionals_cat0Data = additionals_cat0.getAdditionals_cat0();
 additionals_cat0Id = additionals_cat0Data.pop().id;

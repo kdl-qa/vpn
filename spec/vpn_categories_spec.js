@@ -4,18 +4,13 @@ frisby.create('Get Categories')
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
-    //.expectJSON([
-    //    {name: 'Квартиры и комнаты'},
-    //    {name: 'Дома и дачи'},
-    //    {name: 'Земельные участки'},
-    //    {name: 'Коммерческая недвижимость'}
-    //])
     .expectJSON([{
         id: String,
         name: String
     }])
     .afterJSON(function (json) {
-       //if (json.status == 200) { // json['status']
+       if (json.id = String) {
            category.saveCategories(json);
+       }
     })
     .toss()
