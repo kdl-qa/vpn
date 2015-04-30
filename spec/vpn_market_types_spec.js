@@ -6,7 +6,14 @@ frisby.create('Get market types')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name: 'Первичный'}
-        //{name: 'Вторичный'}
+        {
+            id: String,
+            name: String
+        }
     ])
+    .afterJSON(function(json) {
+        if (json.id = String) {
+            markets.saveMarkets(json);
+        }
+    })
     .toss()

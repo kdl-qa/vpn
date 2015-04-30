@@ -6,6 +6,14 @@ frisby.create('Get communications')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name : 'Електричество'}
+        {
+            id : String,
+            name: String
+        }
     ])
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            communications.saveCommunications(json);
+        }
+    })
     .toss()

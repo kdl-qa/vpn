@@ -9,6 +9,10 @@ frisby.create('Get Area_units')
         id: String,
         name: String
     }])
-    .expectBodyContains('Кв. метры')
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            areaunits.saveAreaUnits(json);
+        }
+    })
     .toss()
 

@@ -6,10 +6,14 @@ frisby.create('Get heatings')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name: 'Нет'}
-        //{name: 'Централизованное'},
-        //{name: 'Индивидуальное газовое'},
-        //{name: 'Индивидуальное електрическое'},
-        //{name: 'Автономная котельная'}
+        {
+            id: String,
+            name:String
+        }
     ])
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            heatings.saveHeatings(json);
+        }
+    })
     .toss()

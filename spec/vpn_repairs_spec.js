@@ -6,13 +6,14 @@ frisby.create('Get repairs')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name: 'Косметический'}
-        //{name: 'Евроремонт'},
-        //{name: 'Дизайнерский'},
-        //{name: 'После строителей'},
-        //{name: 'Под чистовую отделку'},
-        //{name: 'Неоконченный ремонт'},
-        //{name: 'Требуется косметический ремонт'},
-        //{name: 'Требуется капитальный ремонт'}
+        {
+            id: String,
+            name: String
+        }
     ])
+    .afterJSON(function(json) {
+        if (json.id = String) {
+            repairs.saveRepairs(json);
+        }
+    })
     .toss()

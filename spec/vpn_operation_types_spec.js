@@ -6,7 +6,14 @@ frisby.create('Get operation types')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name: 'Аренда'}
-        //{name: 'Продажа'}
+        {
+            id: String,
+            name: String
+        }
     ])
+    .afterJSON(function(json) {
+        if (json.id = String) {
+            operationtypes.saveOperationTypes(json);
+        }
+    })
     .toss()

@@ -75,6 +75,60 @@ for (var i = 0; i < catData.length; i++){
     eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
 }
 
+//------------------------------Appliances Data-------------------------------//
+appliancesData = appliances.getAppliances();
+appliancesId =  appliancesData.pop().id;
+
+//------------------------------Area Units Data-------------------------------//
+areaunitsData = areaunits.getAreaUnits();
+areaunitsId =  areaunitsData.pop().id;
+
+//------------------------------Balconies Data-------------------------------//
+balconiesData = balconies.getBalconies();
+balconiesId =  balconiesData.pop().id;
+
+//------------------------------Communications Data-------------------------------//
+communicationsData = communications.getCommunications();
+communicationsId =  communicationsData.pop().id;
+
+//------------------------------Furnitures Data-------------------------------//
+furnituresData = furnitures.getFurnitures();
+furnituresId =  furnituresData.pop().id;
+
+//------------------------------Heatings Data-------------------------------//
+heatingsData = heatings.getHeatings();
+heatingsId =  heatingsData.pop().id;
+
+//------------------------------Market Types Data-------------------------------//
+marketsData = markets.getMarkets();
+marketsId =  marketsData.pop().id;
+
+//------------------------------Near Objects Data-------------------------------//
+nearobjectsData = nearobjects.getNearObjects();
+nearobjectsId =  nearobjectsData.pop().id;
+
+//------------------------------Operation Types Data-------------------------------//
+operationtypesData = operationtypes.getOperationTypes();
+operationtypesId =  operationtypesData.pop().id;
+
+//------------------------------Operation Types Data-------------------------------//
+repairsData = repairs.getRepairs();
+repairsId =  repairsData.pop().id;
+
+//------------------------------Wall Materials Data-------------------------------//
+wallmaterialsData = wallmaterials.getWallMaterials();
+wallmaterialsId =  wallmaterialsData.pop().id;
+
+//------------------------------Water Heatings Data-------------------------------//
+waterheatData = waterheat.getWaterHeatings();
+waterheatId =  waterheatData.pop().id;
+
+//------------------------------WC Data-------------------------------//
+
+wcData = wc.getWc();
+wcId =  wcData.pop().id;
+
+
 var advertId = '55376f32d69b5af43a8b459c';
 var imageId = '55376ab6d69b5a07118b4581';
 

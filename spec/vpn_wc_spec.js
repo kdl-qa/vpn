@@ -6,8 +6,13 @@ frisby.create('Get WC')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name: 'Раздельный'}
-        //{name: 'Совмещенный'},
-        //{name: 'Несколько санузлов'}
+        {
+            id: String,
+            name: String}
     ])
+    .afterJSON(function (json){
+        if (json.name = String) {
+            wc.saveWc(json);
+        }
+    })
     .toss()

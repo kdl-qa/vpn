@@ -9,5 +9,9 @@ frisby.create('Get Appliances')
         id: String,
         name: String
     }])
-    .expectBodyContains('Кондиционер')
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            appliances.saveAppliances(json);
+        }
+    })
     .toss()

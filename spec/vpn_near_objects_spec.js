@@ -6,15 +6,14 @@ frisby.create('Get near objects')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([
-        {name: 'Остановка общественного транспорта'}
-        //{name: 'Детские сады и ясли'},
-        //{name: 'Школы, лицеи, гимназии'},
-        //{name: 'Парки отдыха, сады'},
-        //{name: 'Спортивно-развлекательные центры'},
-        //{name: 'Магазины, торговые центры'},
-        //{name: 'Кафе и рестораны'},
-        //{name: 'Развлекательные заведения'},
-        //{name: 'Речка, озеро'},
-        //{name: 'Лес'}
+        {
+            id: String,
+            name: String
+        }
     ])
+    .afterJSON(function(json) {
+        if (json.id = String) {
+            nearobjects.saveNearObjects(json);
+        }
+    })
     .toss()

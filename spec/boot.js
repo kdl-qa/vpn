@@ -15,6 +15,20 @@ districts = require('./classes/lists/districts');
 houses = require('./classes/lists/houses');
 flats = require('./classes/lists/flats');
 
+appliances = require('./classes/lists/appliances');
+areaunits = require('./classes/lists/areaunits');
+balconies = require('./classes/lists/balconies');
+communications = require('./classes/lists/communications');
+furnitures = require('./classes/lists/furnitures');
+heatings = require('./classes/lists/heatings');
+markets = require('./classes/lists/markets');
+nearobjects = require('./classes/lists/nearobjects');
+operationtypes = require('./classes/lists/operationtypes');
+repairs = require('./classes/lists/repairs');
+wallmaterials = require('./classes/lists/wallmaterials');
+waterheat = require('./classes/lists/waterheat');
+wc = require('./classes/lists/wc');
+
 //header = require('./classes/header');
 
 constants = require('./vpn_constant');

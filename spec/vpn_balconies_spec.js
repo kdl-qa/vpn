@@ -10,5 +10,9 @@ frisby.create('Get Area_units')
         id: String,
         name: String
     }])
-    .expectBodyContains('Нет')
+    .afterJSON(function (json) {
+        if (json.id = String) {
+            balconies.saveBalconies(json);
+        }
+    })
     .toss()
