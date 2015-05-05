@@ -1,0 +1,12 @@
+{
+  "houseNumber": 44,
+  "latitude": 49.4498,
+  "longitude": 32.0517,
+  "area": 100,
+  "roomCount": 5,
+  "kitchenArea": 10,
+  "livingArea": 80,
+  "landArea": 3,
+  "floorNumber": 4,
+  "buildYear": 1985
+}

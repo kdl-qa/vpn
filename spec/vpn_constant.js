@@ -37,103 +37,146 @@ agentToken = saveAgentData.token;
 //------------------------------Regions Data-------------------------------//
 
 regionsData = regions.getRegions();
-regionsId =  regionsData.pop().id;
+regionsId =  regionsData[regionsData.length-1].id;
 
 //------------------------------Cities Data-------------------------------//
 
 citiesData = cities.getCities();
-citiesId =  citiesData.pop().id;
+citiesId =  citiesData[citiesData.length-1].id;
 
 //------------------------------Streets Data-------------------------------//
 
 streetsData = streets.getStreets();
-streetsId =  streetsData.pop().id;
+streetsId =  streetsData[streetsData.length-1].id;
 
 //------------------------------Districts Data-------------------------------//
 
 districtsData = districts.getDistricts();
-districtsId =  districtsData.pop().id;
+districtsId =  districtsData[districtsData.length-1].id;
 
 //------------------------------Houses Data-------------------------------//
 
 housesData = houses.getHouses();
-housesId =  housesData.pop().id;
+housesId =  housesData[housesData.length-1].id;
 
 //------------------------------Flats Data-------------------------------//
 
 flatsData = flats.getFlats();
-flatsId =  flatsData.pop().id;
+flatsId =  flatsData[flatsData.length-1].id;
 
 
 //------------------------------Appliances Data-------------------------------//
 appliancesData = appliances.getAppliances();
-appliancesId =  appliancesData.pop().id;
+appliancesId =  appliancesData[appliancesData.length-1].id;
 
 //------------------------------Area Units Data-------------------------------//
 areaunitsData = areaunits.getAreaUnits();
-areaunitsId =  areaunitsData.pop().id;
+areaunitsId =  areaunitsData[0].id;
 
 //------------------------------Balconies Data-------------------------------//
 balconiesData = balconies.getBalconies();
-balconiesId =  balconiesData.pop().id;
+balconiesId =  balconiesData[balconiesData.length-1].id;
 
 //------------------------------Communications Data-------------------------------//
 communicationsData = communications.getCommunications();
-communicationsId =  communicationsData.pop().id;
+communicationsId =  communicationsData[communicationsData.length-1].id;
 
 //------------------------------Communications Data-------------------------------//
 currencyData = currency.getCurrency();
-currencyId =  currencyData.pop().id;
+currencyId =  currencyData[currencyData.length-1].id;
 
 //------------------------------Furnitures Data-------------------------------//
 furnituresData = furnitures.getFurnitures();
-furnituresId =  furnituresData.pop().id;
+furnituresId =  furnituresData[furnituresData.length-1].id;
 
 //------------------------------Heatings Data-------------------------------//
 heatingsData = heatings.getHeatings();
-heatingsId =  heatingsData.pop().id;
+heatingsId =  heatingsData[heatingsData.length-1].id;
 
 //------------------------------Market Types Data-------------------------------//
 marketsData = markets.getMarkets();
-marketsId =  marketsData.pop().id;
+marketsId =  marketsData[marketsData.length-1].id;
 
 //------------------------------Near Objects Data-------------------------------//
 nearobjectsData = nearobjects.getNearObjects();
-nearobjectsId =  nearobjectsData.pop().id;
+nearobjectsId =  nearobjectsData[nearobjectsData.length-1].id;
 
 //------------------------------Operation Types Data-------------------------------//
 operationtypesData = operationtypes.getOperationTypes();
-operationtypesId =  operationtypesData.pop().id;
+operationtypesId =  operationtypesData[operationtypesData.length-1].id;
 
 //------------------------------Operation Types Data-------------------------------//
 repairsData = repairs.getRepairs();
-repairsId =  repairsData.pop().id;
+repairsId =  repairsData[repairsData.length-1].id;
 
 //------------------------------Wall Materials Data-------------------------------//
 wallmaterialsData = wallmaterials.getWallMaterials();
-wallmaterialsId =  wallmaterialsData.pop().id;
+wallmaterialsId =  wallmaterialsData[wallmaterialsData.length-1].id;
 
 //------------------------------Water Heatings Data-------------------------------//
 waterheatData = waterheat.getWaterHeatings();
-waterheatId =  waterheatData.pop().id;
+waterheatId =  waterheatData[waterheatData.length-1].id;
 
 //------------------------------WC Data-------------------------------//
 
 wcData = wc.getWc();
-wcId =  wcData.pop().id;
+wcId =  wcData[wcData.length-1].id;
 
-//------------------------------Realty Data-------------------------------//
-realtiesData = realties.getRealties();
+//----------------------------------------Realty Static Data----------------------------------------//
+//------------------------------Add Flats Realty Data-------------------------------//
+realtyFlatsData = realties.getFlatsRealties();
 
-houseNumber = realtiesData.houseNumber;
-latitude = realtiesData.latitude;
-longitude = realtiesData.longitude;
-area = realtiesData.area;
-effectiveArea = realtiesData.effectiveArea;
-roomCount = realtiesData.roomCount;
-floor = realtiesData.floor;
-floorNumber = realtiesData.floorNumber;
-buildYear = realtiesData.buildYear;
+afr_houseNumber = realtyFlatsData.houseNumber;
+afr_flatNumber = realtyFlatsData.flatNumber;
+afr_latitude = realtyFlatsData.latitude;
+afr_longitude = realtyFlatsData.longitude;
+afr_area = realtyFlatsData.area;
+afr_roomCount = realtyFlatsData.roomCount;
+afr_livingArea = realtyFlatsData.livingArea;
+afr_kitchenArea  = realtyFlatsData.kitchenArea;
+afr_floor = realtyFlatsData.floor;
+afr_floorNumber = realtyFlatsData.floorNumber;
+afr_buildYear = realtyFlatsData.buildYear;
+
+//------------------------------Add Houses Realty Data-------------------------------//
+realtyHousesData = realties.getHousesRealties();
+
+ahr_houseNumber = realtyHousesData.houseNumber;
+ahr_latitude = realtyHousesData.latitude;
+ahr_longitude = realtyHousesData.longitude;
+ahr_area = realtyHousesData.area;
+ahr_roomCount = realtyHousesData.roomCount;
+ahr_livingArea = realtyHousesData.livingArea;
+ahr_kitchenArea  = realtyHousesData.kitchenArea;
+ahr_landArea = realtyHousesData.landArea;
+ahr_landAreaUnit = areaunitsData[1].id;
+ahr_floorNumber = realtyHousesData.floorNumber;
+ahr_buildYear = realtyHousesData.buildYear;
+
+//------------------------------Add Parcels Realty Data-------------------------------//
+realtyParcelsData = realties.getParcelsRealties();
+
+apr_cadastralNumber = realtyParcelsData.cadastralNumber;
+apr_latitude = realtyParcelsData.latitude;
+apr_longitude = realtyParcelsData.longitude;
+apr_area = realtyParcelsData.area;
+apr_areaunitsId = areaunitsData[1].id;
+
+//------------------------------Add Commercial Realty Data-------------------------------//
+realtyCommercialData = realties.getCommercialsRealties();
+
+acr_houseNumber = realtyCommercialData.houseNumber;
+acr_latitude = realtyCommercialData.latitude;
+acr_longitude = realtyCommercialData.longitude;
+acr_area = realtyCommercialData.area;
+acr_effectiveArea = realtyCommercialData.effectiveArea;
+acr_roomCount = realtyCommercialData.roomCount;
+acr_floor = realtyCommercialData.floor;
+acr_floorNumber = realtyCommercialData.floorNumber;
+acr_buildYear = realtyCommercialData.buildYear;
+
+
+
 
 
 //------------------------------Delete Advert Image Data-------------------------------//
@@ -154,20 +197,23 @@ for (var i = 0; i < catData.length; i++){
     eval("URL_category_types_" + i + "= url + 'lists/category-types/' + catId"); // GET LISTS CATEGORY-TYPES {CATEGORYID}
     eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
 }
-categoryId = catData.pop().id;
+//categoryId = catData.pop().id;
 
 category_type0Data = category_type0.getCategory_type0();
-category_type0Id = category_type0Data.pop().id;
+category_type0Id = category_type0Data[0].id; //category_type0Data[category_type0Data.length-1].id - the last item of list
+category_type0CategoryId = category_type0Data[0].category.id;
 
 category_type1Data = category_type1.getCategory_type1();
-category_type1Id = category_type1Data.pop().id;
+category_type1Id = category_type1Data[0].id;
+category_type1CategoryId = category_type1Data[0].category.id;
 
 category_type2Data = category_type2.getCategory_type2();
-category_type2Id = category_type1Data.pop().id;
+category_type2Id = category_type1Data[0].id;
+category_type2CategoryId = category_type2Data[0].category.id;
 
 category_type3Data = category_type3.getCategory_type3();
-category_type3Id = category_type3Data.pop().id;
-
+category_type3Id = category_type3Data[0].id;
+category_type3CategoryId = category_type3Data[0].category.id;
 
 additionals_cat0Data = additionals_cat0.getAdditionals_cat0();
 additionals_cat0Id = additionals_cat0Data.pop().id;
@@ -282,5 +328,14 @@ URL_delete_image = url + 'adverts/' + advertId + '/images/' + imageId +'/delete'
 URL_search_adverts = url + 'search/1/100';
 
 //-----------------------------------Realty API-----------------------------------//
+//POST ADD FLATS REALTY
+URL_realties_flats_add = url + 'realties/flats/add';
+
+//POST ADD HOUSES REALTY
+URL_realties_houses_add = url + 'realties/houses/add';
+
+//POST ADD PARCELS REALTY
+URL_realties_parcels_add = url + 'realties/parcels/add';
+
 // POST ADD COMMERCIALS REALTY
 URL_realties_commercials_add = url + 'realties/commercials/add';

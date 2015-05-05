@@ -1,87 +1,87 @@
-require('./boot');
-frisby.create('Returns search adverts list')
-    .post(URL_search_adverts,{
-        operationType: '552e78d3d69b5ad57f8b45f5',
-        category: '552e78d3d69b5ad57f8b45e2',
-        categoryType: '552e78d3d69b5ad57f8b45e6'
-    }, {json: true})
-    .inspectJSON()
-    .expectHeader('Content-Type', 'application/json')
-    .expectJSON({
-        total: Number,
-        count: Number,
-        page: Number,
-        data: [ {
-            id: String,
-            title: String,
-            operationType:
-            { id: String,
-                name: String,
-                type: String },
-            period:
-            { id: String,
-                name: String },
-            mainImage:
-            { id: String,
-                thumbnails:
-                    [ { id: String,
-                        processor: 'advert_thumb_big',
-                        path: String },
-                        { id: String,
-                            processor: 'advert_thumb_medium',
-                            path: String },
-                        { id: String,
-                            processor: 'advert_thumb_small',
-                            path: String } ] },
-            price: Number,
-            realty:
-            { category:
-            { id: String,
-                name: String,
-                type: String },
-                categoryType:
-                { id: String,
-                    name: String,
-                    category:
-                    { id: String,
-                        name: String,
-                        type: String } },
-                address:
-                { region:
-                { id: String,
-                    name: String},
-                    city:
-                    { id: String,
-                        name: String},
-                    district:
-                    { id: String,
-                        name: String},
-                    street:
-                    { id: String,
-                        name: String},
-                    houseNumber:
-                    { id: String,
-                        number: Number},
-                    flatNumber:
-                    { id: String,
-                        number: Number},
-                    longitude: Number,
-                    latitude: Number},
-                roomCount: Number,
-                area: Number,
-                areaUnit:
-                { id: String,
-                    name: String } },
-            convertedPrice: Number,
-            currency:
-            { id: String,
-                name: String },
-            convertedCurrency:
-            { id: String,
-                name: String } }
-         ]
-    })
-    .toss()
+//require('./boot');
+//frisby.create('Returns search adverts list')
+//    .post(URL_search_adverts,{
+//        operationType: '552e78d3d69b5ad57f8b45f5',
+//        category: '552e78d3d69b5ad57f8b45e2',
+//        categoryType: '552e78d3d69b5ad57f8b45e6'
+//    }, {json: true})
+//    .inspectJSON()
+//    .expectHeader('Content-Type', 'application/json')
+//    .expectJSON({
+//        total: Number,
+//        count: Number,
+//        page: Number,
+//        data: [ {
+//            id: String,
+//            title: String,
+//            operationType:
+//            { id: String,
+//                name: String,
+//                type: String },
+//            period:
+//            { id: String,
+//                name: String },
+//            mainImage:
+//            { id: String,
+//                thumbnails:
+//                    [ { id: String,
+//                        processor: 'advert_thumb_big',
+//                        path: String },
+//                        { id: String,
+//                            processor: 'advert_thumb_medium',
+//                            path: String },
+//                        { id: String,
+//                            processor: 'advert_thumb_small',
+//                            path: String } ] },
+//            price: Number,
+//            realty:
+//            { category:
+//            { id: String,
+//                name: String,
+//                type: String },
+//                categoryType:
+//                { id: String,
+//                    name: String,
+//                    category:
+//                    { id: String,
+//                        name: String,
+//                        type: String } },
+//                address:
+//                { region:
+//                { id: String,
+//                    name: String},
+//                    city:
+//                    { id: String,
+//                        name: String},
+//                    district:
+//                    { id: String,
+//                        name: String},
+//                    street:
+//                    { id: String,
+//                        name: String},
+//                    houseNumber:
+//                    { id: String,
+//                        number: Number},
+//                    flatNumber:
+//                    { id: String,
+//                        number: Number},
+//                    longitude: Number,
+//                    latitude: Number},
+//                roomCount: Number,
+//                area: Number,
+//                areaUnit:
+//                { id: String,
+//                    name: String } },
+//            convertedPrice: Number,
+//            currency:
+//            { id: String,
+//                name: String },
+//            convertedCurrency:
+//            { id: String,
+//                name: String } }
+//         ]
+//    })
+//    .toss()
 
 /**
  {

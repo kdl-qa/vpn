@@ -1,0 +1,13 @@
+{
+  "houseNumber": 33,
+  "flatNumber": 22,
+  "latitude": 49.39,
+  "longitude": 32.10,
+  "area": 50,
+  "roomCount": 2,
+  "livingArea": 35,
+  "kitchenArea": 10,
+  "floor": 8,
+  "floorNumber": 9,
+  "buildYear": 1985
+}
