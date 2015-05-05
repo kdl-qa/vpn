@@ -41,6 +41,7 @@ waterheat = require('./classes/lists/waterheat');
 wc = require('./classes/lists/wc');
 
 realties = require('./classes/realties/realties');
+useRealties = require('./classes/realties/useRealties');
 
 //header = require('./classes/header');
 

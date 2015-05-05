@@ -34,8 +34,10 @@ frisby.create('Add Flat object')
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
-    //.expectJSON([{
-    //    id: String,
-    //    name: String
-    //}])
+    //.expectJSON({
+    //    id: String
+    //})
+    .afterJSON(function (json) {
+        useRealties.saveFlatObject(json);
+    })
     .toss()

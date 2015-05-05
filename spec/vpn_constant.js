@@ -339,3 +339,15 @@ URL_realties_parcels_add = url + 'realties/parcels/add';
 
 // POST ADD COMMERCIALS REALTY
 URL_realties_commercials_add = url + 'realties/commercials/add';
+
+//POST CHECK FLATS REALTY
+URL_realties_flats_check = url + 'realties/flats/check';
+
+//POST CHECK HOUSES REALTY
+URL_realties_houses_check = url + 'realties/houses/check';
+
+//POST CHECK PARCELS REALTY
+URL_realties_parcels_check = url + 'realties/parcels/check';
+
+// POST CHECK COMMERCIALS REALTY
+URL_realties_commercials_check = url + 'realties/commercials/check';
