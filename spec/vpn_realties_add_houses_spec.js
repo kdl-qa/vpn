@@ -30,12 +30,14 @@ frisby.create('Add Houses object')
         nearObjects: [nearobjectsId]    //false
         //schema: ""
     }, {json: true}
-)
+    )
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
-    //.expectJSON([{
-    //    id: String,
-    //    name: String
-    //}])
+    .expectJSON({
+        id: String
+    })
+    .afterJSON(function (json) {
+        useRealties.saveHouseObject(json);
+    })
     .toss()

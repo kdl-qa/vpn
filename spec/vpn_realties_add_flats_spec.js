@@ -30,13 +30,13 @@ frisby.create('Add Flat object')
         nearObjects: [nearobjectsId]    //false
         //schema: ""
     }, {json: true}
-)
+    )
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
-    //.expectJSON({
-    //    id: String
-    //})
+    .expectJSON({
+        id: String
+    })
     .afterJSON(function (json) {
         useRealties.saveFlatObject(json);
     })

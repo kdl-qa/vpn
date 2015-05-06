@@ -1,13 +1,13 @@
 {
-  "id": "5549c5e8d69b5a751d8b4567",
+  "id": "5549c5f8d69b5aa26c8b456a",
   "category": {
-    "id": "5548d092d69b5af0188b45e2",
-    "name": "Квартиры и комнаты",
-    "type": "flat"
+    "id": "5548d092d69b5af0188b45e3",
+    "name": "Дома и дачи",
+    "type": "house"
   },
   "categoryType": {
-    "id": "5548d092d69b5af0188b45e6",
-    "name": "Квартира"
+    "id": "5548d092d69b5af0188b45e8",
+    "name": "Дом"
   },
   "address": {
     "region": {
@@ -28,15 +28,11 @@
       "name": "Смелянская"
     },
     "houseNumber": {
-      "id": "5548d40fd69b5af0068b456c",
-      "number": 33
+      "id": "5548e153d69b5a00448b456c",
+      "number": 44
     },
-    "flatNumber": {
-      "id": "5548d40fd69b5af0068b456d",
-      "number": 22
-    },
-    "longitude": 32.1,
-    "latitude": 49.39
+    "longitude": 32.0517,
+    "latitude": 49.4498
   },
   "user": {
     "id": "5548d253d69b5a351b8b4567",
@@ -46,33 +42,25 @@
     "phone": "09671231212",
     "userType": "private person"
   },
-  "marketType": {
-    "id": "5548d092d69b5af0188b45fb",
-    "name": "Вторичный"
-  },
-  "roomCount": 2,
-  "wallMaterial": {
-    "id": "5548d092d69b5af0188b45d9",
-    "name": "Дерево и кирпич"
-  },
-  "area": 50,
+  "livingArea": 80,
+  "kitchenArea": 10,
+  "area": 100,
   "areaUnit": {
     "id": "5548d092d69b5af0188b45f7",
     "name": "Кв. метры"
   },
-  "livingArea": 35,
-  "kitchenArea": 10,
-  "floor": 8,
-  "floorNumber": 9,
+  "landArea": 3,
+  "landAreaUnit": {
+    "id": "5548d092d69b5af0188b45f8",
+    "name": "Сотки"
+  },
+  "roomCount": 5,
+  "wallMaterial": {
+    "id": "5548d092d69b5af0188b45d9",
+    "name": "Дерево и кирпич"
+  },
+  "floorNumber": 4,
   "buildYear": 1985,
-  "wc": {
-    "id": "5548d092d69b5af0188b45e1",
-    "name": "Несколько санузлов"
-  },
-  "balcony": {
-    "id": "5548d091d69b5af0188b4591",
-    "name": "3 и больше"
-  },
   "heating": {
     "id": "5548d092d69b5af0188b45bc",
     "name": "Автономная котельная"
@@ -81,6 +69,12 @@
     "id": "5548d092d69b5af0188b45de",
     "name": "Комбинированный"
   },
+  "communication": [
+    {
+      "id": "5548d092d69b5af0188b45af",
+      "name": "Центральная канализация"
+    }
+  ],
   "nearObjects": [
     {
       "id": "5548d092d69b5af0188b45c6",

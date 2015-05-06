@@ -18,12 +18,14 @@ frisby.create('Add Parcel object')
         nearObjects: [nearobjectsId]
         //schema: ""
     }, {json: true}
-)
+    )
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
-    //.expectJSON([{
-    //    id: String,
-    //    name: String
-    //}])
+    .expectJSON({
+        id: String
+    })
+    .afterJSON(function (json){
+        useRealties.saveParcelObject(json);
+    })
     .toss()

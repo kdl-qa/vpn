@@ -1,5 +1,5 @@
 require('./boot');
-frisby.create('Check Flat object')
+frisby.create('Check Flats object')
     .addHeader('token', userToken)
     .post(URL_realties_flats_check,
     {
@@ -29,13 +29,13 @@ frisby.create('Check Flat object')
         //nearObjects: [nearobjectsId]    //false
         //schema: ""
     }, {json: true}
-)
+    )
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
-    //.expectJSON({
-    //    id: String
-    //})
+    .expectJSON({
+        id: String
+    })
     //.afterJSON(function (json) {
     //    useRealties.saveFlatObject(json);
     //})

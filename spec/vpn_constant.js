@@ -208,7 +208,7 @@ category_type1Id = category_type1Data[0].id;
 category_type1CategoryId = category_type1Data[0].category.id;
 
 category_type2Data = category_type2.getCategory_type2();
-category_type2Id = category_type1Data[0].id;
+category_type2Id = category_type2Data[0].id;
 category_type2CategoryId = category_type2Data[0].category.id;
 
 category_type3Data = category_type3.getCategory_type3();
@@ -216,16 +216,16 @@ category_type3Id = category_type3Data[0].id;
 category_type3CategoryId = category_type3Data[0].category.id;
 
 additionals_cat0Data = additionals_cat0.getAdditionals_cat0();
-additionals_cat0Id = additionals_cat0Data.pop().id;
+additionals_cat0Id = additionals_cat0Data[0].id;
 
 additionals_cat1Data = additionals_cat1.getAdditionals_cat1();
-additionals_cat1Id = additionals_cat1Data.pop().id;
+additionals_cat1Id = additionals_cat1Data[0].id;
 
 additionals_cat2Data = additionals_cat2.getAdditionals_cat2();
-additionals_cat2Id = additionals_cat2Data.pop().id;
+additionals_cat2Id = additionals_cat2Data[0].id;
 
 additionals_cat3Data = additionals_cat3.getAdditionals_cat3();
-additionals_cat3Id = additionals_cat3Data.pop().id;
+additionals_cat3Id = additionals_cat3Data[0].id;
 
 
 // GET LISTS ADDITIONALS {CATEGORYID}
