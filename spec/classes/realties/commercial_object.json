@@ -1,41 +1,41 @@
 {
-  "id": "5549c616d69b5a286c8b4571",
+  "id": "554b8c46d69b5ae61e8b456b",
   "category": {
-    "id": "5548d092d69b5af0188b45e5",
+    "id": "554b8664d69b5a4b428b45e5",
     "name": "Коммерческая недвижимость",
     "type": "commercial"
   },
   "categoryType": {
-    "id": "5548d092d69b5af0188b45ee",
+    "id": "554b8664d69b5a4b428b45ee",
     "name": "Офисное помещение"
   },
   "address": {
     "region": {
-      "id": "5548d091d69b5af0188b4593",
+      "id": "554b8664d69b5a4b428b4593",
       "name": "Черкасская область"
     },
     "city": {
-      "id": "5548d091d69b5af0188b4595",
+      "id": "554b8664d69b5a4b428b4595",
       "name": "Черкассы",
       "latinName": "Cherkassy"
     },
     "district": {
-      "id": "5548d091d69b5af0188b4599",
+      "id": "554b8664d69b5a4b428b4599",
       "name": "Казбет"
     },
     "street": {
-      "id": "5548d091d69b5af0188b459c",
+      "id": "554b8664d69b5a4b428b459c",
       "name": "Смелянская"
     },
     "houseNumber": {
-      "id": "5548d44ed69b5aa8108b456b",
+      "id": "554b8c46d69b5ae61e8b456a",
       "number": 25
     },
     "longitude": 33,
     "latitude": 32
   },
   "user": {
-    "id": "5548d253d69b5a351b8b4567",
+    "id": "554b8a98d69b5a0d458b4567",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -44,12 +44,12 @@
   },
   "area": 45,
   "areaUnit": {
-    "id": "5548d092d69b5af0188b45f7",
+    "id": "554b8664d69b5a4b428b45f7",
     "name": "Кв. метры"
   },
   "effectiveArea": 40,
   "wallMaterial": {
-    "id": "5548d092d69b5af0188b45d9",
+    "id": "554b8664d69b5a4b428b45d9",
     "name": "Дерево и кирпич"
   },
   "roomCount": 2,
@@ -57,20 +57,20 @@
   "floorNumber": 9,
   "buildYear": 1996,
   "wc": {
-    "id": "5548d092d69b5af0188b45e1",
+    "id": "554b8664d69b5a4b428b45e1",
     "name": "Несколько санузлов"
   },
   "heating": {
-    "id": "5548d092d69b5af0188b45bc",
+    "id": "554b8664d69b5a4b428b45bc",
     "name": "Автономная котельная"
   },
   "waterHeating": {
-    "id": "5548d092d69b5af0188b45de",
+    "id": "554b8664d69b5a4b428b45de",
     "name": "Комбинированный"
   },
   "communication": [
     {
-      "id": "5548d092d69b5af0188b45af",
+      "id": "554b8664d69b5a4b428b45af",
       "name": "Центральная канализация"
     }
   ]

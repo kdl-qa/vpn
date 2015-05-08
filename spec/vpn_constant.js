@@ -327,7 +327,8 @@ URL_delete_image = url + 'adverts/' + advertId + '/images/' + imageId +'/delete'
 // POST SEARCH ADVERTS LIST
 URL_search_adverts = url + 'search/1/100';
 
-//-----------------------------------Realty API-----------------------------------//
+//-----------------------------------------Realty API-----------------------------------------//
+//-----------------------------------Add Realty API-----------------------------------//
 //POST ADD FLATS REALTY
 URL_realties_flats_add = url + 'realties/flats/add';
 
@@ -340,6 +341,7 @@ URL_realties_parcels_add = url + 'realties/parcels/add';
 // POST ADD COMMERCIALS REALTY
 URL_realties_commercials_add = url + 'realties/commercials/add';
 
+//-----------------------------------Check Realty API-----------------------------------//
 //POST CHECK FLATS REALTY
 URL_realties_flats_check = url + 'realties/flats/check';
 
@@ -351,3 +353,16 @@ URL_realties_parcels_check = url + 'realties/parcels/check';
 
 // POST CHECK COMMERCIALS REALTY
 URL_realties_commercials_check = url + 'realties/commercials/check';
+
+//-----------------------------------Add Realty API-----------------------------------//
+//POST VALIDATE FLATS REALTY
+URL_realties_flats_validate = url + 'realties/flats/validate';
+
+//POST VALIDATE HOUSES REALTY
+URL_realties_houses_validate = url + 'realties/houses/validate';
+
+//POST VALIDATE PARCELS REALTY
+URL_realties_parcels_validate = url + 'realties/parcels/validate';
+
+// POST VALIDATE COMMERCIALS REALTY
+URL_realties_commercials_validate = url + 'realties/commercials/validate';

@@ -1,38 +1,38 @@
 {
-  "id": "5549c74bd69b5a2e728b4567",
+  "id": "554b8c3fd69b5a5a448b456b",
   "category": {
-    "id": "5548d092d69b5af0188b45e4",
+    "id": "554b8664d69b5a4b428b45e4",
     "name": "Земельные участки",
     "type": "parcel"
   },
   "categoryType": {
-    "id": "5548d092d69b5af0188b45eb",
+    "id": "554b8664d69b5a4b428b45eb",
     "name": "Участок под жилую застройку"
   },
   "address": {
     "region": {
-      "id": "5548d091d69b5af0188b4593",
+      "id": "554b8664d69b5a4b428b4593",
       "name": "Черкасская область"
     },
     "city": {
-      "id": "5548d091d69b5af0188b4595",
+      "id": "554b8664d69b5a4b428b4595",
       "name": "Черкассы",
       "latinName": "Cherkassy"
     },
     "district": {
-      "id": "5548d091d69b5af0188b4599",
+      "id": "554b8664d69b5a4b428b4599",
       "name": "Казбет"
     },
     "street": {
-      "id": "5548d091d69b5af0188b459c",
+      "id": "554b8664d69b5a4b428b459c",
       "name": "Смелянская"
     },
-    "cadastralNumber": "7110136400:03:010:0050",
+    "cadastralNumber": "7110136400030100000",
     "longitude": 32.105,
     "latitude": 49.406
   },
   "user": {
-    "id": "5548d253d69b5a351b8b4567",
+    "id": "554b8a98d69b5a0d458b4567",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -41,18 +41,18 @@
   },
   "area": 6,
   "areaUnit": {
-    "id": "5548d092d69b5af0188b45f8",
+    "id": "554b8664d69b5a4b428b45f8",
     "name": "Сотки"
   },
   "communication": [
     {
-      "id": "5548d092d69b5af0188b45af",
+      "id": "554b8664d69b5a4b428b45af",
       "name": "Центральная канализация"
     }
   ],
   "nearObjects": [
     {
-      "id": "5548d092d69b5af0188b45c6",
+      "id": "554b8664d69b5a4b428b45c6",
       "name": "Лес"
     }
   ]
