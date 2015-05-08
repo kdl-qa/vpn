@@ -57,12 +57,12 @@ districtsId =  districtsData[districtsData.length-1].id;
 //------------------------------Houses Data-------------------------------//
 
 housesData = houses.getHouses();
-housesId =  housesData[housesData.length-1].id;
+housesId =  housesData[0].id;
 
 //------------------------------Flats Data-------------------------------//
 
 flatsData = flats.getFlats();
-flatsId =  flatsData[flatsData.length-1].id;
+flatsId =  flatsData[0].id;
 
 
 //------------------------------Appliances Data-------------------------------//
@@ -105,6 +105,10 @@ nearobjectsId =  nearobjectsData[nearobjectsData.length-1].id;
 operationtypesData = operationtypes.getOperationTypes();
 operationtypesId =  operationtypesData[operationtypesData.length-1].id;
 
+//------------------------------Period Data-------------------------------//
+periodsData = periods.getPeriods();
+periodId =  periodsData[1].id;
+
 //------------------------------Operation Types Data-------------------------------//
 repairsData = repairs.getRepairs();
 repairsId =  repairsData[repairsData.length-1].id;
@@ -122,7 +126,7 @@ waterheatId =  waterheatData[waterheatData.length-1].id;
 wcData = wc.getWc();
 wcId =  wcData[wcData.length-1].id;
 
-//----------------------------------------Realty Static Data----------------------------------------//
+//----------------------------------------Realty Test Data----------------------------------------//
 //------------------------------Add Flats Realty Data-------------------------------//
 realtyFlatsData = realties.getFlatsRealties();
 
@@ -175,7 +179,21 @@ acr_floor = realtyCommercialData.floor;
 acr_floorNumber = realtyCommercialData.floorNumber;
 acr_buildYear = realtyCommercialData.buildYear;
 
+//----------------------------------------Realty Test Data----------------------------------------//
+//------------------------------Add Flats Realty Data-------------------------------//
+//advertFlatsData = adverts.getFlatsOptions();
 
+//adv_houseNumber = realtyFlatsData.houseNumber;
+//afr_flatNumber = realtyFlatsData.flatNumber;
+//afr_latitude = realtyFlatsData.latitude;
+//afr_longitude = realtyFlatsData.longitude;
+//afr_area = realtyFlatsData.area;
+//afr_roomCount = realtyFlatsData.roomCount;
+//afr_livingArea = realtyFlatsData.livingArea;
+//afr_kitchenArea  = realtyFlatsData.kitchenArea;
+//afr_floor = realtyFlatsData.floor;
+//afr_floorNumber = realtyFlatsData.floorNumber;
+//afr_buildYear = realtyFlatsData.buildYear;
 
 
 
@@ -282,6 +300,9 @@ URL_near_objects = url + 'lists/near-objects';
 // GET LISTS OPERATION TYPES
 URL_operation_types = url + 'lists/operation-types';
 
+// GET LISTS OPERATION TYPES
+URL_period = url + 'lists/period';
+
 // GET LISTS REGIONS
 URL_regions = url + 'lists/regions';
 
@@ -366,3 +387,59 @@ URL_realties_parcels_validate = url + 'realties/parcels/validate';
 
 // POST VALIDATE COMMERCIALS REALTY
 URL_realties_commercials_validate = url + 'realties/commercials/validate';
+
+//-----------------------------------------Advert API-----------------------------------------//
+//-----------------------------------Add Advert API-----------------------------------//
+//POST ADD FLATS ADVERTS
+URL_adverts_flats_add = url + 'adverts/flats/add/' ;
+
+//POST ADD FLATS ADVERTS
+URL_adverts_houses_add = url + 'adverts/houses/add/' ;
+
+//POST ADD FLATS ADVERTS
+URL_adverts_parcels_add = url + 'adverts/parcels/add/';
+
+//POST ADD FLATS ADVERTS
+URL_adverts_commercials_add = url + 'adverts/commercials/add/' ;
+
+getCategoriesData = function(){
+    require('./vpn_category_types_0_spec.js');
+    require('./vpn_category_types_1_spec.js');
+    require('./vpn_category_types_2_spec.js');
+    require('./vpn_category_types_3_spec.js');
+    require('./vpn_additionals_catid_0_spec.js');
+    require('./vpn_additionals_catid_1_spec.js');
+    require('./vpn_additionals_catid_2_spec.js');
+    require('./vpn_additionals_catid_3_spec.js');
+}
+
+getRegionData = function(){
+    require('./vpn_cities_spec.js');
+};
+
+getCitiesData = function(){
+    require('./vpn_districts_spec.js');
+    require('./vpn_streets_spec.js');
+}
+
+getStreetsData = function(){
+    require('./vpn_houses_spec.js');
+}
+
+getHousesData = function(){
+    require('./vpn_flats_spec.js');
+}
+
+//startFlatsTest = function(){
+//    if(
+//        catagoryType0ID  &&
+//        catagoryType1ID  &&
+//        catagoryType2ID  &&
+//        catagoryType3ID  &&
+//        additional0id  &&
+//        additional1id  &&
+//        additional2id  &&
+//            ...
+//    )
+//        required('flat_test_spec.js');
+//}

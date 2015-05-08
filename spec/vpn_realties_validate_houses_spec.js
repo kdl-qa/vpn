@@ -3,32 +3,30 @@ frisby.create('Validate Houses object')
     .addHeader('token', userToken)
     .post(URL_realties_houses_validate,
     {
-        category: category_type1CategoryId,	//true
-        categoryType: category_type1Id, //true
-        region: regionsId, //true
-        city: citiesId,	//false
-        district: districtsId, //false
-        street:	streetsId,	//false
-        houseNumber: ahr_houseNumber,  //true
-        latitude: ahr_latitude, //true
-        longitude: ahr_longitude, //true
-        marketType: marketsId,   //false
-        roomCount: ahr_roomCount,    //true
-        wallMaterial: wallmaterialsId, //true
-        area: ahr_area, //true
-        areaUnit: areaunitsId, //true
-        livingArea: ahr_livingArea,   //false
-        kitchenArea: ahr_kitchenArea,  //false
+        category: category_type1CategoryId,
+        categoryType: category_type1Id,
+        region: regionsId,
+        city: citiesId,
+        district: districtsId,
+        street:	streetsId,
+        houseNumber: ahr_houseNumber,
+        latitude: ahr_latitude,
+        longitude: ahr_longitude,
+        roomCount: ahr_roomCount,
+        wallMaterial: wallmaterialsId,
+        area: ahr_area,
+        areaUnit: areaunitsId,
+        livingArea: ahr_livingArea,
+        kitchenArea: ahr_kitchenArea,
         landArea: ahr_landArea,
         landAreaUnit: ahr_landAreaUnit,
-        floor: afr_floor,    //true
-        floorNumber: ahr_floorNumber,  //true
-        buildYear: ahr_buildYear,    //false
-        heating: heatingsId,  //false
-        waterHeating: waterheatId, //false
+        floor: afr_floor,
+        floorNumber: ahr_floorNumber,
+        buildYear: ahr_buildYear,
+        heating: heatingsId,
+        waterHeating: waterheatId,
         communication: [communicationsId],
-        nearObjects: [nearobjectsId]    //false
-        //schema: ""
+        nearObjects: [nearobjectsId]
     }, {json: true}
     )
     .inspectRequest()
@@ -44,7 +42,6 @@ frisby.create('Validate Houses object')
         houseNumber: Number,
         latitude: Number,
         longitude:Number,
-       // marketType: String,
         roomCount: Number,
         wallMaterial: String,
         area: Number,

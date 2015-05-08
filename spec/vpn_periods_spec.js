@@ -1,7 +1,8 @@
 require('./boot');
-frisby.create('Get Categories')
-    .get(URL_categories)
+frisby.create('Get Periods')
+    .get(URL_period)
     .inspectJSON()
+    .inspectBody()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSON([{
@@ -9,10 +10,8 @@ frisby.create('Get Categories')
         name: String
     }])
     .afterJSON(function (json) {
-       if (json.id = String) {
-           category.saveCategories(json);
-
-           getCategoriesData();
-       }
+        if (json.id = String) {
+            periods.savePeriods(json);
+        }
     })
     .toss()

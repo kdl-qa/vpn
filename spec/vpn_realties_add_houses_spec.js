@@ -12,7 +12,6 @@ frisby.create('Add Houses object')
         houseNumber: ahr_houseNumber,  //true
         latitude: ahr_latitude, //true
         longitude: ahr_longitude, //true
-        marketType: marketsId,   //false
         roomCount: ahr_roomCount,    //true
         wallMaterial: wallmaterialsId, //true
         area: ahr_area, //true

@@ -4,7 +4,6 @@ frisby.create('Add Commercial property')
     .post(URL_realties_commercials_add,
     {
         category: category_type3CategoryId,	//true
-        //category: categoryId,	//true
         categoryType: category_type3Id, //true
         region: regionsId, //true
         city: citiesId,	//true

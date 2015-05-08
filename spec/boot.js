@@ -35,6 +35,7 @@ heatings = require('./classes/lists/heatings');
 markets = require('./classes/lists/markets');
 nearobjects = require('./classes/lists/nearobjects');
 operationtypes = require('./classes/lists/operationtypes');
+periods = require('./classes/lists/periods');
 repairs = require('./classes/lists/repairs');
 wallmaterials = require('./classes/lists/wallmaterials');
 waterheat = require('./classes/lists/waterheat');
@@ -42,6 +43,8 @@ wc = require('./classes/lists/wc');
 
 realties = require('./classes/realties/realties');
 useRealties = require('./classes/realties/useRealties');
+
+//adverts = require('./classes/adverts/adverts');
 
 //header = require('./classes/header');
 

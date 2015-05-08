@@ -13,6 +13,7 @@ frisby.create('Get Houses numbers')
     .afterJSON(function (json) {
         if (json.id = String) {
             houses.saveHouses(json);
+            getHousesData();
         }
     })
     .toss()

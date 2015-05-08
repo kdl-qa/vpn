@@ -13,6 +13,7 @@ frisby.create('Get city streets')
     .afterJSON(function (json) {
         if (json.id = String) {
             streets.saveStreets(json);
+            getStreetsData();
         }
     })
     .toss()
