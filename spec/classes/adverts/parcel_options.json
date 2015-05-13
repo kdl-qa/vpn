@@ -1,0 +1,14 @@
+{
+  "title": "API auto test script. Продам земельный участок.",
+  "price": "7500",
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380472747474",
+  "description": "Sell Parcel. Please call me from 10am till 6pm",
+
+  "r_title": "API auto test script. Аренда Земельного участка недорого. Срочно!!!",
+  "r_price": "500",
+  "r_ownerName": "Frisby autotest API",
+  "r_ownerContacts": "+380674445566",
+  "availableFrom": "2015-05-15",
+  "r_description": "Rent Parcel. Please, feel free to call or e-mail me from 10am till 6pm"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "API auto test script. Продам квартиру в центре города.",
+  "price": "55000",
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380472747474",
+  "description": "Please call me only in following time from 10am till 6pm",
+  "bedsCount": 3,
+
+  "r_title": "API auto test script. Сдам квартиру в спальном районе города.",
+  "r_price": "2500",
+  "r_ownerName": "Frisby autotest API",
+  "r_ownerContacts": "+380674445566",
+  "availableFrom": "2015-05-14",
+  "r_description": "Please feel free to call or e-mail me from 10am till 6pm",
+  "r_bedsCount": 2
+}

@@ -1,0 +1,150 @@
+{
+  "id": "555359ebd69b5a996f8b4567",
+  "title": "API auto test script. Сдам квартиру в спальном районе города.",
+  "operationType": {
+    "id": "5551cc8fd69b5a36188b45f5",
+    "name": "Аренда",
+    "type": "rent"
+  },
+  "period": {
+    "id": "5551cc8fd69b5a36188b45ff",
+    "name": "За месяц"
+  },
+  "description": "Please feel free to call or e-mail me from 10am till 6pm",
+  "user": {
+    "id": "5553213bd69b5a423f8b4569",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test1@gmail.com",
+    "phone": "09671231212",
+    "userType": "private person"
+  },
+  "price": 2500,
+  "convertedPrice": 108.69565217391,
+  "auction": false,
+  "currency": {
+    "id": "5551cc8fd69b5a36188b45fd",
+    "name": "UAH"
+  },
+  "convertedCurrency": {
+    "id": "5551cc8fd69b5a36188b45fc",
+    "name": "USD"
+  },
+  "availableFrom": "2015-05-14T17:04:27+0300",
+  "repair": {
+    "id": "5551cc8ed69b5a36188b45ce",
+    "name": "Требуется капитальный ремонт"
+  },
+  "furniture": [
+    {
+      "id": "5551cc8ed69b5a36188b45b7",
+      "name": "Сейф"
+    }
+  ],
+  "appliances": [
+    {
+      "id": "5551cc8ed69b5a36188b458d",
+      "name": "Микроволновая печь"
+    }
+  ],
+  "additionally": [
+    {
+      "id": "5551cc8ed69b5a36188b4567",
+      "name": "Лифт"
+    }
+  ],
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380674445566",
+  "realty": {
+    "id": "55532149d69b5ad9078b4570",
+    "category": {
+      "id": "5551cc8fd69b5a36188b45e2",
+      "name": "Квартиры и комнаты",
+      "type": "flat"
+    },
+    "categoryType": {
+      "id": "5551cc8fd69b5a36188b45e6",
+      "name": "Квартира"
+    },
+    "address": {
+      "region": {
+        "id": "5551cc8ed69b5a36188b4593",
+        "name": "Черкасская область"
+      },
+      "city": {
+        "id": "5551cc8ed69b5a36188b4595",
+        "name": "Черкассы",
+        "latinName": "Cherkassy"
+      },
+      "district": {
+        "id": "5551cc8ed69b5a36188b4599",
+        "name": "Казбет"
+      },
+      "street": {
+        "id": "5551e260d69b5a855e8b4572",
+        "name": "бул. Шевченко"
+      },
+      "houseNumber": {
+        "id": "55532149d69b5ad9078b456e",
+        "number": 33
+      },
+      "flatNumber": {
+        "id": "55532149d69b5ad9078b456f",
+        "number": 22
+      },
+      "longitude": 32.1,
+      "latitude": 49.39
+    },
+    "user": {
+      "id": "5553213bd69b5a423f8b4569",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test1@gmail.com",
+      "phone": "09671231212",
+      "userType": "private person"
+    },
+    "marketType": {
+      "id": "5551cc8fd69b5a36188b45fb",
+      "name": "Вторичный"
+    },
+    "roomCount": 2,
+    "wallMaterial": {
+      "id": "5551cc8ed69b5a36188b45d9",
+      "name": "Дерево и кирпич"
+    },
+    "area": 50,
+    "areaUnit": {
+      "id": "5551cc8fd69b5a36188b45f7",
+      "name": "Кв. метры"
+    },
+    "livingArea": 35,
+    "kitchenArea": 10,
+    "floor": 8,
+    "floorNumber": 9,
+    "buildYear": 1985,
+    "wc": {
+      "id": "5551cc8ed69b5a36188b45e1",
+      "name": "Несколько санузлов"
+    },
+    "balcony": {
+      "id": "5551cc8ed69b5a36188b4591",
+      "name": "3 и больше"
+    },
+    "heating": {
+      "id": "5551cc8ed69b5a36188b45bc",
+      "name": "Автономная котельная"
+    },
+    "waterHeating": {
+      "id": "5551cc8ed69b5a36188b45de",
+      "name": "Комбинированный"
+    },
+    "nearObjects": [
+      {
+        "id": "5551cc8ed69b5a36188b45c6",
+        "name": "Лес"
+      }
+    ]
+  },
+  "status": 0,
+  "bedsCount": 2
+}

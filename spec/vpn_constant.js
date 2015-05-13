@@ -57,7 +57,7 @@ districtsId =  districtsData[districtsData.length-1].id;
 //------------------------------Houses Data-------------------------------//
 
 housesData = houses.getHouses();
-housesId =  housesData[0].id;
+housesId =  housesData[housesData.length-1].id;
 
 //------------------------------Flats Data-------------------------------//
 
@@ -83,7 +83,7 @@ communicationsId =  communicationsData[communicationsData.length-1].id;
 
 //------------------------------Communications Data-------------------------------//
 currencyData = currency.getCurrency();
-currencyId =  currencyData[currencyData.length-1].id;
+currencyId =  currencyData[0].id;
 
 //------------------------------Furnitures Data-------------------------------//
 furnituresData = furnitures.getFurnitures();
@@ -142,6 +142,9 @@ afr_floor = realtyFlatsData.floor;
 afr_floorNumber = realtyFlatsData.floorNumber;
 afr_buildYear = realtyFlatsData.buildYear;
 
+realtyFlatObject = useRealties.getFlatObject();
+realtyFlatId = realtyFlatObject.id;
+
 //------------------------------Add Houses Realty Data-------------------------------//
 realtyHousesData = realties.getHousesRealties();
 
@@ -157,6 +160,9 @@ ahr_landAreaUnit = areaunitsData[1].id;
 ahr_floorNumber = realtyHousesData.floorNumber;
 ahr_buildYear = realtyHousesData.buildYear;
 
+realtyHouseObject = useRealties.getHouseObject();
+realtyHouseId = realtyHouseObject.id;
+
 //------------------------------Add Parcels Realty Data-------------------------------//
 realtyParcelsData = realties.getParcelsRealties();
 
@@ -165,6 +171,9 @@ apr_latitude = realtyParcelsData.latitude;
 apr_longitude = realtyParcelsData.longitude;
 apr_area = realtyParcelsData.area;
 apr_areaunitsId = areaunitsData[1].id;
+
+realtyParcelObject = useRealties.getParcelObject();
+realtyParcelId = realtyParcelObject.id;
 
 //------------------------------Add Commercial Realty Data-------------------------------//
 realtyCommercialData = realties.getCommercialsRealties();
@@ -179,22 +188,80 @@ acr_floor = realtyCommercialData.floor;
 acr_floorNumber = realtyCommercialData.floorNumber;
 acr_buildYear = realtyCommercialData.buildYear;
 
-//----------------------------------------Realty Test Data----------------------------------------//
-//------------------------------Add Flats Realty Data-------------------------------//
-//advertFlatsData = adverts.getFlatsOptions();
+realtyCommercialObject = useRealties.getCommercialObject();
+realtyCommercialId = realtyCommercialObject.id;
 
-//adv_houseNumber = realtyFlatsData.houseNumber;
-//afr_flatNumber = realtyFlatsData.flatNumber;
-//afr_latitude = realtyFlatsData.latitude;
-//afr_longitude = realtyFlatsData.longitude;
-//afr_area = realtyFlatsData.area;
-//afr_roomCount = realtyFlatsData.roomCount;
-//afr_livingArea = realtyFlatsData.livingArea;
-//afr_kitchenArea  = realtyFlatsData.kitchenArea;
-//afr_floor = realtyFlatsData.floor;
-//afr_floorNumber = realtyFlatsData.floorNumber;
-//afr_buildYear = realtyFlatsData.buildYear;
+//----------------------------------------Adverts Test Data----------------------------------------//
+//------------------------------Add Flats Advert Data-------------------------------//
+advertFlatsData = adverts.getFlatsOptions();
 
+advfs_title = advertFlatsData.title;
+advfs_price = advertFlatsData.price;
+advfs_ownerName = advertFlatsData.ownerName;
+advfs_ownerContacts = advertFlatsData.ownerContacts;
+advfs_description = advertFlatsData.description;
+advfs_bedsCount = advertFlatsData.bedsCount;
+
+operationTypeRent = operationtypesData[0].id;
+advfr_title = advertFlatsData.r_title;
+advfr_price = advertFlatsData.r_price;
+advfr_currency = currencyData[1].id;
+advfr_availableFrom = advertFlatsData.availableFrom;
+advfr_ownerName = advertFlatsData.r_ownerName;
+advfr_ownerContacts = advertFlatsData.r_ownerContacts;
+advfr_description = advertFlatsData.r_description;
+advfr_bedsCount = advertFlatsData.r_bedsCount;
+
+//------------------------------Add Houses Advert Data-------------------------------//
+advertHousesData = adverts.getHousesOptions();
+
+advhs_title = advertHousesData.title;
+advhs_price = advertHousesData.price;
+advhs_ownerName = advertHousesData.ownerName;
+advhs_ownerContacts = advertHousesData.ownerContacts;
+advhs_description = advertHousesData.description;
+
+advhr_title = advertHousesData.r_title;
+advhr_price = advertHousesData.r_price;
+advhr_currency = currencyData[1].id;
+advhr_availableFrom = advertHousesData.availableFrom;
+advhr_ownerName = advertHousesData.r_ownerName;
+advhr_ownerContacts = advertHousesData.r_ownerContacts;
+advhr_description = advertHousesData.r_description;
+
+//------------------------------Add Parcel Advert Data-------------------------------//
+advertParcelsData = adverts.getParcelsOptions();
+
+advps_title = advertParcelsData.title;
+advps_price = advertParcelsData.price;
+advps_ownerName = advertParcelsData.ownerName;
+advps_ownerContacts = advertParcelsData.ownerContacts;
+advps_description = advertParcelsData.description;
+
+advpr_title = advertParcelsData.r_title;
+advpr_price = advertParcelsData.r_price;
+advpr_currency = currencyData[1].id;
+advpr_availableFrom = advertParcelsData.availableFrom;
+advpr_ownerName = advertParcelsData.r_ownerName;
+advpr_ownerContacts = advertParcelsData.r_ownerContacts;
+advpr_description = advertParcelsData.r_description;
+
+//------------------------------Add Commercial Advert Data-------------------------------//
+advertCommercialsData = adverts.getCommercialsOptions();
+
+advcs_title = advertCommercialsData.title;
+advcs_price = advertCommercialsData.price;
+advcs_ownerName = advertCommercialsData.ownerName;
+advcs_ownerContacts = advertCommercialsData.ownerContacts;
+advcs_description = advertCommercialsData.description;
+
+advcr_title = advertCommercialsData.r_title;
+advcr_price = advertCommercialsData.r_price;
+advcr_currency = currencyData[1].id;
+advcr_availableFrom = advertCommercialsData.availableFrom;
+advcr_ownerName = advertCommercialsData.r_ownerName;
+advcr_ownerContacts = advertCommercialsData.r_ownerContacts;
+advcr_description = advertCommercialsData.r_description;
 
 
 //------------------------------Delete Advert Image Data-------------------------------//
@@ -391,17 +458,22 @@ URL_realties_commercials_validate = url + 'realties/commercials/validate';
 //-----------------------------------------Advert API-----------------------------------------//
 //-----------------------------------Add Advert API-----------------------------------//
 //POST ADD FLATS ADVERTS
-URL_adverts_flats_add = url + 'adverts/flats/add/' ;
+URL_adverts_flats_add = url + 'adverts/flats/add/' + realtyFlatId;
 
 //POST ADD FLATS ADVERTS
-URL_adverts_houses_add = url + 'adverts/houses/add/' ;
+URL_adverts_houses_add = url + 'adverts/houses/add/' + realtyHouseId;
 
 //POST ADD FLATS ADVERTS
-URL_adverts_parcels_add = url + 'adverts/parcels/add/';
+URL_adverts_parcels_add = url + 'adverts/parcels/add/' + realtyParcelId;
 
 //POST ADD FLATS ADVERTS
-URL_adverts_commercials_add = url + 'adverts/commercials/add/' ;
+URL_adverts_commercials_add = url + 'adverts/commercials/add/' +realtyCommercialId;
 
+
+
+
+
+//-------------------------------------------------Functions to launch the scope of tests----------------------------------------//
 getCategoriesData = function(){
     require('./vpn_category_types_0_spec.js');
     require('./vpn_category_types_1_spec.js');
@@ -411,7 +483,7 @@ getCategoriesData = function(){
     require('./vpn_additionals_catid_1_spec.js');
     require('./vpn_additionals_catid_2_spec.js');
     require('./vpn_additionals_catid_3_spec.js');
-}
+};
 
 getRegionData = function(){
     require('./vpn_cities_spec.js');
@@ -420,15 +492,15 @@ getRegionData = function(){
 getCitiesData = function(){
     require('./vpn_districts_spec.js');
     require('./vpn_streets_spec.js');
-}
-
-getStreetsData = function(){
-    require('./vpn_houses_spec.js');
-}
+};
 
 getHousesData = function(){
     require('./vpn_flats_spec.js');
-}
+};
+
+getStreetsData = function(){
+    require('./vpn_houses_spec.js');
+};
 
 //startFlatsTest = function(){
 //    if(

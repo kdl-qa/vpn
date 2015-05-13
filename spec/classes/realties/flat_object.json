@@ -1,45 +1,45 @@
 {
-  "id": "554b8c31d69b5a5a448b456a",
+  "id": "55532149d69b5ad9078b4570",
   "category": {
-    "id": "554b8664d69b5a4b428b45e2",
+    "id": "5551cc8fd69b5a36188b45e2",
     "name": "Квартиры и комнаты",
     "type": "flat"
   },
   "categoryType": {
-    "id": "554b8664d69b5a4b428b45e6",
+    "id": "5551cc8fd69b5a36188b45e6",
     "name": "Квартира"
   },
   "address": {
     "region": {
-      "id": "554b8664d69b5a4b428b4593",
+      "id": "5551cc8ed69b5a36188b4593",
       "name": "Черкасская область"
     },
     "city": {
-      "id": "554b8664d69b5a4b428b4595",
+      "id": "5551cc8ed69b5a36188b4595",
       "name": "Черкассы",
       "latinName": "Cherkassy"
     },
     "district": {
-      "id": "554b8664d69b5a4b428b4599",
+      "id": "5551cc8ed69b5a36188b4599",
       "name": "Казбет"
     },
     "street": {
-      "id": "554b8664d69b5a4b428b459c",
-      "name": "Смелянская"
+      "id": "5551e260d69b5a855e8b4572",
+      "name": "бул. Шевченко"
     },
     "houseNumber": {
-      "id": "554b8c31d69b5a5a448b4568",
+      "id": "55532149d69b5ad9078b456e",
       "number": 33
     },
     "flatNumber": {
-      "id": "554b8c31d69b5a5a448b4569",
+      "id": "55532149d69b5ad9078b456f",
       "number": 22
     },
     "longitude": 32.1,
     "latitude": 49.39
   },
   "user": {
-    "id": "554b8a98d69b5a0d458b4567",
+    "id": "5553213bd69b5a423f8b4569",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -47,17 +47,17 @@
     "userType": "private person"
   },
   "marketType": {
-    "id": "554b8664d69b5a4b428b45fb",
+    "id": "5551cc8fd69b5a36188b45fb",
     "name": "Вторичный"
   },
   "roomCount": 2,
   "wallMaterial": {
-    "id": "554b8664d69b5a4b428b45d9",
+    "id": "5551cc8ed69b5a36188b45d9",
     "name": "Дерево и кирпич"
   },
   "area": 50,
   "areaUnit": {
-    "id": "554b8664d69b5a4b428b45f7",
+    "id": "5551cc8fd69b5a36188b45f7",
     "name": "Кв. метры"
   },
   "livingArea": 35,
@@ -66,24 +66,24 @@
   "floorNumber": 9,
   "buildYear": 1985,
   "wc": {
-    "id": "554b8664d69b5a4b428b45e1",
+    "id": "5551cc8ed69b5a36188b45e1",
     "name": "Несколько санузлов"
   },
   "balcony": {
-    "id": "554b8664d69b5a4b428b4591",
+    "id": "5551cc8ed69b5a36188b4591",
     "name": "3 и больше"
   },
   "heating": {
-    "id": "554b8664d69b5a4b428b45bc",
+    "id": "5551cc8ed69b5a36188b45bc",
     "name": "Автономная котельная"
   },
   "waterHeating": {
-    "id": "554b8664d69b5a4b428b45de",
+    "id": "5551cc8ed69b5a36188b45de",
     "name": "Комбинированный"
   },
   "nearObjects": [
     {
-      "id": "554b8664d69b5a4b428b45c6",
+      "id": "5551cc8ed69b5a36188b45c6",
       "name": "Лес"
     }
   ]

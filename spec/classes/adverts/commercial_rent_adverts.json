@@ -1,0 +1,120 @@
+{
+  "id": "555376aad69b5ad33e8b4567",
+  "title": "API auto test script. Сдам в аренду коммерческую недвижимость.",
+  "operationType": {
+    "id": "5551cc8fd69b5a36188b45f5",
+    "name": "Аренда",
+    "type": "rent"
+  },
+  "period": {
+    "id": "5551cc8fd69b5a36188b45ff",
+    "name": "За месяц"
+  },
+  "description": "Rent Commercial property. Please feel free to call or e-mail me from 10am till 6pm",
+  "user": {
+    "id": "5553213bd69b5a423f8b4569",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test1@gmail.com",
+    "phone": "09671231212",
+    "userType": "private person"
+  },
+  "price": 5000,
+  "convertedPrice": 217.39130434783,
+  "auction": false,
+  "currency": {
+    "id": "5551cc8fd69b5a36188b45fd",
+    "name": "UAH"
+  },
+  "convertedCurrency": {
+    "id": "5551cc8fd69b5a36188b45fc",
+    "name": "USD"
+  },
+  "availableFrom": "2015-05-14T19:07:06+0300",
+  "additionally": [
+    {
+      "id": "5551cc8ed69b5a36188b4584",
+      "name": "Отдельный вход"
+    }
+  ],
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380674445566",
+  "realty": {
+    "id": "5553216ad69b5aec268b456a",
+    "category": {
+      "id": "5551cc8fd69b5a36188b45e5",
+      "name": "Коммерческая недвижимость",
+      "type": "commercial"
+    },
+    "categoryType": {
+      "id": "5551cc8fd69b5a36188b45ee",
+      "name": "Офисное помещение"
+    },
+    "address": {
+      "region": {
+        "id": "5551cc8ed69b5a36188b4593",
+        "name": "Черкасская область"
+      },
+      "city": {
+        "id": "5551cc8ed69b5a36188b4595",
+        "name": "Черкассы",
+        "latinName": "Cherkassy"
+      },
+      "district": {
+        "id": "5551cc8ed69b5a36188b4599",
+        "name": "Казбет"
+      },
+      "street": {
+        "id": "5551e260d69b5a855e8b4572",
+        "name": "бул. Шевченко"
+      },
+      "houseNumber": {
+        "id": "5553216ad69b5aec268b4569",
+        "number": 25
+      },
+      "longitude": 33,
+      "latitude": 32
+    },
+    "user": {
+      "id": "5553213bd69b5a423f8b4569",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test1@gmail.com",
+      "phone": "09671231212",
+      "userType": "private person"
+    },
+    "area": 45,
+    "areaUnit": {
+      "id": "5551cc8fd69b5a36188b45f7",
+      "name": "Кв. метры"
+    },
+    "effectiveArea": 40,
+    "wallMaterial": {
+      "id": "5551cc8ed69b5a36188b45d9",
+      "name": "Дерево и кирпич"
+    },
+    "roomCount": 2,
+    "floor": 7,
+    "floorNumber": 9,
+    "buildYear": 1996,
+    "wc": {
+      "id": "5551cc8ed69b5a36188b45e1",
+      "name": "Несколько санузлов"
+    },
+    "heating": {
+      "id": "5551cc8ed69b5a36188b45bc",
+      "name": "Автономная котельная"
+    },
+    "waterHeating": {
+      "id": "5551cc8ed69b5a36188b45de",
+      "name": "Комбинированный"
+    },
+    "communication": [
+      {
+        "id": "5551cc8ed69b5a36188b45af",
+        "name": "Центральная канализация"
+      }
+    ]
+  },
+  "status": 0
+}

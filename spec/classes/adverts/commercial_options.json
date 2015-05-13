@@ -1,0 +1,14 @@
+{
+  "title": "API auto test script. Продам коммерческую недвижимость.",
+  "price": "90000",
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380472747474",
+  "description": "Sell Commercial property. Please call me only in following time from 10am till 6pm",
+
+  "r_title": "API auto test script. Сдам в аренду коммерческую недвижимость.",
+  "r_price": "5000",
+  "r_ownerName": "Frisby autotest API",
+  "r_ownerContacts": "+380674445566",
+  "availableFrom": "2015-05-14",
+  "r_description": "Rent Commercial property. Please feel free to call or e-mail me from 10am till 6pm"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "API auto test script. Продам дом в тихом районе центра города.",
+  "price": "75000",
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380472747474",
+  "description": "Sell House. Please call me only in following time from 10am till 6pm",
+
+  "r_title": "API auto test script. Сдам в аренду Дом в спальном районе города.",
+  "r_price": "4500",
+  "r_ownerName": "Frisby autotest API",
+  "r_ownerContacts": "+380674445566",
+  "availableFrom": "2015-05-14",
+  "r_description": "Rent House. Please feel free to call or e-mail me from 10am till 6pm"
+}

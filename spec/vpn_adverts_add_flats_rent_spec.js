@@ -1,19 +1,20 @@
 require('./boot');
-frisby.create('Add Flat advert (sale)')
+frisby.create('Add Flat advert (rent)')
     .addHeader('token', userToken)
     .post(URL_adverts_flats_add,
     {
-        title: advfs_title,    //true
-        operationType: operationtypesId,    //true
+        title: advfr_title,    //true
+        operationType: operationTypeRent,    //true
         period: periodId,    //rent for a month
-        price: advfs_price,    //true
-        currency: currencyId, //true
-        ownerName: advfs_ownerName,    //true
-        ownerContacts: advfs_ownerContacts,    //true
-        description: advfs_description,
-        auction: true,  // true or false
+        price: advfr_price,    //true
+        currency: advfr_currency, //true
+        availableFrom: advfr_availableFrom,    //true ???
+        ownerName: advfr_ownerName,    //true
+        ownerContacts: advfr_ownerContacts,    //true
+        description: advfr_description,
+        auction: false,  // true or false
         repair: repairsId,
-        bedsCount: advfs_bedsCount,
+        bedsCount: advfr_bedsCount,
         furniture: [furnituresId],
         appliances: [appliancesId],
         additionally: [additionals_cat0Id]
@@ -28,6 +29,6 @@ frisby.create('Add Flat advert (sale)')
         id: String
     })
     .afterJSON(function (json) {
-        adverts.saveFlatAdvertSale(json);
+        adverts.saveFlatAdvertRent(json);
     })
     .toss()

@@ -1,0 +1,102 @@
+{
+  "id": "55536cb4d69b5ae00c8b4567",
+  "title": "API auto test script. Аренда Земельного участка недорого. Срочно!!!",
+  "operationType": {
+    "id": "5551cc8fd69b5a36188b45f5",
+    "name": "Аренда",
+    "type": "rent"
+  },
+  "period": {
+    "id": "5551cc8fd69b5a36188b45ff",
+    "name": "За месяц"
+  },
+  "description": "Rent Parcel. Please, feel free to call or e-mail me from 10am till 6pm",
+  "user": {
+    "id": "5553213bd69b5a423f8b4569",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test1@gmail.com",
+    "phone": "09671231212",
+    "userType": "private person"
+  },
+  "price": 500,
+  "convertedPrice": 21.739130434783,
+  "auction": false,
+  "currency": {
+    "id": "5551cc8fd69b5a36188b45fd",
+    "name": "UAH"
+  },
+  "convertedCurrency": {
+    "id": "5551cc8fd69b5a36188b45fc",
+    "name": "USD"
+  },
+  "availableFrom": "2015-05-15T18:24:35+0300",
+  "additionally": [
+    {
+      "id": "5551cc8ed69b5a36188b4577",
+      "name": "Участок правильной формы"
+    }
+  ],
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380674445566",
+  "realty": {
+    "id": "55532164d69b5a6d7f8b4567",
+    "category": {
+      "id": "5551cc8fd69b5a36188b45e4",
+      "name": "Земельные участки",
+      "type": "parcel"
+    },
+    "categoryType": {
+      "id": "5551cc8fd69b5a36188b45eb",
+      "name": "Участок под жилую застройку"
+    },
+    "address": {
+      "region": {
+        "id": "5551cc8ed69b5a36188b4593",
+        "name": "Черкасская область"
+      },
+      "city": {
+        "id": "5551cc8ed69b5a36188b4595",
+        "name": "Черкассы",
+        "latinName": "Cherkassy"
+      },
+      "district": {
+        "id": "5551cc8ed69b5a36188b4599",
+        "name": "Казбет"
+      },
+      "street": {
+        "id": "5551e260d69b5a855e8b4572",
+        "name": "бул. Шевченко"
+      },
+      "cadastralNumber": "7110136400030100000",
+      "longitude": 32.105,
+      "latitude": 49.406
+    },
+    "user": {
+      "id": "5553213bd69b5a423f8b4569",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test1@gmail.com",
+      "phone": "09671231212",
+      "userType": "private person"
+    },
+    "area": 6,
+    "areaUnit": {
+      "id": "5551cc8fd69b5a36188b45f8",
+      "name": "Сотки"
+    },
+    "communication": [
+      {
+        "id": "5551cc8ed69b5a36188b45af",
+        "name": "Центральная канализация"
+      }
+    ],
+    "nearObjects": [
+      {
+        "id": "5551cc8ed69b5a36188b45c6",
+        "name": "Лес"
+      }
+    ]
+  },
+  "status": 0
+}

@@ -1,5 +1,5 @@
 require('./boot');
-frisby.create('Get Additionals')
+frisby.create('Get Additionals 0')
     .get(URL_additionals_0)
     .inspectJSON()
     .inspectBody()

@@ -44,7 +44,7 @@ wc = require('./classes/lists/wc');
 realties = require('./classes/realties/realties');
 useRealties = require('./classes/realties/useRealties');
 
-//adverts = require('./classes/adverts/adverts');
+adverts = require('./classes/adverts/adverts');
 
 //header = require('./classes/header');
 
