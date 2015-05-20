@@ -26,8 +26,12 @@ frisby.create('Get list of parcel adverts (sell)')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSONTypes({
+        total: Number,
+        count: Number,
+        page: Number,
         data: [{
-            id: String
+            id: String,
+            title: String
         }]
     })          //Only in positive case
     .toss()
