@@ -1,4 +1,4 @@
-var url = "http://qa.vpn.ua/api/v1/";
+var url = "http://vpn.apiqa/api/v1/";
 
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
@@ -215,6 +215,12 @@ advfr_ownerName = advertFlatsData.r_ownerName;
 advfr_ownerContacts = advertFlatsData.r_ownerContacts;
 advfr_description = advertFlatsData.r_description;
 advfr_bedsCount = advertFlatsData.r_bedsCount;
+
+advertsFlatSaleData = adverts.getFlatAdvertSale();
+advertsFlatSaleId = advertsFlatSaleData.id;
+
+advertsFlatRentData = adverts.getFlatAdvertRent();
+advertsFlatRentId = advertsFlatRentData.id;
 
 //------------------------------Add Houses Advert Data-------------------------------//
 advertHousesData = adverts.getHousesOptions();
@@ -459,6 +465,7 @@ URL_realties_parcels_validate = url + 'realties/parcels/validate';
 // POST VALIDATE COMMERCIALS REALTY
 URL_realties_commercials_validate = url + 'realties/commercials/validate';
 
+
 //-----------------------------------------Advert API-----------------------------------------//
 //-----------------------------------Add Advert API-----------------------------------//
 //POST ADD FLATS ADVERTS
@@ -473,9 +480,17 @@ URL_adverts_parcels_add = url + 'advs/parcels/add/' + realtyParcelId;
 //POST ADD FLATS ADVERTS
 URL_adverts_commercials_add = url + 'advs/commercials/add/' +realtyCommercialId;
 
+// GET LAST ADVERTS
+URL_last_adverts = url + 'get-advs/last/';
 
+// GET ADVERT
+URL_get_advert = url + 'get-advs/';
 
+//
 
+//-----------------------------------------------Info API-----------------------------------------------//
+// GET UHOME CONTACTS
+URL_contacts_uhome = url + 'info/contacts';
 
 //-------------------------------------------------Functions to launch the scope of tests----------------------------------------//
 getCategoriesData = function(){

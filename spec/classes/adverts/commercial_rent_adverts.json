@@ -1,18 +1,18 @@
 {
-  "id": "555b06acd69b5aa2208b4568",
+  "id": "555c7aefd69b5aa63c8b4575",
   "title": "API auto test script. Сдам в аренду коммерческую недвижимость.",
   "operationType": {
-    "id": "555af1f3d69b5a167c8b45f5",
+    "id": "555c6e70d69b5a453f8b45f5",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "555af1f3d69b5a167c8b45ff",
+    "id": "555c6e70d69b5a453f8b45ff",
     "name": "За месяц"
   },
   "description": "Rent Commercial property. Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "555b04b7d69b5ab5718b4569",
+    "id": "555c795cd69b5aa63c8b4571",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -23,60 +23,60 @@
   "convertedPrice": 222.22222222222,
   "auction": false,
   "currency": {
-    "id": "555af1f3d69b5a167c8b45fd",
+    "id": "555c6e70d69b5a453f8b45fd",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "555af1f3d69b5a167c8b45fc",
+    "id": "555c6e70d69b5a453f8b45fc",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T12:47:23+0300",
+  "availableFrom": "2015-05-14T15:15:43+0300",
   "additionally": [
     {
-      "id": "555af1f2d69b5a167c8b4584",
+      "id": "555c6e6fd69b5a453f8b4584",
       "name": "Отдельный вход"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "555b065fd69b5a7c208b4568",
+    "id": "555c79a6d69b5aa63c8b4573",
     "category": {
-      "id": "555af1f2d69b5a167c8b45e5",
+      "id": "555c6e70d69b5a453f8b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     },
     "categoryType": {
-      "id": "555af1f2d69b5a167c8b45ee",
+      "id": "555c6e70d69b5a453f8b45ee",
       "name": "Офисное помещение"
     },
     "address": {
       "region": {
-        "id": "555af1f2d69b5a167c8b4593",
+        "id": "555c6e6fd69b5a453f8b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "555af1f2d69b5a167c8b4595",
+        "id": "555c6e6fd69b5a453f8b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "555af1f2d69b5a167c8b4599",
+        "id": "555c6e6fd69b5a453f8b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "555af1f2d69b5a167c8b459c",
+        "id": "555c6e6fd69b5a453f8b459c",
         "name": "Смелянская"
       },
       "houseNumber": {
-        "id": "555b065fd69b5a7c208b4567",
+        "id": "555c79a6d69b5aa63c8b4572",
         "number": 25
       },
       "longitude": 33,
       "latitude": 32
     },
     "user": {
-      "id": "555b04b7d69b5ab5718b4569",
+      "id": "555c795cd69b5aa63c8b4571",
       "firstName": "Test",
       "lastName": "User",
       "email": "test1@gmail.com",
@@ -85,12 +85,12 @@
     },
     "area": 45,
     "areaUnit": {
-      "id": "555af1f3d69b5a167c8b45f7",
+      "id": "555c6e70d69b5a453f8b45f7",
       "name": "Кв. метры"
     },
     "effectiveArea": 40,
     "wallMaterial": {
-      "id": "555af1f2d69b5a167c8b45d9",
+      "id": "555c6e70d69b5a453f8b45d9",
       "name": "Дерево и кирпич"
     },
     "roomCount": 2,
@@ -98,20 +98,20 @@
     "floorNumber": 9,
     "buildYear": 1996,
     "wc": {
-      "id": "555af1f2d69b5a167c8b45e1",
-      "name": "Несколько санузлов"
+      "id": "555c6e70d69b5a453f8b45df",
+      "name": "Раздельный"
     },
     "heating": {
-      "id": "555af1f2d69b5a167c8b45bc",
+      "id": "555c6e70d69b5a453f8b45bc",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "555af1f2d69b5a167c8b45de",
+      "id": "555c6e70d69b5a453f8b45de",
       "name": "Комбинированный"
     },
     "communication": [
       {
-        "id": "555af1f2d69b5a167c8b45af",
+        "id": "555c6e70d69b5a453f8b45af",
         "name": "Центральная канализация"
       }
     ]

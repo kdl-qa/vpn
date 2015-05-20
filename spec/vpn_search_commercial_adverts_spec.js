@@ -30,21 +30,19 @@ frisby.create('Get list of commercials adverts (sell)')
     '&waterHeating='+waterheatId+
     '&communication7='+communicationsId+
     '&additionally0='+additionals_cat3Id)
-
-
     .inspectRequest()
     .inspectHeaders()
     .inspectJSON()
     .inspectBody()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
-    .expectJSON({
-        total: Number,
-        count: Number,
-        page: Number,
-        data: [{
-            id: String,
-            title: String
-        }]
-    })          //Only in positive case
+    //.expectJSON({
+    //    total: Number,
+    //    count: Number,
+    //    page: Number,
+    //    data: [{
+    //        id: String,
+    //        title: String
+    //    }]
+    //})          //Only in positive case
     .toss()

@@ -1,18 +1,18 @@
 {
-  "id": "555b0685d69b5aed1f8b4569",
+  "id": "555c79d4d69b5ab93c8b4569",
   "title": "API auto test script. Сдам в аренду Дом в спальном районе города.",
   "operationType": {
-    "id": "555af1f3d69b5a167c8b45f5",
+    "id": "555c6e70d69b5a453f8b45f5",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "555af1f3d69b5a167c8b45ff",
+    "id": "555c6e70d69b5a453f8b45ff",
     "name": "За месяц"
   },
   "description": "Rent House. Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "555b04b7d69b5ab5718b4569",
+    "id": "555c795cd69b5aa63c8b4571",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -23,76 +23,76 @@
   "convertedPrice": 200,
   "auction": false,
   "currency": {
-    "id": "555af1f3d69b5a167c8b45fd",
+    "id": "555c6e70d69b5a453f8b45fd",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "555af1f3d69b5a167c8b45fc",
+    "id": "555c6e70d69b5a453f8b45fc",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T12:46:45+0300",
+  "availableFrom": "2015-05-14T15:11:00+0300",
   "repair": {
-    "id": "555af1f2d69b5a167c8b45c7",
+    "id": "555c6e70d69b5a453f8b45c7",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "555af1f2d69b5a167c8b45b7",
+      "id": "555c6e70d69b5a453f8b45b7",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "555af1f2d69b5a167c8b4586",
+      "id": "555c6e6fd69b5a453f8b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "555af1f2d69b5a167c8b4577",
+      "id": "555c6e6fd69b5a453f8b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "555b0651d69b5aed1f8b4568",
+    "id": "555c7994d69b5ac63f8b456c",
     "category": {
-      "id": "555af1f2d69b5a167c8b45e3",
+      "id": "555c6e70d69b5a453f8b45e3",
       "name": "Дома и дачи",
       "type": "house"
     },
     "categoryType": {
-      "id": "555af1f2d69b5a167c8b45e8",
+      "id": "555c6e70d69b5a453f8b45e8",
       "name": "Дом"
     },
     "address": {
       "region": {
-        "id": "555af1f2d69b5a167c8b4593",
+        "id": "555c6e6fd69b5a453f8b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "555af1f2d69b5a167c8b4595",
+        "id": "555c6e6fd69b5a453f8b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "555af1f2d69b5a167c8b4599",
+        "id": "555c6e6fd69b5a453f8b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "555af1f2d69b5a167c8b459c",
+        "id": "555c6e6fd69b5a453f8b459c",
         "name": "Смелянская"
       },
       "houseNumber": {
-        "id": "555b0651d69b5aed1f8b4567",
+        "id": "555c7994d69b5ac63f8b456b",
         "number": 44
       },
       "longitude": 32.0517,
       "latitude": 49.4498
     },
     "user": {
-      "id": "555b04b7d69b5ab5718b4569",
+      "id": "555c795cd69b5aa63c8b4571",
       "firstName": "Test",
       "lastName": "User",
       "email": "test1@gmail.com",
@@ -103,38 +103,38 @@
     "kitchenArea": 10,
     "area": 100,
     "areaUnit": {
-      "id": "555af1f3d69b5a167c8b45f7",
+      "id": "555c6e70d69b5a453f8b45f7",
       "name": "Кв. метры"
     },
     "landArea": 3,
     "landAreaUnit": {
-      "id": "555af1f3d69b5a167c8b45f8",
+      "id": "555c6e70d69b5a453f8b45f8",
       "name": "Сотки"
     },
     "roomCount": 5,
     "wallMaterial": {
-      "id": "555af1f2d69b5a167c8b45d9",
+      "id": "555c6e70d69b5a453f8b45d9",
       "name": "Дерево и кирпич"
     },
     "floorNumber": 4,
     "buildYear": 1999,
     "heating": {
-      "id": "555af1f2d69b5a167c8b45bc",
+      "id": "555c6e70d69b5a453f8b45bc",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "555af1f2d69b5a167c8b45de",
+      "id": "555c6e70d69b5a453f8b45de",
       "name": "Комбинированный"
     },
     "communication": [
       {
-        "id": "555af1f2d69b5a167c8b45af",
+        "id": "555c6e70d69b5a453f8b45af",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "555af1f2d69b5a167c8b45bd",
+        "id": "555c6e70d69b5a453f8b45bd",
         "name": "Остановка общественного транспорта"
       }
     ]
