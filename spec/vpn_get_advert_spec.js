@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Get Advert')
-    .get(URL_get_advert+advertsFlatRentId) //advertsRealty(Sale or Rent) id
+    .get(URL_get_advert+advertsFlatSaleId) //adverts Realty (Sale or Rent)
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)

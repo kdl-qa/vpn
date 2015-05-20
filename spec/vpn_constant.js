@@ -216,11 +216,8 @@ advfr_ownerContacts = advertFlatsData.r_ownerContacts;
 advfr_description = advertFlatsData.r_description;
 advfr_bedsCount = advertFlatsData.r_bedsCount;
 
-advertsFlatSaleData = adverts.getFlatAdvertSale();
-advertsFlatSaleId = advertsFlatSaleData.id;
-
-advertsFlatRentData = adverts.getFlatAdvertRent();
-advertsFlatRentId = advertsFlatRentData.id;
+advertsFlatSaleId = adverts.getFlatAdvertSale().id;
+advertsFlatRentId = adverts.getFlatAdvertRent().id;
 
 //------------------------------Add Houses Advert Data-------------------------------//
 advertHousesData = adverts.getHousesOptions();
@@ -239,6 +236,9 @@ advhr_ownerName = advertHousesData.r_ownerName;
 advhr_ownerContacts = advertHousesData.r_ownerContacts;
 advhr_description = advertHousesData.r_description;
 
+advertsHouseSaleId = adverts.getHouseAdvertSale().id;
+advertsHouseRentId = adverts.getHouseAdvertRent().id;
+
 //------------------------------Add Parcel Advert Data-------------------------------//
 advertParcelsData = adverts.getParcelsOptions();
 
@@ -255,6 +255,9 @@ advpr_availableFrom = advertParcelsData.availableFrom;
 advpr_ownerName = advertParcelsData.r_ownerName;
 advpr_ownerContacts = advertParcelsData.r_ownerContacts;
 advpr_description = advertParcelsData.r_description;
+
+advertsParcelSaleId = adverts.getParcelAdvertSale().id;
+advertsParcelRentId = adverts.getParcelAdvertRent().id;
 
 //------------------------------Add Commercial Advert Data-------------------------------//
 advertCommercialsData = adverts.getCommercialsOptions();
@@ -273,6 +276,8 @@ advcr_ownerName = advertCommercialsData.r_ownerName;
 advcr_ownerContacts = advertCommercialsData.r_ownerContacts;
 advcr_description = advertCommercialsData.r_description;
 
+advertsCommercialsSaleId = adverts.getCommercialAdvertSale().id;
+advertsCommercialsRentId = adverts.getCommercialAdvertRent().id;
 
 //------------------------------Delete Advert Image Data-------------------------------//
 var advertId = '55376f32d69b5af43a8b459c';

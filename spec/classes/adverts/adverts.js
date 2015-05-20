@@ -31,7 +31,7 @@ exports.saveFlatAdvertRent = function (flatRentAdvertData) {
 }
 
 exports.getHouseAdvertSale = function () {
-    return jf.readFileSync(houseAdvertTemplate);
+    return jf.readFileSync(houseAdvertSaleTemplate);
 }
 
 exports.saveHouseAdvertSale = function (houseSaleAdvertData) {
