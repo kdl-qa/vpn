@@ -1,21 +1,21 @@
 [
   {
-    "id": "5551cc8fd69b5a36188b45e2",
+    "id": "555af1f2d69b5a167c8b45e2",
     "name": "Квартиры и комнаты",
     "type": "flat"
   },
   {
-    "id": "5551cc8fd69b5a36188b45e3",
+    "id": "555af1f2d69b5a167c8b45e3",
     "name": "Дома и дачи",
     "type": "house"
   },
   {
-    "id": "5551cc8fd69b5a36188b45e4",
+    "id": "555af1f2d69b5a167c8b45e4",
     "name": "Земельные участки",
     "type": "parcel"
   },
   {
-    "id": "5551cc8fd69b5a36188b45e5",
+    "id": "555af1f2d69b5a167c8b45e5",
     "name": "Коммерческая недвижимость",
     "type": "commercial"
   }

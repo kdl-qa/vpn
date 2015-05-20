@@ -1,14 +1,14 @@
 {
-  "id": "55536a3ed69b5ae40a8b4567",
+  "id": "555b068ed69b5a68238b4568",
   "title": "API auto test script. Продам земельный участок.",
   "operationType": {
-    "id": "5551cc8fd69b5a36188b45f6",
+    "id": "555af1f3d69b5a167c8b45f6",
     "name": "Продажа",
     "type": "sale"
   },
   "description": "Sell Parcel. Please call me from 10am till 6pm",
   "user": {
-    "id": "5553213bd69b5a423f8b4569",
+    "id": "555b04b7d69b5ab5718b4569",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -16,59 +16,59 @@
     "userType": "private person"
   },
   "price": 7500,
-  "convertedPrice": 172500,
+  "convertedPrice": 168750,
   "auction": true,
   "currency": {
-    "id": "5551cc8fd69b5a36188b45fc",
+    "id": "555af1f3d69b5a167c8b45fc",
     "name": "USD"
   },
   "convertedCurrency": {
-    "id": "5551cc8fd69b5a36188b45fd",
+    "id": "555af1f3d69b5a167c8b45fd",
     "name": "UAH"
   },
   "additionally": [
     {
-      "id": "5551cc8ed69b5a36188b4577",
+      "id": "555af1f2d69b5a167c8b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380472747474",
   "realty": {
-    "id": "55532164d69b5a6d7f8b4567",
+    "id": "555b0658d69b5a68238b4567",
     "category": {
-      "id": "5551cc8fd69b5a36188b45e4",
+      "id": "555af1f2d69b5a167c8b45e4",
       "name": "Земельные участки",
       "type": "parcel"
     },
     "categoryType": {
-      "id": "5551cc8fd69b5a36188b45eb",
+      "id": "555af1f2d69b5a167c8b45eb",
       "name": "Участок под жилую застройку"
     },
     "address": {
       "region": {
-        "id": "5551cc8ed69b5a36188b4593",
+        "id": "555af1f2d69b5a167c8b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "5551cc8ed69b5a36188b4595",
+        "id": "555af1f2d69b5a167c8b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "5551cc8ed69b5a36188b4599",
+        "id": "555af1f2d69b5a167c8b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "5551e260d69b5a855e8b4572",
-        "name": "бул. Шевченко"
+        "id": "555af1f2d69b5a167c8b459c",
+        "name": "Смелянская"
       },
       "cadastralNumber": "7110136400030100000",
       "longitude": 32.105,
       "latitude": 49.406
     },
     "user": {
-      "id": "5553213bd69b5a423f8b4569",
+      "id": "555b04b7d69b5ab5718b4569",
       "firstName": "Test",
       "lastName": "User",
       "email": "test1@gmail.com",
@@ -77,19 +77,19 @@
     },
     "area": 6,
     "areaUnit": {
-      "id": "5551cc8fd69b5a36188b45f8",
+      "id": "555af1f3d69b5a167c8b45f8",
       "name": "Сотки"
     },
     "communication": [
       {
-        "id": "5551cc8ed69b5a36188b45af",
+        "id": "555af1f2d69b5a167c8b45af",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "5551cc8ed69b5a36188b45c6",
-        "name": "Лес"
+        "id": "555af1f2d69b5a167c8b45bd",
+        "name": "Остановка общественного транспорта"
       }
     ]
   },

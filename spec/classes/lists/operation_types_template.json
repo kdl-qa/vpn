@@ -1,11 +1,11 @@
 [
   {
-    "id": "5551cc8fd69b5a36188b45f5",
+    "id": "555af1f3d69b5a167c8b45f5",
     "name": "Аренда",
     "type": "rent"
   },
   {
-    "id": "5551cc8fd69b5a36188b45f6",
+    "id": "555af1f3d69b5a167c8b45f6",
     "name": "Продажа",
     "type": "sale"
   }

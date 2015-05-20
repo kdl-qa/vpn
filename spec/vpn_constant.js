@@ -34,6 +34,10 @@ agentEmail = agentData.email;
 agentAvatar = agentData.avatar;
 agentToken = saveAgentData.token;
 
+page = 1;
+onPage = 24;
+onPageMain = 9;
+
 //------------------------------Regions Data-------------------------------//
 
 regionsData = regions.getRegions();
@@ -67,7 +71,7 @@ flatsId =  flatsData[0].id;
 
 //------------------------------Appliances Data-------------------------------//
 appliancesData = appliances.getAppliances();
-appliancesId =  appliancesData[appliancesData.length-1].id;
+appliancesId =  appliancesData[0].id;
 
 //------------------------------Area Units Data-------------------------------//
 areaunitsData = areaunits.getAreaUnits();
@@ -79,7 +83,7 @@ balconiesId =  balconiesData[balconiesData.length-1].id;
 
 //------------------------------Communications Data-------------------------------//
 communicationsData = communications.getCommunications();
-communicationsId =  communicationsData[communicationsData.length-1].id;
+communicationsId =  communicationsData[communicationsData.length-1].id; //[0]
 
 //------------------------------Communications Data-------------------------------//
 currencyData = currency.getCurrency();
@@ -99,7 +103,7 @@ marketsId =  marketsData[marketsData.length-1].id;
 
 //------------------------------Near Objects Data-------------------------------//
 nearobjectsData = nearobjects.getNearObjects();
-nearobjectsId =  nearobjectsData[nearobjectsData.length-1].id;
+nearobjectsId =  nearobjectsData[0].id;
 
 //------------------------------Operation Types Data-------------------------------//
 operationtypesData = operationtypes.getOperationTypes();
@@ -111,7 +115,7 @@ periodId =  periodsData[1].id;
 
 //------------------------------Operation Types Data-------------------------------//
 repairsData = repairs.getRepairs();
-repairsId =  repairsData[repairsData.length-1].id;
+repairsId =  repairsData[0].id;
 
 //------------------------------Wall Materials Data-------------------------------//
 wallmaterialsData = wallmaterials.getWallMaterials();
@@ -124,7 +128,7 @@ waterheatId =  waterheatData[waterheatData.length-1].id;
 //------------------------------WC Data-------------------------------//
 
 wcData = wc.getWc();
-wcId =  wcData[wcData.length-1].id;
+wcId =  wcData[0].id;
 
 //----------------------------------------Realty Test Data----------------------------------------//
 //------------------------------Add Flats Realty Data-------------------------------//
@@ -402,18 +406,18 @@ URL_registration_private_person = url + 'registration/private-person';
 //-----------------------------------Image API-----------------------------------//
 
 // POST UPLOAD ADVERT IMAGE
-URL_advert_image = url + 'uploads/advert-image';
+URL_advert_image = url + 'uploads/adv-image';
 
 // POST UPLOAD USER AVATAR
 URL_user_avatar = url + 'uploads/user-avatar';
 
 // DELETE ADVERT IMAGE {ADVERT ID / IMAGE ID}
-URL_delete_image = url + 'adverts/' + advertId + '/images/' + imageId +'/delete';
+URL_delete_image = url + 'advs/' + advertId + '/images/' + imageId +'/delete';
 
 //-----------------------------------Search API-----------------------------------//
 
 // POST SEARCH ADVERTS LIST
-URL_search_adverts = url + 'search/1/100';
+URL_search_adverts = url + 'search/1/50';
 
 //-----------------------------------------Realty API-----------------------------------------//
 //-----------------------------------Add Realty API-----------------------------------//
@@ -458,16 +462,16 @@ URL_realties_commercials_validate = url + 'realties/commercials/validate';
 //-----------------------------------------Advert API-----------------------------------------//
 //-----------------------------------Add Advert API-----------------------------------//
 //POST ADD FLATS ADVERTS
-URL_adverts_flats_add = url + 'adverts/flats/add/' + realtyFlatId;
+URL_adverts_flats_add = url + 'advs/flats/add/' + realtyFlatId;
 
 //POST ADD FLATS ADVERTS
-URL_adverts_houses_add = url + 'adverts/houses/add/' + realtyHouseId;
+URL_adverts_houses_add = url + 'advs/houses/add/' + realtyHouseId;
 
 //POST ADD FLATS ADVERTS
-URL_adverts_parcels_add = url + 'adverts/parcels/add/' + realtyParcelId;
+URL_adverts_parcels_add = url + 'advs/parcels/add/' + realtyParcelId;
 
 //POST ADD FLATS ADVERTS
-URL_adverts_commercials_add = url + 'adverts/commercials/add/' +realtyCommercialId;
+URL_adverts_commercials_add = url + 'advs/commercials/add/' +realtyCommercialId;
 
 
 
@@ -485,22 +489,22 @@ getCategoriesData = function(){
     require('./vpn_additionals_catid_3_spec.js');
 };
 
-getRegionData = function(){
-    require('./vpn_cities_spec.js');
-};
-
-getCitiesData = function(){
-    require('./vpn_districts_spec.js');
-    require('./vpn_streets_spec.js');
-};
-
-getHousesData = function(){
-    require('./vpn_flats_spec.js');
-};
-
-getStreetsData = function(){
-    require('./vpn_houses_spec.js');
-};
+//getRegionData = function(){
+//    require('./vpn_cities_spec.js');
+//};
+//
+//getCitiesData = function(){
+//    require('./vpn_districts_spec.js');
+//    require('./vpn_streets_spec.js');
+//};
+//
+//getStreetsData = function(){
+//    require('./vpn_houses_spec.js');
+//};
+//
+//getHousesData = function(){
+//    require('./vpn_flats_spec.js');
+//};
 
 //startFlatsTest = function(){
 //    if(

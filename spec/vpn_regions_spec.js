@@ -14,7 +14,7 @@ frisby.create('Get regions')
     .afterJSON(function (json) {
         if (json.name = String) {
             regions.saveRegions(json);
-            getRegionData();
+            //getRegionData();
         }
     })
     .toss()

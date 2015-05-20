@@ -1,18 +1,18 @@
 [
   {
-    "id": "5551cc8fd69b5a36188b45e6",
+    "id": "555af1f2d69b5a167c8b45e6",
     "name": "Квартира",
     "category": {
-      "id": "5551cc8fd69b5a36188b45e2",
+      "id": "555af1f2d69b5a167c8b45e2",
       "name": "Квартиры и комнаты",
       "type": "flat"
     }
   },
   {
-    "id": "5551cc8fd69b5a36188b45e7",
+    "id": "555af1f2d69b5a167c8b45e7",
     "name": "Комната",
     "category": {
-      "id": "5551cc8fd69b5a36188b45e2",
+      "id": "555af1f2d69b5a167c8b45e2",
       "name": "Квартиры и комнаты",
       "type": "flat"
     }

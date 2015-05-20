@@ -13,7 +13,7 @@ frisby.create('Get cities')
     .afterJSON(function (json) {
         if (json.name = String) {
             cities.saveCities(json);
-            getCitiesData();
+            //getCitiesData();
         }
     })
     .toss()

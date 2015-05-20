@@ -22,6 +22,7 @@ frisby.create('Add Commercial advert (rent)')
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
+    .expectStatus(201)
     .expectJSON({
         id: String
     })
