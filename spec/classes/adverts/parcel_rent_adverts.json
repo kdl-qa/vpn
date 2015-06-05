@@ -1,18 +1,18 @@
 {
-  "id": "555c7aafd69b5aa63c8b4574",
+  "id": "555f34d8d69b5a873e8b456a",
   "title": "API auto test script. Аренда Земельного участка недорого. Срочно!!!",
   "operationType": {
-    "id": "555c6e70d69b5a453f8b45f5",
+    "id": "555f338dd69b5a3c5f8b45f5",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "555c6e70d69b5a453f8b45ff",
+    "id": "555f338dd69b5a3c5f8b45ff",
     "name": "За месяц"
   },
   "description": "Rent Parcel. Please, feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "555c795cd69b5aa63c8b4571",
+    "id": "555f33d4d69b5a985f8b4567",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -23,57 +23,55 @@
   "convertedPrice": 22.222222222222,
   "auction": false,
   "currency": {
-    "id": "555c6e70d69b5a453f8b45fd",
+    "id": "555f338dd69b5a3c5f8b45fd",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "555c6e70d69b5a453f8b45fc",
+    "id": "555f338dd69b5a3c5f8b45fc",
     "name": "USD"
   },
-  "availableFrom": "2015-05-15T15:14:39+0300",
+  "availableFrom": "2015-05-15T16:53:28+0300",
   "additionally": [
     {
-      "id": "555c6e6fd69b5a453f8b4577",
+      "id": "555f338dd69b5a3c5f8b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "555c799cd69b5ae1558b4568",
+    "id": "555f3492d69b5ade5c8b456a",
     "category": {
-      "id": "555c6e70d69b5a453f8b45e4",
+      "id": "555f338dd69b5a3c5f8b45e4",
       "name": "Земельные участки",
       "type": "parcel"
     },
     "categoryType": {
-      "id": "555c6e70d69b5a453f8b45eb",
+      "id": "555f338dd69b5a3c5f8b45eb",
       "name": "Участок под жилую застройку"
     },
     "address": {
       "region": {
-        "id": "555c6e6fd69b5a453f8b4593",
+        "id": "555f338dd69b5a3c5f8b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "555c6e6fd69b5a453f8b4595",
+        "id": "555f338dd69b5a3c5f8b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "555c6e6fd69b5a453f8b4599",
+        "id": "555f338dd69b5a3c5f8b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "555c6e6fd69b5a453f8b459c",
+        "id": "555f338dd69b5a3c5f8b459c",
         "name": "Смелянская"
       },
-      "cadastralNumber": "7110136400030100000",
-      "longitude": 32.105,
-      "latitude": 49.406
+      "cadastralNumber": "7110136400030100000"
     },
     "user": {
-      "id": "555c795cd69b5aa63c8b4571",
+      "id": "555f33d4d69b5a985f8b4567",
       "firstName": "Test",
       "lastName": "User",
       "email": "test1@gmail.com",
@@ -82,18 +80,18 @@
     },
     "area": 6,
     "areaUnit": {
-      "id": "555c6e70d69b5a453f8b45f8",
+      "id": "555f338dd69b5a3c5f8b45f8",
       "name": "Сотки"
     },
     "communication": [
       {
-        "id": "555c6e70d69b5a453f8b45af",
+        "id": "555f338dd69b5a3c5f8b45af",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "555c6e70d69b5a453f8b45bd",
+        "id": "555f338dd69b5a3c5f8b45bd",
         "name": "Остановка общественного транспорта"
       }
     ]

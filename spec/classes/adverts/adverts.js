@@ -12,6 +12,9 @@ houseAdvertsOptions = path.resolve(__dirname, 'house_options.json');
 parcelAdvertsOptions = path.resolve(__dirname, 'parcel_options.json');
 commercialAdvertsOptions = path.resolve(__dirname, 'commercial_options.json');
 
+advertListTemplate = path.resolve(__dirname, 'advert_list.json');
+
+//advertListTemplate = path.resolve(__dirname, 'advert_list.json');
 
 exports.getFlatAdvertSale = function () {
     return jf.readFileSync(flatAdvertSaleTemplate);
@@ -93,4 +96,13 @@ exports.getParcelsOptions = function () {
 
 exports.getCommercialsOptions = function () {
     return jf.readFileSync(commercialAdvertsOptions);
+}
+
+
+exports.getAdvertList = function () {
+    return jf.readFileSync(advertListTemplate);
+}
+
+exports.saveAdvertList = function (advertListData) {
+    return jf.writeFileSync(advertListTemplate, advertListData);
 }

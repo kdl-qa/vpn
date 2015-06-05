@@ -1,9 +1,10 @@
 {
-  "id": "555c795cd69b5aa63c8b4571",
+  "id": "55706426d69b5a01478b457a",
   "firstName": "Test",
   "lastName": "User",
   "email": "test1@gmail.com",
-  "phone": "09671231212",
-  "token": "s8Lcmp-10G8LE21dS9rJIjKVWgPAQrnXiphsavNOa8o",
-  "userType": "private person"
+  "phones": [],
+  "token": "OEGnVsss0eLgw47hUI0eEd2sqz18xSS1rFxRSB6O0yw",
+  "userType": "private person",
+  "enabled": true
 }

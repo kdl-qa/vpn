@@ -1,0 +1,26 @@
+[
+  {
+    "id": "555f3e6cd69b5a3c018b4600",
+    "currency": "USD",
+    "baseCurrency": "UAH",
+    "buy": 20,
+    "sale": 22.5,
+    "updated": "2015-05-25T00:00:03+0300"
+  },
+  {
+    "id": "555f3e75d69b5a61018b4567",
+    "currency": "RUR",
+    "baseCurrency": "UAH",
+    "buy": 0.425,
+    "sale": 0.45,
+    "updated": "2015-05-25T00:00:03+0300"
+  },
+  {
+    "id": "555f3e75d69b5a61018b4568",
+    "currency": "EUR",
+    "baseCurrency": "UAH",
+    "buy": 22.2,
+    "sale": 25,
+    "updated": "2015-05-25T00:00:03+0300"
+  }
+]

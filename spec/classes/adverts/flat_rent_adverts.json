@@ -1,18 +1,18 @@
 {
-  "id": "555c79c3d69b5ae1558b4569",
+  "id": "555f34b1d69b5a985f8b4568",
   "title": "API auto test script. Сдам квартиру в спальном районе города.",
   "operationType": {
-    "id": "555c6e70d69b5a453f8b45f5",
+    "id": "555f338dd69b5a3c5f8b45f5",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "555c6e70d69b5a453f8b45ff",
+    "id": "555f338dd69b5a3c5f8b45ff",
     "name": "За месяц"
   },
   "description": "Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "555c795cd69b5aa63c8b4571",
+    "id": "555f33d4d69b5a985f8b4567",
     "firstName": "Test",
     "lastName": "User",
     "email": "test1@gmail.com",
@@ -23,80 +23,78 @@
   "convertedPrice": 111.11111111111,
   "auction": false,
   "currency": {
-    "id": "555c6e70d69b5a453f8b45fd",
+    "id": "555f338dd69b5a3c5f8b45fd",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "555c6e70d69b5a453f8b45fc",
+    "id": "555f338dd69b5a3c5f8b45fc",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T15:10:43+0300",
+  "availableFrom": "2015-05-14T16:52:49+0300",
   "repair": {
-    "id": "555c6e70d69b5a453f8b45c7",
+    "id": "555f338dd69b5a3c5f8b45c7",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "555c6e70d69b5a453f8b45b7",
+      "id": "555f338dd69b5a3c5f8b45b7",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "555c6e6fd69b5a453f8b4586",
+      "id": "555f338dd69b5a3c5f8b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "555c6e6fd69b5a453f8b4567",
+      "id": "555f338dd69b5a3c5f8b4567",
       "name": "Лифт"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "555c797bd69b5ac63f8b456a",
+    "id": "555f347bd69b5ade5c8b4569",
     "category": {
-      "id": "555c6e70d69b5a453f8b45e2",
+      "id": "555f338dd69b5a3c5f8b45e2",
       "name": "Квартиры и комнаты",
       "type": "flat"
     },
     "categoryType": {
-      "id": "555c6e70d69b5a453f8b45e6",
+      "id": "555f338dd69b5a3c5f8b45e6",
       "name": "Квартира"
     },
     "address": {
       "region": {
-        "id": "555c6e6fd69b5a453f8b4593",
+        "id": "555f338dd69b5a3c5f8b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "555c6e6fd69b5a453f8b4595",
+        "id": "555f338dd69b5a3c5f8b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "555c6e6fd69b5a453f8b4599",
+        "id": "555f338dd69b5a3c5f8b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "555c6e6fd69b5a453f8b459c",
+        "id": "555f338dd69b5a3c5f8b459c",
         "name": "Смелянская"
       },
       "houseNumber": {
-        "id": "555c797bd69b5ac63f8b4568",
+        "id": "555f347bd69b5ade5c8b4567",
         "number": 33
       },
       "flatNumber": {
-        "id": "555c797bd69b5ac63f8b4569",
+        "id": "555f347bd69b5ade5c8b4568",
         "number": 22
-      },
-      "longitude": 32.1,
-      "latitude": 49.39
+      }
     },
     "user": {
-      "id": "555c795cd69b5aa63c8b4571",
+      "id": "555f33d4d69b5a985f8b4567",
       "firstName": "Test",
       "lastName": "User",
       "email": "test1@gmail.com",
@@ -104,17 +102,17 @@
       "userType": "private person"
     },
     "marketType": {
-      "id": "555c6e70d69b5a453f8b45fb",
+      "id": "555f338dd69b5a3c5f8b45fb",
       "name": "Вторичный"
     },
     "roomCount": 2,
     "wallMaterial": {
-      "id": "555c6e70d69b5a453f8b45d9",
+      "id": "555f338dd69b5a3c5f8b45d9",
       "name": "Дерево и кирпич"
     },
     "area": 50,
     "areaUnit": {
-      "id": "555c6e70d69b5a453f8b45f7",
+      "id": "555f338dd69b5a3c5f8b45f7",
       "name": "Кв. метры"
     },
     "livingArea": 35,
@@ -123,24 +121,24 @@
     "floorNumber": 9,
     "buildYear": 1985,
     "wc": {
-      "id": "555c6e70d69b5a453f8b45df",
+      "id": "555f338dd69b5a3c5f8b45df",
       "name": "Раздельный"
     },
     "balcony": {
-      "id": "555c6e6fd69b5a453f8b4591",
+      "id": "555f338dd69b5a3c5f8b4591",
       "name": "3 и больше"
     },
     "heating": {
-      "id": "555c6e70d69b5a453f8b45bc",
+      "id": "555f338dd69b5a3c5f8b45bc",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "555c6e70d69b5a453f8b45de",
+      "id": "555f338dd69b5a3c5f8b45de",
       "name": "Комбинированный"
     },
     "nearObjects": [
       {
-        "id": "555c6e70d69b5a453f8b45bd",
+        "id": "555f338dd69b5a3c5f8b45bd",
         "name": "Остановка общественного транспорта"
       }
     ]

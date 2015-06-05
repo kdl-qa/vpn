@@ -1,59 +1,7 @@
 {
-  "id": "555c799cd69b5ae1558b4568",
-  "category": {
-    "id": "555c6e70d69b5a453f8b45e4",
-    "name": "Земельные участки",
-    "type": "parcel"
-  },
-  "categoryType": {
-    "id": "555c6e70d69b5a453f8b45eb",
-    "name": "Участок под жилую застройку"
-  },
-  "address": {
-    "region": {
-      "id": "555c6e6fd69b5a453f8b4593",
-      "name": "Черкасская область"
-    },
-    "city": {
-      "id": "555c6e6fd69b5a453f8b4595",
-      "name": "Черкассы",
-      "latinName": "Cherkassy"
-    },
-    "district": {
-      "id": "555c6e6fd69b5a453f8b4599",
-      "name": "Казбет"
-    },
-    "street": {
-      "id": "555c6e6fd69b5a453f8b459c",
-      "name": "Смелянская"
-    },
-    "cadastralNumber": "7110136400030100000",
-    "longitude": 32.105,
-    "latitude": 49.406
-  },
-  "user": {
-    "id": "555c795cd69b5aa63c8b4571",
-    "firstName": "Test",
-    "lastName": "User",
-    "email": "test1@gmail.com",
-    "phone": "09671231212",
-    "userType": "private person"
-  },
-  "area": 6,
-  "areaUnit": {
-    "id": "555c6e70d69b5a453f8b45f8",
-    "name": "Сотки"
-  },
-  "communication": [
-    {
-      "id": "555c6e70d69b5a453f8b45af",
-      "name": "Центральная канализация"
-    }
-  ],
-  "nearObjects": [
-    {
-      "id": "555c6e70d69b5a453f8b45bd",
-      "name": "Остановка общественного транспорта"
-    }
-  ]
+  "errors": {
+    "parcel": [
+      "realty_exists"
+    ]
+  }
 }

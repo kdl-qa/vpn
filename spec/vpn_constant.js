@@ -279,6 +279,11 @@ advcr_description = advertCommercialsData.r_description;
 advertsCommercialsSaleId = adverts.getCommercialAdvertSale().id;
 advertsCommercialsRentId = adverts.getCommercialAdvertRent().id;
 
+//------------------------------Advert Lists Data-------------------------------//
+advertsListData = adverts.getAdvertList();
+advertsListId =advertsListData.id;
+
+
 //------------------------------Delete Advert Image Data-------------------------------//
 var advertId = '55376f32d69b5af43a8b459c';
 var imageId = '55376ab6d69b5a07118b4581';
@@ -355,8 +360,12 @@ URL_communications = url + 'lists/communications';
 // GET LISTS COUNTRIES
 URL_countries =  url + 'lists/countries';
 
-// GET LISTS COUNTRIES
+// GET LISTS OF CURRENCIES
 URL_currency =  url + 'lists/currency';
+
+// GET LISTS OF ACTUAL CURRENCIES
+URL_actual_currency =  url + 'lists/actual-currency';
+
 
 // GET LISTS DISTRICTS {CITYID}
 URL_districts = url + 'lists/districts/' + citiesId;
@@ -428,7 +437,10 @@ URL_delete_image = url + 'advs/' + advertId + '/images/' + imageId +'/delete';
 //-----------------------------------Search API-----------------------------------//
 
 // POST SEARCH ADVERTS LIST
-URL_search_adverts = url + 'search/1/50';
+URL_search_adverts = url + 'search';
+
+// POST SEARCH ADVERTS LIST
+URL_search_adverts_sort = url + 'search/1/50/';
 
 //-----------------------------------------Realty API-----------------------------------------//
 //-----------------------------------Add Realty API-----------------------------------//
@@ -485,13 +497,15 @@ URL_adverts_parcels_add = url + 'advs/parcels/add/' + realtyParcelId;
 //POST ADD FLATS ADVERTS
 URL_adverts_commercials_add = url + 'advs/commercials/add/' +realtyCommercialId;
 
-// GET LAST ADVERTS
+//GET LAST ADVERTS
 URL_last_adverts = url + 'get-advs/last/';
 
-// GET ADVERT
+//GET ADVERT
 URL_get_advert = url + 'get-advs/';
 
-//
+//CREATE LIST OF ADVERTS
+URL_create_list_adverts = url + 'profiles/advs-lists/create';
+
 
 //-----------------------------------------------Info API-----------------------------------------------//
 // GET UHOME CONTACTS

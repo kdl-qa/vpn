@@ -1,0 +1,16 @@
+{
+  "id": "5562f44bd69b5a037a8b456f",
+  "name": "API automated test list",
+  "created": "2015-05-25T13:07:07+0300",
+  "updated": "2015-05-25T13:07:07+0300",
+  "user": {
+    "id": "5562c861d69b5a4a758b4567",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "test1@gmail.com",
+    "phone": "09671231212",
+    "token": "-L_5VDJkXqrhspTEYRG24AOWUwgzuuH266c2gnoDzVQ",
+    "userType": "private person"
+  },
+  "advert": []
+}
