@@ -1,6 +1,6 @@
 require('./boot');
-frisby.create('Logout Private Person')
-    .addHeader('token', userToken)
+frisby.create('Logout Agency')
+    .addHeader('token', agencyToken)
     .post(URL_logout)
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
@@ -8,3 +8,4 @@ frisby.create('Logout Private Person')
         message: 'Success'
     })
     .toss()
+

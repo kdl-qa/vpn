@@ -1,133 +1,203 @@
 {
-  "id": "555f34b9d69b5a9b5f8b4567",
+  "id": "557aedcdd69b5a36578b4567",
   "title": "API auto test script. Продам дом в тихом районе центра города.",
   "operationType": {
-    "id": "555f338dd69b5a3c5f8b45f6",
+    "id": "557a9ac6d69b5ae8428b45f6",
     "name": "Продажа",
     "type": "sale"
   },
   "description": "Sell House. Please call me only in following time from 10am till 6pm",
   "user": {
-    "id": "555f33d4d69b5a985f8b4567",
+    "id": "557aece9d69b5a36518b456c",
     "firstName": "Test",
     "lastName": "User",
-    "email": "test1@gmail.com",
-    "phone": "09671231212",
+    "email": "api.test@gmail.com",
+    "phones": [
+      {
+        "id": "557aece8d69b5a36518b4569",
+        "phone": "+380671112233"
+      },
+      {
+        "id": "557aece8d69b5a36518b456a",
+        "phone": "+380935556677"
+      },
+      {
+        "id": "557aece8d69b5a36518b456b",
+        "phone": "+380924448899"
+      }
+    ],
+    "userAvatar": {
+      "id": "557aece4d69b5ade5a8b4568",
+      "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
+      "filename": "1434119396.20591434119396",
+      "extension": ".jpeg",
+      "size": 240557,
+      "width": 1540,
+      "height": 944,
+      "processor": "original",
+      "thumbnails": [
+        {
+          "id": "557aece4d69b5ade5a8b4567",
+          "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+          "extension": ".jpeg",
+          "width": 200,
+          "mimeType": "image/jpeg",
+          "height": 200,
+          "processor": "user_avatar"
+        }
+      ],
+      "mimeType": "image/jpeg"
+    },
     "userType": "private person"
   },
   "price": 75000,
-  "convertedPrice": 1687500,
+  "convertedPrice": 1650000,
   "auction": true,
   "currency": {
-    "id": "555f338dd69b5a3c5f8b45fc",
+    "id": "557a9ac6d69b5ae8428b45fc",
     "name": "USD"
   },
   "convertedCurrency": {
-    "id": "555f338dd69b5a3c5f8b45fd",
+    "id": "557a9ac6d69b5ae8428b45fd",
     "name": "UAH"
   },
   "repair": {
-    "id": "555f338dd69b5a3c5f8b45c7",
+    "id": "557a9ac6d69b5ae8428b45c7",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "555f338dd69b5a3c5f8b45b7",
+      "id": "557a9ac6d69b5ae8428b45b7",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "555f338dd69b5a3c5f8b4586",
+      "id": "557a9ac6d69b5ae8428b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "555f338dd69b5a3c5f8b4577",
+      "id": "557a9ac6d69b5ae8428b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380472747474",
   "realty": {
-    "id": "555f348cd69b5a873e8b4568",
+    "id": "557aed92d69b5a1f4e8b456a",
     "category": {
-      "id": "555f338dd69b5a3c5f8b45e3",
+      "id": "557a9ac6d69b5ae8428b45e3",
       "name": "Дома и дачи",
       "type": "house"
     },
     "categoryType": {
-      "id": "555f338dd69b5a3c5f8b45e8",
+      "id": "557a9ac6d69b5ae8428b45e8",
       "name": "Дом"
     },
     "address": {
       "region": {
-        "id": "555f338dd69b5a3c5f8b4593",
+        "id": "557a9ac6d69b5ae8428b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "555f338dd69b5a3c5f8b4595",
+        "id": "557a9ac6d69b5ae8428b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "555f338dd69b5a3c5f8b4599",
+        "id": "557a9ac6d69b5ae8428b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "555f338dd69b5a3c5f8b459c",
+        "id": "557a9ac6d69b5ae8428b459c",
         "name": "Смелянская"
       },
       "houseNumber": {
-        "id": "555f348cd69b5a873e8b4567",
-        "number": 44
+        "id": "557aed92d69b5a1f4e8b4569",
+        "number": 65
       }
     },
     "user": {
-      "id": "555f33d4d69b5a985f8b4567",
+      "id": "557aece9d69b5a36518b456c",
       "firstName": "Test",
       "lastName": "User",
-      "email": "test1@gmail.com",
-      "phone": "09671231212",
+      "email": "api.test@gmail.com",
+      "phones": [
+        {
+          "id": "557aece8d69b5a36518b4569",
+          "phone": "+380671112233"
+        },
+        {
+          "id": "557aece8d69b5a36518b456a",
+          "phone": "+380935556677"
+        },
+        {
+          "id": "557aece8d69b5a36518b456b",
+          "phone": "+380924448899"
+        }
+      ],
+      "userAvatar": {
+        "id": "557aece4d69b5ade5a8b4568",
+        "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
+        "filename": "1434119396.20591434119396",
+        "extension": ".jpeg",
+        "size": 240557,
+        "width": 1540,
+        "height": 944,
+        "processor": "original",
+        "thumbnails": [
+          {
+            "id": "557aece4d69b5ade5a8b4567",
+            "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+            "extension": ".jpeg",
+            "width": 200,
+            "mimeType": "image/jpeg",
+            "height": 200,
+            "processor": "user_avatar"
+          }
+        ],
+        "mimeType": "image/jpeg"
+      },
       "userType": "private person"
     },
     "livingArea": 80,
     "kitchenArea": 10,
     "area": 100,
     "areaUnit": {
-      "id": "555f338dd69b5a3c5f8b45f7",
+      "id": "557a9ac6d69b5ae8428b45f7",
       "name": "Кв. метры"
     },
     "landArea": 3,
     "landAreaUnit": {
-      "id": "555f338dd69b5a3c5f8b45f8",
+      "id": "557a9ac6d69b5ae8428b45f8",
       "name": "Сотки"
     },
     "roomCount": 5,
     "wallMaterial": {
-      "id": "555f338dd69b5a3c5f8b45d9",
+      "id": "557a9ac6d69b5ae8428b45d9",
       "name": "Дерево и кирпич"
     },
     "floorNumber": 4,
     "buildYear": 1999,
     "heating": {
-      "id": "555f338dd69b5a3c5f8b45bc",
+      "id": "557a9ac6d69b5ae8428b45bc",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "555f338dd69b5a3c5f8b45de",
+      "id": "557a9ac6d69b5ae8428b45de",
       "name": "Комбинированный"
     },
     "communication": [
       {
-        "id": "555f338dd69b5a3c5f8b45af",
+        "id": "557a9ac6d69b5ae8428b45af",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "555f338dd69b5a3c5f8b45bd",
+        "id": "557a9ac6d69b5ae8428b45bd",
         "name": "Остановка общественного транспорта"
       }
     ]

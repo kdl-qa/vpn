@@ -1,63 +1,63 @@
 [
   {
-    "id": "557036ced69b5a37518b45ee",
+    "id": "557a9ac6d69b5ae8428b45ee",
     "name": "Офисное помещение",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }
   },
   {
-    "id": "557036ced69b5a37518b45ef",
+    "id": "557a9ac6d69b5ae8428b45ef",
     "name": "Торговые площади",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }
   },
   {
-    "id": "557036ced69b5a37518b45f0",
+    "id": "557a9ac6d69b5ae8428b45f0",
     "name": "Складские помещения",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }
   },
   {
-    "id": "557036ced69b5a37518b45f1",
+    "id": "557a9ac6d69b5ae8428b45f1",
     "name": "Кафе, бар, ресторан",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }
   },
   {
-    "id": "557036ced69b5a37518b45f2",
+    "id": "557a9ac6d69b5ae8428b45f2",
     "name": "Объект сферы услуг",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }
   },
   {
-    "id": "557036ced69b5a37518b45f3",
+    "id": "557a9ac6d69b5ae8428b45f3",
     "name": "Помещения свободного назначения",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }
   },
   {
-    "id": "557036ced69b5a37518b45f4",
+    "id": "557a9ac6d69b5ae8428b45f4",
     "name": "Готовый бизнес",
     "category": {
-      "id": "557036ced69b5a37518b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     }

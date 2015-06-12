@@ -3,7 +3,14 @@ headerUserData = {
         headers: {'token': userToken}
 
     }
-}
+};
+
+headerAdminData = {
+    request: {
+        headers: {'token': adminToken}
+
+    }
+};
 
 //headerAgencyData = {
 //    request: {

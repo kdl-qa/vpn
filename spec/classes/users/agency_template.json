@@ -1,8 +1,70 @@
 {
-  "first_name": "Test",
-  "last_name": "Agency",
-  "email": "agencytest@gmail.com",
+  "name": "API Auto Test Agency",
+  "subdomain": "api-test",
+  "firstName": "API Auto Test",
+  "lastName": "Agency",
+  "email": "api.agency@test.com",
   "password": "qwaszx12",
-  "phone": "09671239876",
-  "avatar": ""
+  "description": "Ни для кого не станет секретом тот факт, что львиная доля продаж квартир и домов приходится на всевозможные объявления в Интернете. Каждому хочется стать владельцем собственной жилплощади, и сделать это безопасно, быстро, а главное - выгодно! Ну что ж, теперь купить квартиру в Черкассах стало намного проще - ведь с вами верный и надежный помощник - Агенство недвижимости API Auto Test Agency",
+  "networks":[
+    "http://vk.com/api",
+    "http://facebook.com/api",
+    "http://plus.google.com/api",
+    "ok.ru/api",
+    "twitter.com/api"
+  ],
+  "offices":[
+    {
+      "name": "API Office",
+      "address": "г. Черкассы, ул. Шевченка, 150",
+      "numbers": "АПИ Офис 1",
+      "coordinates":{
+          "latitude": 49.4493,
+          "longitude": 32.0491
+      },
+      "phones":[
+        {
+          "phone":"+380671112233"
+        },
+        {
+          "phone":"+380931234567"
+        },
+        {
+          "phone":"+380501113322"
+        }
+      ]
+    },
+    {
+      "name": "API Office 2",
+      "address": "г. Черкассы, ул. Крещатик, 200",
+      "numbers": "АПИ Офис 2",
+      "coordinates":{
+        "latitude": 49.4428,
+        "longitude": 32.0650
+      },
+      "phones":[
+        {
+          "phone":"+380671472583"
+        },
+        {
+          "phone":"+380939876543"
+        },
+        {
+          "phone":"+380501122334"
+        }
+      ]
+    }
+  ],
+  "schedule":[
+    {
+      "dayOfWeek":"monday-friday",
+      "startTime":"9:00",
+      "endTime":"18:00"
+    },
+    {
+      "dayOfWeek":"saturday",
+      "startTime":"10:00",
+      "endTime":"14:00"
+    }
+  ]
 }

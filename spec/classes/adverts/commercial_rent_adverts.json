@@ -1,94 +1,164 @@
 {
-  "id": "555f34edd69b5a985f8b4569",
+  "id": "557aedfbd69b5ab3128b456d",
   "title": "API auto test script. Сдам в аренду коммерческую недвижимость.",
   "operationType": {
-    "id": "555f338dd69b5a3c5f8b45f5",
+    "id": "557a9ac6d69b5ae8428b45f5",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "555f338dd69b5a3c5f8b45ff",
+    "id": "557a9ac6d69b5ae8428b45ff",
     "name": "За месяц"
   },
   "description": "Rent Commercial property. Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "555f33d4d69b5a985f8b4567",
+    "id": "557aece9d69b5a36518b456c",
     "firstName": "Test",
     "lastName": "User",
-    "email": "test1@gmail.com",
-    "phone": "09671231212",
+    "email": "api.test@gmail.com",
+    "phones": [
+      {
+        "id": "557aece8d69b5a36518b4569",
+        "phone": "+380671112233"
+      },
+      {
+        "id": "557aece8d69b5a36518b456a",
+        "phone": "+380935556677"
+      },
+      {
+        "id": "557aece8d69b5a36518b456b",
+        "phone": "+380924448899"
+      }
+    ],
+    "userAvatar": {
+      "id": "557aece4d69b5ade5a8b4568",
+      "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
+      "filename": "1434119396.20591434119396",
+      "extension": ".jpeg",
+      "size": 240557,
+      "width": 1540,
+      "height": 944,
+      "processor": "original",
+      "thumbnails": [
+        {
+          "id": "557aece4d69b5ade5a8b4567",
+          "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+          "extension": ".jpeg",
+          "width": 200,
+          "mimeType": "image/jpeg",
+          "height": 200,
+          "processor": "user_avatar"
+        }
+      ],
+      "mimeType": "image/jpeg"
+    },
     "userType": "private person"
   },
   "price": 5000,
-  "convertedPrice": 222.22222222222,
+  "convertedPrice": 227.27272727273,
   "auction": false,
   "currency": {
-    "id": "555f338dd69b5a3c5f8b45fd",
+    "id": "557a9ac6d69b5ae8428b45fd",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "555f338dd69b5a3c5f8b45fc",
+    "id": "557a9ac6d69b5ae8428b45fc",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T16:53:49+0300",
+  "availableFrom": "2015-05-14T17:34:35+0300",
   "additionally": [
     {
-      "id": "555f338dd69b5a3c5f8b4584",
+      "id": "557a9ac6d69b5ae8428b4584",
       "name": "Отдельный вход"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "555f3499d69b5abb618b4568",
+    "id": "557aeda2d69b5a36518b456e",
     "category": {
-      "id": "555f338dd69b5a3c5f8b45e5",
+      "id": "557a9ac6d69b5ae8428b45e5",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     },
     "categoryType": {
-      "id": "555f338dd69b5a3c5f8b45ee",
+      "id": "557a9ac6d69b5ae8428b45ee",
       "name": "Офисное помещение"
     },
     "address": {
       "region": {
-        "id": "555f338dd69b5a3c5f8b4593",
+        "id": "557a9ac6d69b5ae8428b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "555f338dd69b5a3c5f8b4595",
+        "id": "557a9ac6d69b5ae8428b4595",
         "name": "Черкассы",
         "latinName": "Cherkassy"
       },
       "district": {
-        "id": "555f338dd69b5a3c5f8b4599",
+        "id": "557a9ac6d69b5ae8428b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "555f338dd69b5a3c5f8b459c",
+        "id": "557a9ac6d69b5ae8428b459c",
         "name": "Смелянская"
       },
       "houseNumber": {
-        "id": "555f3499d69b5abb618b4567",
-        "number": 25
+        "id": "557aeda2d69b5a36518b456d",
+        "number": 27
       }
     },
     "user": {
-      "id": "555f33d4d69b5a985f8b4567",
+      "id": "557aece9d69b5a36518b456c",
       "firstName": "Test",
       "lastName": "User",
-      "email": "test1@gmail.com",
-      "phone": "09671231212",
+      "email": "api.test@gmail.com",
+      "phones": [
+        {
+          "id": "557aece8d69b5a36518b4569",
+          "phone": "+380671112233"
+        },
+        {
+          "id": "557aece8d69b5a36518b456a",
+          "phone": "+380935556677"
+        },
+        {
+          "id": "557aece8d69b5a36518b456b",
+          "phone": "+380924448899"
+        }
+      ],
+      "userAvatar": {
+        "id": "557aece4d69b5ade5a8b4568",
+        "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
+        "filename": "1434119396.20591434119396",
+        "extension": ".jpeg",
+        "size": 240557,
+        "width": 1540,
+        "height": 944,
+        "processor": "original",
+        "thumbnails": [
+          {
+            "id": "557aece4d69b5ade5a8b4567",
+            "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+            "extension": ".jpeg",
+            "width": 200,
+            "mimeType": "image/jpeg",
+            "height": 200,
+            "processor": "user_avatar"
+          }
+        ],
+        "mimeType": "image/jpeg"
+      },
       "userType": "private person"
     },
-    "area": 45,
+    "area": 50,
     "areaUnit": {
-      "id": "555f338dd69b5a3c5f8b45f7",
+      "id": "557a9ac6d69b5ae8428b45f7",
       "name": "Кв. метры"
     },
     "effectiveArea": 40,
     "wallMaterial": {
-      "id": "555f338dd69b5a3c5f8b45d9",
+      "id": "557a9ac6d69b5ae8428b45d9",
       "name": "Дерево и кирпич"
     },
     "roomCount": 2,
@@ -96,20 +166,20 @@
     "floorNumber": 9,
     "buildYear": 1996,
     "wc": {
-      "id": "555f338dd69b5a3c5f8b45df",
+      "id": "557a9ac6d69b5ae8428b45df",
       "name": "Раздельный"
     },
     "heating": {
-      "id": "555f338dd69b5a3c5f8b45bc",
+      "id": "557a9ac6d69b5ae8428b45bc",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "555f338dd69b5a3c5f8b45de",
+      "id": "557a9ac6d69b5ae8428b45de",
       "name": "Комбинированный"
     },
     "communication": [
       {
-        "id": "555f338dd69b5a3c5f8b45af",
+        "id": "557a9ac6d69b5ae8428b45af",
         "name": "Центральная канализация"
       }
     ]

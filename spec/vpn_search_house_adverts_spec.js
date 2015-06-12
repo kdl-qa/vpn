@@ -27,11 +27,11 @@ frisby.create('Get list of house adverts (sell)')
     '&wc='+wcId+
     '&heating='+heatingsId+
     '&waterHeating='+waterheatId+
-    '&communication7='+communicationsId+
-    '&furniture0='+furnituresId+
-    '&appliances0='+appliancesId+
-    '&additionally0='+additionals_cat1Id+
-    '&nearObjects0='+nearobjectsId)
+    '&communication[7]='+communicationsId+
+    '&furniture[0]='+furnituresId+
+    '&appliances[0]='+appliancesId+
+    '&additionally[0]='+additionals_cat1Id+
+    '&nearObjects[0]='+nearobjectsId)
 
     .inspectRequest()
     .inspectHeaders()

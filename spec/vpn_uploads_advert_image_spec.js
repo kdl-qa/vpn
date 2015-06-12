@@ -16,6 +16,7 @@ frisby.create('Upload advert image')
     })
     .timeout(10000)
     .inspectJSON()
+    //.inspectBody()
     .expectJSON({
         id: String,
         thumbnails:
@@ -39,8 +40,11 @@ frisby.create('Upload advert image')
                     width: Number,
                     mimeType: String,
                     height: Number,
-                    processor: 'advert_thumb_small' } ]
-    })
+                    processor: 'advert_thumb_small'
+                }
+            ]
+        }
+    )
     .toss()
 
 /**

@@ -1,28 +1,28 @@
 require('./boot');
-frisby.create('Login test')
+frisby.create('Login Agency')
     .post(URL_login, {
-        email: userEmail,
-        password: userPassword
+        email: agencyEmail,
+        password: agencyPassword
     }, {json: true})
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectJSON({
         id: String,
+        name: String,
+        subdomain: String,
         firstName: String,
         lastName: String,
         email: String,
         token: String,
-        userType: 'private person'
+        userType: 'agency',
+        offices: Array,
+        schedule: Array,
+        socialAccounts: Array
     })
     .afterJSON(function (json) {
-        if (json.firstName == userFirstName) { // json['status']
-            user.saveUserData(json);
+        if (json.firstName == agencyFirstName) {
+            user.saveAgencyData(json);
         }
     })
     .toss()
 
-/**
- {
-    "message": "Success"
-}
- */

@@ -28,8 +28,8 @@ frisby.create('Get list of commercials adverts (sell)')
     '&wc='+wcId+
     '&heating='+heatingsId+
     '&waterHeating='+waterheatId+
-    '&communication7='+communicationsId+
-    '&additionally0='+additionals_cat3Id)
+    '&communication[7]='+communicationsId+
+    '&additionally[0]='+additionals_cat3Id)
     .inspectRequest()
     .inspectHeaders()
     .inspectJSON()

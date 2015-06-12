@@ -1,9 +1,99 @@
 {
-  "id": "",
-  "firstName": "Test",
+  "id": "557836c2d69b5a22768b4567",
+  "token": "W9dEHZNRUtkEav_q8L_8dvQuhHVxVWOsi8SE6QDKe7E",
+  "name": "API Auto Test Agency",
+  "subdomain": "api-test",
+  "firstName": "API Auto Test",
   "lastName": "Agency",
-  "email": "agencytest@gmail.com",
-  "phone": "0671231212",
-  "token": "",
-  "userType": "Agency"
+  "email": "api.agency@test.com",
+  "userType": "agency",
+  "offices": [
+    {
+      "id": "557836c2d69b5a22768b4568",
+      "officeName": "API Auto Test Agency",
+      "phones": [
+        {
+          "id": "557836c2d69b5a22768b4569",
+          "phone": "+380671112233"
+        },
+        {
+          "id": "557836c2d69b5a22768b456a",
+          "phone": "+380931234567"
+        },
+        {
+          "id": "557836c2d69b5a22768b456b",
+          "phone": "+380501113322"
+        }
+      ],
+      "region": {
+        "id": "5576fc8bd69b5a5d0c8b4593",
+        "name": "Черкасская область"
+      },
+      "city": {
+        "id": "5576fc8bd69b5a5d0c8b4595",
+        "name": "Черкассы",
+        "latinName": "Cherkassy"
+      },
+      "address": "г. Черкассы, ул. Шевченка, 150",
+      "coordinates": {
+        "longitude": 32.0491,
+        "latitude": 49.4493
+      }
+    },
+    {
+      "id": "557836c2d69b5a22768b456c",
+      "officeName": "API Office 2",
+      "phones": [
+        {
+          "id": "557836c2d69b5a22768b456d",
+          "phone": "+380671472583"
+        },
+        {
+          "id": "557836c2d69b5a22768b456e",
+          "phone": "+380939876543"
+        },
+        {
+          "id": "557836c2d69b5a22768b456f",
+          "phone": "+380501122334"
+        }
+      ],
+      "region": {
+        "id": "5576fc8bd69b5a5d0c8b4593",
+        "name": "Черкасская область"
+      },
+      "city": {
+        "id": "5576fc8bd69b5a5d0c8b4595",
+        "name": "Черкассы",
+        "latinName": "Cherkassy"
+      },
+      "address": "г. Черкассы, ул. Крещатик, 200",
+      "coordinates": {
+        "longitude": 32.065,
+        "latitude": 49.4428
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "id": "557836c2d69b5a22768b4570",
+      "dayOfWeek": "monday-friday",
+      "startTime": "9:00",
+      "endTime": "18:00"
+    },
+    {
+      "id": "557836c2d69b5a22768b4571",
+      "dayOfWeek": "saturday",
+      "startTime": "10:00",
+      "endTime": "14:00"
+    }
+  ],
+  "socialAccounts": [
+    "http://vk.com/api",
+    "http://facebook.com/api",
+    "http://plus.google.com/api",
+    "ok.ru/api",
+    "twitter.com/api"
+  ],
+  "services": [],
+  "certificates": []
 }

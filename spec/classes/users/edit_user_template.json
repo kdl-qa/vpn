@@ -1,0 +1,13 @@
+{
+  "first_name": "Test1",
+  "last_name": "User1",
+  "email": "api.test1@gmail.com",
+  "phones":[
+    {
+      "phone":"+380671111111"
+    },
+    {
+      "phone":"+380935558888"
+    }
+  ]
+}

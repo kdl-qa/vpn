@@ -28,10 +28,10 @@ frisby.create('Get list of flat adverts (sell)')
     '&balcony='+balconiesId+
     '&heating='+heatingsId+
     '&waterHeating='+waterheatId+
-    '&furniture0='+furnituresId+
-    '&appliances0='+appliancesId+
-    '&additionally0='+additionals_cat0Id+
-    '&nearObjects0='+nearobjectsId)
+    '&furniture[0]='+furnituresId+
+    '&appliances[0]='+appliancesId+
+    '&additionally[0]='+additionals_cat0Id+
+    '&nearObjects[0]='+nearobjectsId)
     .inspectRequest()
     .inspectHeaders()
     .inspectJSON()

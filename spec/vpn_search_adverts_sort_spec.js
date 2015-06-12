@@ -33,7 +33,7 @@ frisby.create('Search adverts and sort')
     //'&balcony='+balconiesId+
     //'&heating='+heatingsId+
     //'&waterHeating='+waterheatId+
-    //'&furniture0='+furnituresId+
+    //'&furniture[0]='+furnituresId+
     //'&appliances0='+appliancesId+
     //'&additionally0='+additionals_cat0Id+
     //'&nearObjects0='+nearobjectsId)

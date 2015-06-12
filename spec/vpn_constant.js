@@ -1,29 +1,41 @@
-var url = "http://vpn.apiqa/api/v1/";
+var url = "http://vpn.qa/api/v1/";
 
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
 agencyData = user.getAgency();
 agentData = user.getAgent();
+adminData = user.getAdmin();
 
 saveUserData = user.getUserData1();
 saveAgencyData = user.getAgencyData();
 saveAgentData = user.getAgentData();
+saveAdminData = user.getAdminData();
+editUserData = user.getEditUser();
 
 //restoreData = user.getRestoreData();
 userFirstName = userData.first_name;
 userLastName = userData.last_name;
-userPhone = userData.phone;
+userPhones = userData.phones;
 userPassword = userData.password;
 userEmail = userData.email;
 userToken = saveUserData.token;
-userAvatar = userData.avatar;
+//userAvatar = userData.avatar;
 
-agencyFirstName = agencyData.first_name;
-agencyLastName = agencyData.last_name;
-agencyPhone = agencyData.phone;
+agencyFirstName = agencyData.firstName;
+agencyLastName = agencyData.lastName;
+agencyName = agencyData.name;
+agencySubdomain = agencyData.subdomain;
+agencyDescription = agencyData.description;
 agencyPassword = agencyData.password;
 agencyEmail = agencyData.email;
-agencyAvatar = agencyData.avatar;
+agencyOfficeName = agencyData.offices[0].name;
+agencyOfficeNumber = agencyData.offices[0].number;
+agencyOfficeAddress = agencyData.offices[0].address;
+agencyOfficeCoordinates = agencyData.offices[0].coordinates;
+agencyOfficesPhones = agencyData.offices[0].phones;
+agencySchedule = agencyData.schedule;
+agencySocialNetworks = agencyData.networks;
+//agencyAvatar = agencyData.avatar;
 agencyToken = saveAgencyData.token;
 
 agentFirstName = agentData.first_name;
@@ -34,9 +46,19 @@ agentEmail = agentData.email;
 agentAvatar = agentData.avatar;
 agentToken = saveAgentData.token;
 
-page = 1;
-onPage = 24;
-onPageMain = 9;
+adminEmail = adminData.email;
+adminPassword = adminData.password;
+adminToken = saveAdminData.token;
+
+editUserFirstName = editUserData.first_name;
+editUserLastName = editUserData.last_name;
+editUserPhones = editUserData.phones;
+editUserEmail = editUserData.email;
+
+//------------------------------Images Data-------------------------------//
+userAvatarData = images.getUserAvatar();
+
+userAvatar = userAvatarData.id;
 
 //------------------------------Regions Data-------------------------------//
 
@@ -420,8 +442,19 @@ URL_login = url + 'login';
 // POST LOGOUT
 URL_logout = url + 'logout';
 
-// POST PRIVATE-PERSON
-URL_registration_private_person = url + 'registration/private-person';
+// POST REGISTRATION PRIVATE-PERSON
+URL_registration_pperson = url + 'registration/private-person';
+
+// POST REGISTRATION AGENCY
+URL_registration_agency = url + 'registration/agency';
+
+
+// POST LOGIN ADMIN
+URL_login_admin = url + 'admin/login';
+
+// PUT EDIT PROFILE PRIVATE-PERSON
+URL_edit_profile_pperson = url + 'profiles/private-persons/edit';
+
 
 //-----------------------------------Image API-----------------------------------//
 

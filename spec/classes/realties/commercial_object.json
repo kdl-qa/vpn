@@ -1,7 +1,110 @@
 {
-  "errors": {
-    "commercial": [
-      "realty_exists"
-    ]
-  }
+  "id": "557aeda2d69b5a36518b456e",
+  "category": {
+    "id": "557a9ac6d69b5ae8428b45e5",
+    "name": "Коммерческая недвижимость",
+    "type": "commercial"
+  },
+  "categoryType": {
+    "id": "557a9ac6d69b5ae8428b45ee",
+    "name": "Офисное помещение"
+  },
+  "address": {
+    "region": {
+      "id": "557a9ac6d69b5ae8428b4593",
+      "name": "Черкасская область"
+    },
+    "city": {
+      "id": "557a9ac6d69b5ae8428b4595",
+      "name": "Черкассы",
+      "latinName": "Cherkassy"
+    },
+    "district": {
+      "id": "557a9ac6d69b5ae8428b4599",
+      "name": "Казбет"
+    },
+    "street": {
+      "id": "557a9ac6d69b5ae8428b459c",
+      "name": "Смелянская"
+    },
+    "houseNumber": {
+      "id": "557aeda2d69b5a36518b456d",
+      "number": 27
+    }
+  },
+  "user": {
+    "id": "557aece9d69b5a36518b456c",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "api.test@gmail.com",
+    "phones": [
+      {
+        "id": "557aece8d69b5a36518b4569",
+        "phone": "+380671112233"
+      },
+      {
+        "id": "557aece8d69b5a36518b456a",
+        "phone": "+380935556677"
+      },
+      {
+        "id": "557aece8d69b5a36518b456b",
+        "phone": "+380924448899"
+      }
+    ],
+    "userAvatar": {
+      "id": "557aece4d69b5ade5a8b4568",
+      "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
+      "filename": "1434119396.20591434119396",
+      "extension": ".jpeg",
+      "size": 240557,
+      "width": 1540,
+      "height": 944,
+      "processor": "original",
+      "thumbnails": [
+        {
+          "id": "557aece4d69b5ade5a8b4567",
+          "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+          "extension": ".jpeg",
+          "width": 200,
+          "mimeType": "image/jpeg",
+          "height": 200,
+          "processor": "user_avatar"
+        }
+      ],
+      "mimeType": "image/jpeg"
+    },
+    "userType": "private person"
+  },
+  "area": 50,
+  "areaUnit": {
+    "id": "557a9ac6d69b5ae8428b45f7",
+    "name": "Кв. метры"
+  },
+  "effectiveArea": 40,
+  "wallMaterial": {
+    "id": "557a9ac6d69b5ae8428b45d9",
+    "name": "Дерево и кирпич"
+  },
+  "roomCount": 2,
+  "floor": 7,
+  "floorNumber": 9,
+  "buildYear": 1996,
+  "wc": {
+    "id": "557a9ac6d69b5ae8428b45df",
+    "name": "Раздельный"
+  },
+  "heating": {
+    "id": "557a9ac6d69b5ae8428b45bc",
+    "name": "Автономная котельная"
+  },
+  "waterHeating": {
+    "id": "557a9ac6d69b5ae8428b45de",
+    "name": "Комбинированный"
+  },
+  "communication": [
+    {
+      "id": "557a9ac6d69b5ae8428b45af",
+      "name": "Центральная канализация"
+    }
+  ]
 }

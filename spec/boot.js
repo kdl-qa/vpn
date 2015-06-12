@@ -13,6 +13,7 @@ streets = require('./classes/lists/streets');
 districts = require('./classes/lists/districts');
 houses = require('./classes/lists/houses');
 flats = require('./classes/lists/flats');
+images = require('./img/images');
 
 category = require('./classes/lists/categories');
 category_type0 = require('./classes/lists/category_type0');

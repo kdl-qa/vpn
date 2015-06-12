@@ -1,10 +1,31 @@
 {
-  "id": "55706426d69b5a01478b457a",
+  "id": "557aece9d69b5a36518b456c",
   "firstName": "Test",
   "lastName": "User",
-  "email": "test1@gmail.com",
-  "phones": [],
-  "token": "OEGnVsss0eLgw47hUI0eEd2sqz18xSS1rFxRSB6O0yw",
+  "email": "api.test@gmail.com",
+  "phones": [
+    {
+      "id": "557aece8d69b5a36518b4569",
+      "phone": "+380671112233"
+    },
+    {
+      "id": "557aece8d69b5a36518b456a",
+      "phone": "+380935556677"
+    },
+    {
+      "id": "557aece8d69b5a36518b456b",
+      "phone": "+380924448899"
+    }
+  ],
+  "userAvatar": {
+    "id": "557aece4d69b5ade5a8b4568",
+    "thumbnails": {
+      "id": "557aece4d69b5ade5a8b4567",
+      "processor": "user_avatar",
+      "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg"
+    }
+  },
+  "token": "uCPNuGzK3dqtpkuAEZdiKtBjOsZR00jwe8dItbNqsVQ",
   "userType": "private person",
   "enabled": true
 }
