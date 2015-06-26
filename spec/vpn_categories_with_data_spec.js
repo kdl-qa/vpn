@@ -12,7 +12,7 @@ frisby.create('Get Categories')
        if (json.id = String) {
            category.saveCategories(json);
 
-           //getCategoriesData();
+           getCategoriesData();
        }
     })
     .toss()
