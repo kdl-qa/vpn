@@ -1,8 +1,8 @@
 require('./boot');
 var name = String;
-frisby.create('Adverts list delete')
+frisby.create('Adverts list delete advert')
     .addHeader('token', userToken)
-    .delete(URL_adverts_list_delete)
+    .delete(URL_adverts_list_delete_advert)
     //.inspectRequest()
     .inspectJSON()
     .inspectBody()
@@ -10,6 +10,6 @@ frisby.create('Adverts list delete')
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .afterJSON(function (json) {
-            adverts.saveAdvertList({});
+            adverts.updateAdvertList(advertsFlatSaleId);
     })
     .toss()

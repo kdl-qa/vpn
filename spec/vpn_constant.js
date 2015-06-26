@@ -549,6 +549,9 @@ URL_adverts_list_add_adverts = url + 'profiles/advs-lists/' + advertsListSlug + 
 //ADVERTS LIST DELETE ADVERT
 URL_adverts_list_delete_advert = url + 'profiles/advs-lists/' + advertsListSlug + '/' + advertsFlatSaleId + '/delete';
 
+//ADVERTS LIST DELETE
+URL_adverts_list_delete = url + 'profiles/advs-lists/' + advertsListSlug + '/delete';
+
 
 //-----------------------------------------------Info API-----------------------------------------------//
 // GET UHOME CONTACTS
