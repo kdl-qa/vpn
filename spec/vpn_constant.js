@@ -1,4 +1,4 @@
-var url = "http://uhome.local/api/v1/";
+var url = "http://vpn.ua/api/v1/";
 
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
