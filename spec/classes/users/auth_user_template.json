@@ -1,31 +1,31 @@
 {
-  "id": "557aece9d69b5a36518b456c",
+  "id": "5589138cd69b5a17458b456c",
   "firstName": "Test",
   "lastName": "User",
   "email": "api.test@gmail.com",
   "phones": [
     {
-      "id": "557aece8d69b5a36518b4569",
+      "id": "5589138bd69b5a17458b4569",
       "phone": "+380671112233"
     },
     {
-      "id": "557aece8d69b5a36518b456a",
+      "id": "5589138bd69b5a17458b456a",
       "phone": "+380935556677"
     },
     {
-      "id": "557aece8d69b5a36518b456b",
+      "id": "5589138bd69b5a17458b456b",
       "phone": "+380924448899"
     }
   ],
   "userAvatar": {
-    "id": "557aece4d69b5ade5a8b4568",
+    "id": "5589137cd69b5a0a458b4568",
     "thumbnails": {
-      "id": "557aece4d69b5ade5a8b4567",
+      "id": "5589137cd69b5a0a458b4567",
       "processor": "user_avatar",
-      "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg"
+      "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg"
     }
   },
-  "token": "uCPNuGzK3dqtpkuAEZdiKtBjOsZR00jwe8dItbNqsVQ",
+  "token": "zgIcRLJ5PPvDXolaf5-c7tZQveize_DJ5R8wh7EV0bc",
   "userType": "private person",
   "enabled": true
 }

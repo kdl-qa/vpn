@@ -6,7 +6,7 @@ frisby.create('Get Area_units')
     .inspectBody()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
-    .expectJSON([{
+    .expectJSONTypes([{
         id: String,
         name: String
     }])

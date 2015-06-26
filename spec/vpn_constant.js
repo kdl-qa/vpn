@@ -461,6 +461,9 @@ URL_edit_profile_pperson = url + 'profiles/private-persons/edit';
 // POST UPLOAD ADVERT IMAGE
 URL_advert_image = url + 'uploads/adv-image';
 
+// POST UPLOAD ADVERT IMAGE
+URL_schema_image = url + 'uploads/schema';
+
 // POST UPLOAD USER AVATAR
 URL_user_avatar = url + 'uploads/user-avatar';
 
