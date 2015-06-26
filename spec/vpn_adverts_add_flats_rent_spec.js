@@ -3,7 +3,7 @@ frisby.create('Add Flat advert (rent)')
     .addHeader('token', userToken)
     .post(URL_adverts_flats_add,
     {
-        title: advfr_title,    //true
+        //title: advfr_title,    //true
         operationType: operationTypeRent,    //true
         period: periodId,    //rent for a month
         price: advfr_price,    //true

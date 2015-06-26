@@ -1,0 +1,23 @@
+{
+  "id": "558d4529d69b5aeb458b4573",
+  "firstName": "Test",
+  "lastName": "User",
+  "email": "api.test@gmail.com",
+  "phones": [
+    {
+      "id": "558d4528d69b5aeb458b4570",
+      "phone": "+380671112233"
+    },
+    {
+      "id": "558d4528d69b5aeb458b4571",
+      "phone": "+380935556677"
+    },
+    {
+      "id": "558d4528d69b5aeb458b4572",
+      "phone": "+380924448899"
+    }
+  ],
+  "token": "wSAaRPXrTVivjBUE8VjIgLPPnxIO_yo-5dCwmNdC5FE",
+  "userType": "private person",
+  "enabled": true
+}

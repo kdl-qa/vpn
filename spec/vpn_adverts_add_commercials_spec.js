@@ -3,7 +3,7 @@ frisby.create('Add Commercial advert (sale)')
     .addHeader('token', userToken)
     .post(URL_adverts_commercials_add,
     {
-        title: advcs_title,    //true
+        //title: advcs_title,    //true
         operationType: operationtypesId,    //true
         price: advcs_price,    //true
         currency: currencyId, //true

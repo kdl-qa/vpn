@@ -3,7 +3,7 @@ frisby.create('Add Houses advert (rent)')
     .addHeader('token', userToken)
     .post(URL_adverts_houses_add,
     {
-        title: advhr_title,    //true
+        //title: advhr_title,    //true
         operationType: operationTypeRent,    //true
         period: periodId,
         price: advhr_price,    //true

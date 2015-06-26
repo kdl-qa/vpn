@@ -1,0 +1,173 @@
+{
+  "id": "558d452bd69b5ae3468b4567",
+  "operationType": {
+    "id": "558d445bd69b5a324a8b4685",
+    "name": "Продажа",
+    "type": "sale"
+  },
+  "period": {
+    "id": "558d445bd69b5a324a8b468e",
+    "name": "За месяц"
+  },
+  "description": "Please call me only in following time from 10am till 6pm",
+  "user": {
+    "id": "558d4529d69b5aeb458b4573",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "api.test@gmail.com",
+    "phones": [
+      {
+        "id": "558d4528d69b5aeb458b4570",
+        "phone": "+380671112233"
+      },
+      {
+        "id": "558d4528d69b5aeb458b4571",
+        "phone": "+380935556677"
+      },
+      {
+        "id": "558d4528d69b5aeb458b4572",
+        "phone": "+380924448899"
+      }
+    ],
+    "userType": "private person"
+  },
+  "images": [],
+  "price": 55000,
+  "convertedPrice": 1215500,
+  "auction": true,
+  "currency": {
+    "id": "558d445bd69b5a324a8b468b",
+    "name": "USD"
+  },
+  "convertedCurrency": {
+    "id": "558d445bd69b5a324a8b468c",
+    "name": "UAH"
+  },
+  "repair": {
+    "id": "558d445ad69b5a324a8b4656",
+    "name": "Косметический"
+  },
+  "furniture": [
+    {
+      "id": "558d445ad69b5a324a8b4646",
+      "name": "Сейф"
+    }
+  ],
+  "appliances": [
+    {
+      "id": "558d445ad69b5a324a8b4586",
+      "name": "Кондиционер"
+    }
+  ],
+  "additionally": [
+    {
+      "id": "558d445ad69b5a324a8b4567",
+      "name": "Лифт"
+    }
+  ],
+  "ownerName": "Frisby autotest API",
+  "ownerContacts": "+380472747474",
+  "realty": {
+    "id": "558d452ad69b5a56498b4569",
+    "category": {
+      "id": "558d445ad69b5a324a8b4671",
+      "name": "Квартиры и комнаты",
+      "type": "flat"
+    },
+    "categoryType": {
+      "id": "558d445bd69b5a324a8b4675",
+      "name": "Квартира"
+    },
+    "address": {
+      "region": {
+        "id": "558d445ad69b5a324a8b4593",
+        "name": "Черкасская область"
+      },
+      "city": {
+        "id": "558d445ad69b5a324a8b4595",
+        "name": "Черкассы",
+        "latinName": "cherkassy"
+      },
+      "district": {
+        "id": "558d445ad69b5a324a8b4599",
+        "name": "Казбет"
+      },
+      "street": {
+        "id": "558d445ad69b5a324a8b45a9",
+        "name": "Чехова"
+      },
+      "houseNumber": {
+        "id": "558d452ad69b5a56498b4567",
+        "number": 53
+      },
+      "flatNumber": {
+        "id": "558d452ad69b5a56498b4568",
+        "number": 43
+      }
+    },
+    "user": {
+      "id": "558d4529d69b5aeb458b4573",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "api.test@gmail.com",
+      "phones": [
+        {
+          "id": "558d4528d69b5aeb458b4570",
+          "phone": "+380671112233"
+        },
+        {
+          "id": "558d4528d69b5aeb458b4571",
+          "phone": "+380935556677"
+        },
+        {
+          "id": "558d4528d69b5aeb458b4572",
+          "phone": "+380924448899"
+        }
+      ],
+      "userType": "private person"
+    },
+    "marketType": {
+      "id": "558d445bd69b5a324a8b468a",
+      "name": "Вторичный"
+    },
+    "roomCount": 2,
+    "wallMaterial": {
+      "id": "558d445ad69b5a324a8b4668",
+      "name": "Дерево и кирпич"
+    },
+    "area": 52,
+    "areaUnit": {
+      "id": "558d445bd69b5a324a8b4686",
+      "name": "Кв. метры"
+    },
+    "livingArea": 35,
+    "kitchenArea": 10,
+    "floor": 8,
+    "floorNumber": 9,
+    "buildYear": 1985,
+    "wc": {
+      "id": "558d445ad69b5a324a8b466e",
+      "name": "Раздельный"
+    },
+    "balcony": {
+      "id": "558d445ad69b5a324a8b4591",
+      "name": "3 и больше"
+    },
+    "heating": {
+      "id": "558d445ad69b5a324a8b464b",
+      "name": "Автономная котельная"
+    },
+    "waterHeating": {
+      "id": "558d445ad69b5a324a8b466d",
+      "name": "Комбинированный"
+    },
+    "nearObjects": [
+      {
+        "id": "558d445ad69b5a324a8b464c",
+        "name": "Остановка общественного транспорта"
+      }
+    ]
+  },
+  "status": 0,
+  "bedsCount": 3
+}

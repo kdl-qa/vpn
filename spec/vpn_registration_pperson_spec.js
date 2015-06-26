@@ -16,8 +16,8 @@ frisby.create('Registration. Private person')
         lastName: String,
         email: String,
         token: String,
-        phones: Array
-        //userType: 'private person'
+        phones: Array,
+        userType: 'private person'
     })
     .afterJSON(function (json) {
         if (json.firstName == userFirstName) { // json['status']

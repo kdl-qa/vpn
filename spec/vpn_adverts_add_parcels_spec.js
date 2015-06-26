@@ -3,7 +3,7 @@ frisby.create('Add Parcels advert (sale)')
     .addHeader('token', userToken)
     .post(URL_adverts_parcels_add,
     {
-        title: advps_title,    //true
+        //title: advps_title,    //true
         operationType: operationtypesId,    //true
         price: advps_price,    //true
         currency: currencyId, //true

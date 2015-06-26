@@ -1,27 +1,27 @@
 [
   {
-    "id": "558d445bd69b5a324a8b4677",
+    "id": "558d4e12d69b5a5a758b4677",
     "name": "Дом",
     "category": {
-      "id": "558d445ad69b5a324a8b4672",
+      "id": "558d4e12d69b5a5a758b4672",
       "name": "Дома и дачи",
       "type": "house"
     }
   },
   {
-    "id": "558d445bd69b5a324a8b4678",
+    "id": "558d4e12d69b5a5a758b4678",
     "name": "Часть дома",
     "category": {
-      "id": "558d445ad69b5a324a8b4672",
+      "id": "558d4e12d69b5a5a758b4672",
       "name": "Дома и дачи",
       "type": "house"
     }
   },
   {
-    "id": "558d445bd69b5a324a8b4679",
+    "id": "558d4e12d69b5a5a758b4679",
     "name": "Дача",
     "category": {
-      "id": "558d445ad69b5a324a8b4672",
+      "id": "558d4e12d69b5a5a758b4672",
       "name": "Дома и дачи",
       "type": "house"
     }

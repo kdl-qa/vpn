@@ -1,48 +1,47 @@
 {
-  "id": "557aedd3d69b5ab3128b456c",
-  "title": "API auto test script. Сдам в аренду Дом в спальном районе города.",
+  "id": "558929e2d69b5a427d8b4567",
   "operationType": {
-    "id": "557a9ac6d69b5ae8428b45f5",
+    "id": "558824fad69b5a35728b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "557a9ac6d69b5ae8428b45ff",
+    "id": "558824fad69b5a35728b468e",
     "name": "За месяц"
   },
   "description": "Rent House. Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "557aece9d69b5a36518b456c",
+    "id": "5589138cd69b5a17458b456c",
     "firstName": "Test",
     "lastName": "User",
     "email": "api.test@gmail.com",
     "phones": [
       {
-        "id": "557aece8d69b5a36518b4569",
+        "id": "5589138bd69b5a17458b4569",
         "phone": "+380671112233"
       },
       {
-        "id": "557aece8d69b5a36518b456a",
+        "id": "5589138bd69b5a17458b456a",
         "phone": "+380935556677"
       },
       {
-        "id": "557aece8d69b5a36518b456b",
+        "id": "5589138bd69b5a17458b456b",
         "phone": "+380924448899"
       }
     ],
     "userAvatar": {
-      "id": "557aece4d69b5ade5a8b4568",
-      "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
-      "filename": "1434119396.20591434119396",
+      "id": "5589137cd69b5a0a458b4568",
+      "directory": "/uploads/original/14/35/04/67/80/1435046780.40561435046780.jpeg",
+      "filename": "1435046780.40561435046780",
       "extension": ".jpeg",
-      "size": 240557,
-      "width": 1540,
-      "height": 944,
+      "size": 799097,
+      "width": 1920,
+      "height": 1200,
       "processor": "original",
       "thumbnails": [
         {
-          "id": "557aece4d69b5ade5a8b4567",
-          "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+          "id": "5589137cd69b5a0a458b4567",
+          "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg",
           "extension": ".jpeg",
           "width": 200,
           "mimeType": "image/jpeg",
@@ -54,108 +53,109 @@
     },
     "userType": "private person"
   },
+  "images": [],
   "price": 4500,
-  "convertedPrice": 204.54545454545,
+  "convertedPrice": 200,
   "auction": false,
   "currency": {
-    "id": "557a9ac6d69b5ae8428b45fd",
+    "id": "558824fad69b5a35728b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "557a9ac6d69b5ae8428b45fc",
+    "id": "558824fad69b5a35728b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T17:33:55+0300",
+  "availableFrom": "2015-05-14T12:41:54+0300",
   "repair": {
-    "id": "557a9ac6d69b5ae8428b45c7",
+    "id": "558824fad69b5a35728b4656",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "557a9ac6d69b5ae8428b45b7",
+      "id": "558824fad69b5a35728b4646",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "557a9ac6d69b5ae8428b4586",
+      "id": "558824fad69b5a35728b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "557a9ac6d69b5ae8428b4577",
+      "id": "558824fad69b5a35728b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "557aed92d69b5a1f4e8b456a",
+    "id": "558921dad69b5ac76a8b4568",
     "category": {
-      "id": "557a9ac6d69b5ae8428b45e3",
+      "id": "558824fad69b5a35728b4672",
       "name": "Дома и дачи",
       "type": "house"
     },
     "categoryType": {
-      "id": "557a9ac6d69b5ae8428b45e8",
+      "id": "558824fad69b5a35728b4677",
       "name": "Дом"
     },
     "address": {
       "region": {
-        "id": "557a9ac6d69b5ae8428b4593",
+        "id": "558824fad69b5a35728b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "557a9ac6d69b5ae8428b4595",
+        "id": "558824fad69b5a35728b4595",
         "name": "Черкассы",
-        "latinName": "Cherkassy"
+        "latinName": "cherkassy"
       },
       "district": {
-        "id": "557a9ac6d69b5ae8428b4599",
+        "id": "558824fad69b5a35728b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "557a9ac6d69b5ae8428b459c",
-        "name": "Смелянская"
+        "id": "558824fad69b5a35728b45a9",
+        "name": "Чехова"
       },
       "houseNumber": {
-        "id": "557aed92d69b5a1f4e8b4569",
+        "id": "558921dad69b5ac76a8b4567",
         "number": 65
       }
     },
     "user": {
-      "id": "557aece9d69b5a36518b456c",
+      "id": "5589138cd69b5a17458b456c",
       "firstName": "Test",
       "lastName": "User",
       "email": "api.test@gmail.com",
       "phones": [
         {
-          "id": "557aece8d69b5a36518b4569",
+          "id": "5589138bd69b5a17458b4569",
           "phone": "+380671112233"
         },
         {
-          "id": "557aece8d69b5a36518b456a",
+          "id": "5589138bd69b5a17458b456a",
           "phone": "+380935556677"
         },
         {
-          "id": "557aece8d69b5a36518b456b",
+          "id": "5589138bd69b5a17458b456b",
           "phone": "+380924448899"
         }
       ],
       "userAvatar": {
-        "id": "557aece4d69b5ade5a8b4568",
-        "directory": "/uploads/original/14/34/11/93/96/1434119396.20591434119396.jpeg",
-        "filename": "1434119396.20591434119396",
+        "id": "5589137cd69b5a0a458b4568",
+        "directory": "/uploads/original/14/35/04/67/80/1435046780.40561435046780.jpeg",
+        "filename": "1435046780.40561435046780",
         "extension": ".jpeg",
-        "size": 240557,
-        "width": 1540,
-        "height": 944,
+        "size": 799097,
+        "width": 1920,
+        "height": 1200,
         "processor": "original",
         "thumbnails": [
           {
-            "id": "557aece4d69b5ade5a8b4567",
-            "path": "/uploads/thumbnail/user_avatar/14/34/11/93/96/1434119396.21081434119396.jpeg",
+            "id": "5589137cd69b5a0a458b4567",
+            "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg",
             "extension": ".jpeg",
             "width": 200,
             "mimeType": "image/jpeg",
@@ -171,38 +171,38 @@
     "kitchenArea": 10,
     "area": 100,
     "areaUnit": {
-      "id": "557a9ac6d69b5ae8428b45f7",
+      "id": "558824fad69b5a35728b4686",
       "name": "Кв. метры"
     },
     "landArea": 3,
     "landAreaUnit": {
-      "id": "557a9ac6d69b5ae8428b45f8",
+      "id": "558824fad69b5a35728b4687",
       "name": "Сотки"
     },
     "roomCount": 5,
     "wallMaterial": {
-      "id": "557a9ac6d69b5ae8428b45d9",
+      "id": "558824fad69b5a35728b4668",
       "name": "Дерево и кирпич"
     },
     "floorNumber": 4,
     "buildYear": 1999,
     "heating": {
-      "id": "557a9ac6d69b5ae8428b45bc",
+      "id": "558824fad69b5a35728b464b",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "557a9ac6d69b5ae8428b45de",
+      "id": "558824fad69b5a35728b466d",
       "name": "Комбинированный"
     },
     "communication": [
       {
-        "id": "557a9ac6d69b5ae8428b45af",
+        "id": "558824fad69b5a35728b463e",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "557a9ac6d69b5ae8428b45bd",
+        "id": "558824fad69b5a35728b464c",
         "name": "Остановка общественного транспорта"
       }
     ]

@@ -3,7 +3,7 @@ frisby.create('Add Commercial advert (rent)')
     .addHeader('token', userToken)
     .post(URL_adverts_commercials_add,
     {
-        title: advcr_title,    //true
+        //title: advcr_title,    //true
         operationType: operationTypeRent,    //true
         period: periodId,
         price: advcr_price,    //true
