@@ -106,3 +106,17 @@ exports.getAdvertList = function () {
 exports.saveAdvertList = function (advertListData) {
     return jf.writeFileSync(advertListTemplate, advertListData);
 }
+
+exports.updateAdvertList = function (id) {
+    var advertList = jf.readFileSync(advertListTemplate);
+    var adverts = advertList.advert;
+
+    adverts.forEach(function(item, i, adverts) {
+        if (item.id === id) {
+            adverts.splice(i, 1);
+        }
+    });
+    advertList.advert = adverts;
+
+    return jf.writeFileSync(advertListTemplate, advertList);
+}

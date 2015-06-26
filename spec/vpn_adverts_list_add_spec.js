@@ -1,12 +1,12 @@
 require('./boot');
 var name = String;
-frisby.create('Create list of adverts')
+frisby.create('Adverts list add adverts')
     .addHeader('token', userToken)
-    .post(URL_create_list_adverts,
+    .post(URL_adverts_list_add_adverts,
     {
-        name: "API automated test list",
-        slug: "api-automated-test-list111",
-        title: "API automated test list"
+        advert: [
+            advertsFlatSaleId
+        ]
     }, {json: true}
     )
     //.inspectRequest()
@@ -22,6 +22,8 @@ frisby.create('Create list of adverts')
         advert: Array
     })
     .afterJSON(function (json) {
-        adverts.saveAdvertList(json);
+        if (json.id === advertsListId ) {
+            adverts.saveAdvertList(json);
+        }
     })
     .toss()

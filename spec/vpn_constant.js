@@ -1,4 +1,4 @@
-var url = "http://vpn.qa/api/v1/";
+var url = "http://uhome.local/api/v1/";
 
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
@@ -303,7 +303,8 @@ advertsCommercialsRentId = adverts.getCommercialAdvertRent().id;
 
 //------------------------------Advert Lists Data-------------------------------//
 advertsListData = adverts.getAdvertList();
-advertsListId =advertsListData.id;
+advertsListId = advertsListData.id;
+advertsListSlug = advertsListData.slug;
 
 
 //------------------------------Delete Advert Image Data-------------------------------//
@@ -538,6 +539,15 @@ URL_get_advert = url + 'get-advs/';
 
 //CREATE LIST OF ADVERTS
 URL_create_list_adverts = url + 'profiles/advs-lists/create';
+
+//EDIT LIST OF ADVERTS
+URL_edit_list_adverts = url + 'profiles/advs-lists/' + advertsListSlug + '/edit';
+
+//ADVERTS LIST ADD ADVERTS
+URL_adverts_list_add_adverts = url + 'profiles/advs-lists/' + advertsListSlug + '/add';
+
+//ADVERTS LIST DELETE ADVERT
+URL_adverts_list_delete_advert = url + 'profiles/advs-lists/' + advertsListSlug + '/' + advertsFlatSaleId + '/delete';
 
 
 //-----------------------------------------------Info API-----------------------------------------------//

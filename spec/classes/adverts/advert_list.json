@@ -1,16 +1,1 @@
-{
-  "id": "5562f44bd69b5a037a8b456f",
-  "name": "API automated test list",
-  "created": "2015-05-25T13:07:07+0300",
-  "updated": "2015-05-25T13:07:07+0300",
-  "user": {
-    "id": "5562c861d69b5a4a758b4567",
-    "firstName": "Test",
-    "lastName": "User",
-    "email": "test1@gmail.com",
-    "phone": "09671231212",
-    "token": "-L_5VDJkXqrhspTEYRG24AOWUwgzuuH266c2gnoDzVQ",
-    "userType": "private person"
-  },
-  "advert": []
-}
+{"id":"558d29033755dfca048b456d","name":"API automated test list","slug":"api-autom-test","title":"API automated test list","created":"2015-06-26T13:27:15+0300","updated":"2015-06-26T13:27:16+0300","user":{"id":"558bfca13755df59328b4574","firstName":"Test","lastName":"User","email":"api.test@gmail.com","phones":[{"id":"558bfca03755df59328b4571","phone":"+380671112233"},{"id":"558bfca03755df59328b4572","phone":"+380935556677"},{"id":"558bfca03755df59328b4573","phone":"+380924448899"}],"userAvatar":{"id":"558bfc9d3755dfd5048b456e","directory":"/uploads/original/14/35/23/75/33/1435237533.04381435237533.jpeg","filename":"1435237533.04381435237533","extension":".jpeg","size":799097,"width":1920,"height":1200,"processor":"original","thumbnails":[{"id":"558bfc9d3755dfd5048b456d","path":"/uploads/thumbnail/user_avatar/14/35/23/75/33/1435237533.05031435237533.jpeg","extension":".jpeg","width":200,"mimeType":"image/jpeg","height":200,"processor":"user_avatar"}],"mimeType":"image/jpeg"},"token":"H-jtGN9xoJIPH-HjEeMQWlsj6dSlT-m_YPurJ62Yypg","userType":"private person","enabled":true},"advert":[{"id":"558d29023755df702e8b456e"}]}
