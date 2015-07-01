@@ -1,0 +1,95 @@
+{
+  "id": "559410cd3755dff94f8b456c",
+  "category": {
+    "id": "5593f0353755df49328b4672",
+    "name": "Дома и дачи",
+    "type": "house"
+  },
+  "categoryType": {
+    "id": "5593f0353755df49328b4677",
+    "name": "Дом"
+  },
+  "address": {
+    "region": {
+      "id": "5593f0343755df49328b4593",
+      "name": "Черкасская область"
+    },
+    "city": {
+      "id": "5593f0343755df49328b4595",
+      "name": "Черкассы",
+      "latinName": "cherkassy"
+    },
+    "district": {
+      "id": "5593f0343755df49328b4599",
+      "name": "Казбет"
+    },
+    "street": {
+      "id": "5593f0343755df49328b45a9",
+      "name": "Чехова"
+    },
+    "houseNumber": {
+      "id": "559410cd3755dff94f8b456b",
+      "number": 65
+    }
+  },
+  "user": {
+    "id": "5594097b3755dfeb4f8b456a",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "api.test@gmail.com",
+    "phones": [
+      {
+        "id": "5594097a3755dfeb4f8b4567",
+        "phone": "+380671112233"
+      },
+      {
+        "id": "5594097a3755dfeb4f8b4568",
+        "phone": "+380935556677"
+      },
+      {
+        "id": "5594097a3755dfeb4f8b4569",
+        "phone": "+380924448899"
+      }
+    ],
+    "userType": "private person"
+  },
+  "livingArea": 80,
+  "kitchenArea": 10,
+  "area": 100,
+  "areaUnit": {
+    "id": "5593f0353755df49328b4686",
+    "name": "Кв. метры"
+  },
+  "landArea": 3,
+  "landAreaUnit": {
+    "id": "5593f0353755df49328b4687",
+    "name": "Сотки"
+  },
+  "roomCount": 5,
+  "wallMaterial": {
+    "id": "5593f0353755df49328b4668",
+    "name": "Дерево и кирпич"
+  },
+  "floorNumber": 4,
+  "buildYear": 1999,
+  "heating": {
+    "id": "5593f0353755df49328b464b",
+    "name": "Автономная котельная"
+  },
+  "waterHeating": {
+    "id": "5593f0353755df49328b466d",
+    "name": "Комбинированный"
+  },
+  "communication": [
+    {
+      "id": "5593f0353755df49328b463e",
+      "name": "Центральная канализация"
+    }
+  ],
+  "nearObjects": [
+    {
+      "id": "5593f0353755df49328b464c",
+      "name": "Остановка общественного транспорта"
+    }
+  ]
+}

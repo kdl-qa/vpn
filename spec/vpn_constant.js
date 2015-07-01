@@ -525,14 +525,26 @@ URL_realties_commercials_validate = url + 'realties/commercials/validate';
 //POST ADD FLATS ADVERTS
 URL_adverts_flats_add = url + 'advs/flats/add/' + realtyFlatId;
 
-//POST ADD FLATS ADVERTS
+//PUT EDIT FLATS ADVERTS
+URL_adverts_flats_edit = url + 'advs/flats/edit/' + advertsFlatSaleId;
+
+//POST ADD HOUSES ADVERTS
 URL_adverts_houses_add = url + 'advs/houses/add/' + realtyHouseId;
 
-//POST ADD FLATS ADVERTS
+//PUT EDIT HOUSES ADVERTS
+URL_adverts_houses_edit = url + 'advs/houses/edit/' + advertsHouseSaleId;
+
+//POST ADD PARCELS ADVERTS
 URL_adverts_parcels_add = url + 'advs/parcels/add/' + realtyParcelId;
 
-//POST ADD FLATS ADVERTS
-URL_adverts_commercials_add = url + 'advs/commercials/add/' +realtyCommercialId;
+//PUT EDIT PARCELS ADVERTS
+URL_adverts_parcels_edit = url + 'advs/parcels/edit/' + advertsParcelSaleId;
+
+//POST ADD COMMERCIALS ADVERTS
+URL_adverts_commercials_add = url + 'advs/commercials/add/' + realtyCommercialId;
+
+//PUT EDIT COMMERCIALS ADVERTS
+URL_adverts_commercials_edit = url + 'advs/commercials/edit/' + advertsCommercialsSaleId;
 
 //GET LAST ADVERTS
 URL_last_adverts = url + 'get-advs/last/';
