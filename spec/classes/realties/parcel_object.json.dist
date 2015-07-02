@@ -1,0 +1,70 @@
+{
+  "id": "55940ff23755dfeb4f8b456b",
+  "category": {
+    "id": "5593f0353755df49328b4673",
+    "name": "Земельные участки",
+    "type": "parcel"
+  },
+  "categoryType": {
+    "id": "5593f0353755df49328b467a",
+    "name": "Участок под жилую застройку"
+  },
+  "address": {
+    "region": {
+      "id": "5593f0343755df49328b4593",
+      "name": "Черкасская область"
+    },
+    "city": {
+      "id": "5593f0343755df49328b4595",
+      "name": "Черкассы",
+      "latinName": "cherkassy"
+    },
+    "district": {
+      "id": "5593f0343755df49328b4599",
+      "name": "Казбет"
+    },
+    "street": {
+      "id": "5593f0343755df49328b45a9",
+      "name": "Чехова"
+    },
+    "cadastralNumber": "7110136400030102000"
+  },
+  "user": {
+    "id": "5594097b3755dfeb4f8b456a",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "api.test@gmail.com",
+    "phones": [
+      {
+        "id": "5594097a3755dfeb4f8b4567",
+        "phone": "+380671112233"
+      },
+      {
+        "id": "5594097a3755dfeb4f8b4568",
+        "phone": "+380935556677"
+      },
+      {
+        "id": "5594097a3755dfeb4f8b4569",
+        "phone": "+380924448899"
+      }
+    ],
+    "userType": "private person"
+  },
+  "area": 7.5,
+  "areaUnit": {
+    "id": "5593f0353755df49328b4687",
+    "name": "Сотки"
+  },
+  "communication": [
+    {
+      "id": "5593f0353755df49328b463e",
+      "name": "Центральная канализация"
+    }
+  ],
+  "nearObjects": [
+    {
+      "id": "5593f0353755df49328b464c",
+      "name": "Остановка общественного транспорта"
+    }
+  ]
+}
