@@ -13,6 +13,7 @@ require('./vpn_operation_types_spec.js');
 require('./vpn_periods_spec.js');
 require('./vpn_regions_spec.js');   //vpn_cities, vpn_districts, vpn_streets, vpn_houses, vpn_flats
 require('./vpn_repairs_spec.js');
+require('./vpn_unpublish_reasons_spec.js');
 require('./vpn_wall_materials_spec.js');
 require('./vpn_water_heatings_spec.js');
 require('./vpn_wc_spec.js');

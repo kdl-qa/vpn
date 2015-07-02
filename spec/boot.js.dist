@@ -38,6 +38,7 @@ nearobjects = require('./classes/lists/nearobjects');
 operationtypes = require('./classes/lists/operationtypes');
 periods = require('./classes/lists/periods');
 repairs = require('./classes/lists/repairs');
+unpublish_reasons = require('./classes/lists/unpublish_reasons');
 wallmaterials = require('./classes/lists/wallmaterials');
 waterheat = require('./classes/lists/waterheat');
 wc = require('./classes/lists/wc');
