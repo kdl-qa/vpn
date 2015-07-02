@@ -1,188 +1,144 @@
 {
-  "id": "558929a9d69b5a227d8b4567",
+  "id": "55953b7cd69b5a16108b456a",
   "operationType": {
-    "id": "558824fad69b5a35728b4684",
+    "id": "5594d616d69b5ae34b8b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "558824fad69b5a35728b468e",
+    "id": "5594d616d69b5ae34b8b468e",
     "name": "За месяц"
   },
   "description": "Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "5589138cd69b5a17458b456c",
+    "id": "55953b23d69b5a15108b456a",
     "firstName": "Test",
     "lastName": "User",
     "email": "api.test@gmail.com",
     "phones": [
       {
-        "id": "5589138bd69b5a17458b4569",
+        "id": "55953b22d69b5a15108b4567",
         "phone": "+380671112233"
       },
       {
-        "id": "5589138bd69b5a17458b456a",
+        "id": "55953b22d69b5a15108b4568",
         "phone": "+380935556677"
       },
       {
-        "id": "5589138bd69b5a17458b456b",
+        "id": "55953b22d69b5a15108b4569",
         "phone": "+380924448899"
       }
     ],
-    "userAvatar": {
-      "id": "5589137cd69b5a0a458b4568",
-      "directory": "/uploads/original/14/35/04/67/80/1435046780.40561435046780.jpeg",
-      "filename": "1435046780.40561435046780",
-      "extension": ".jpeg",
-      "size": 799097,
-      "width": 1920,
-      "height": 1200,
-      "processor": "original",
-      "thumbnails": [
-        {
-          "id": "5589137cd69b5a0a458b4567",
-          "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg",
-          "extension": ".jpeg",
-          "width": 200,
-          "mimeType": "image/jpeg",
-          "height": 200,
-          "processor": "user_avatar"
-        }
-      ],
-      "mimeType": "image/jpeg"
-    },
     "userType": "private person"
   },
   "images": [],
   "price": 2500,
-  "convertedPrice": 111.11111111111,
+  "convertedPrice": 110.13215859031,
   "auction": false,
   "currency": {
-    "id": "558824fad69b5a35728b468c",
+    "id": "5594d616d69b5ae34b8b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "558824fad69b5a35728b468b",
+    "id": "5594d616d69b5ae34b8b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T12:40:56+0300",
+  "availableFrom": "2015-05-14T16:24:11+0300",
   "repair": {
-    "id": "558824fad69b5a35728b4656",
+    "id": "5594d616d69b5ae34b8b4656",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "558824fad69b5a35728b4646",
+      "id": "5594d616d69b5ae34b8b4646",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "558824fad69b5a35728b4586",
+      "id": "5594d616d69b5ae34b8b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "558824fad69b5a35728b4567",
+      "id": "5594d616d69b5ae34b8b4567",
       "name": "Лифт"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "558921cdd69b5a426a8b4569",
+    "id": "55953b37d69b5a16108b4569",
     "category": {
-      "id": "558824fad69b5a35728b4671",
+      "id": "5594d616d69b5ae34b8b4671",
       "name": "Квартиры и комнаты",
       "type": "flat"
     },
     "categoryType": {
-      "id": "558824fad69b5a35728b4675",
+      "id": "5594d616d69b5ae34b8b4675",
       "name": "Квартира"
     },
     "address": {
       "region": {
-        "id": "558824fad69b5a35728b4593",
+        "id": "5594d616d69b5ae34b8b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "558824fad69b5a35728b4595",
+        "id": "5594d616d69b5ae34b8b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
       "district": {
-        "id": "558824fad69b5a35728b4599",
+        "id": "5594d616d69b5ae34b8b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "558824fad69b5a35728b45a9",
+        "id": "5594d616d69b5ae34b8b45a9",
         "name": "Чехова"
       },
       "houseNumber": {
-        "id": "558921cdd69b5a426a8b4567",
+        "id": "55953b37d69b5a16108b4567",
         "number": 53
       },
       "flatNumber": {
-        "id": "558921cdd69b5a426a8b4568",
+        "id": "55953b37d69b5a16108b4568",
         "number": 43
       }
     },
     "user": {
-      "id": "5589138cd69b5a17458b456c",
+      "id": "55953b23d69b5a15108b456a",
       "firstName": "Test",
       "lastName": "User",
       "email": "api.test@gmail.com",
       "phones": [
         {
-          "id": "5589138bd69b5a17458b4569",
+          "id": "55953b22d69b5a15108b4567",
           "phone": "+380671112233"
         },
         {
-          "id": "5589138bd69b5a17458b456a",
+          "id": "55953b22d69b5a15108b4568",
           "phone": "+380935556677"
         },
         {
-          "id": "5589138bd69b5a17458b456b",
+          "id": "55953b22d69b5a15108b4569",
           "phone": "+380924448899"
         }
       ],
-      "userAvatar": {
-        "id": "5589137cd69b5a0a458b4568",
-        "directory": "/uploads/original/14/35/04/67/80/1435046780.40561435046780.jpeg",
-        "filename": "1435046780.40561435046780",
-        "extension": ".jpeg",
-        "size": 799097,
-        "width": 1920,
-        "height": 1200,
-        "processor": "original",
-        "thumbnails": [
-          {
-            "id": "5589137cd69b5a0a458b4567",
-            "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg",
-            "extension": ".jpeg",
-            "width": 200,
-            "mimeType": "image/jpeg",
-            "height": 200,
-            "processor": "user_avatar"
-          }
-        ],
-        "mimeType": "image/jpeg"
-      },
       "userType": "private person"
     },
     "marketType": {
-      "id": "558824fad69b5a35728b468a",
+      "id": "5594d616d69b5ae34b8b468a",
       "name": "Вторичный"
     },
     "roomCount": 2,
     "wallMaterial": {
-      "id": "558824fad69b5a35728b4668",
+      "id": "5594d616d69b5ae34b8b4668",
       "name": "Дерево и кирпич"
     },
     "area": 52,
     "areaUnit": {
-      "id": "558824fad69b5a35728b4686",
+      "id": "5594d616d69b5ae34b8b4686",
       "name": "Кв. метры"
     },
     "livingArea": 35,
@@ -191,24 +147,24 @@
     "floorNumber": 9,
     "buildYear": 1985,
     "wc": {
-      "id": "558824fad69b5a35728b466e",
+      "id": "5594d616d69b5ae34b8b466e",
       "name": "Раздельный"
     },
     "balcony": {
-      "id": "558824fad69b5a35728b4591",
+      "id": "5594d616d69b5ae34b8b4591",
       "name": "3 и больше"
     },
     "heating": {
-      "id": "558824fad69b5a35728b464b",
+      "id": "5594d616d69b5ae34b8b464b",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "558824fad69b5a35728b466d",
+      "id": "5594d616d69b5ae34b8b466d",
       "name": "Комбинированный"
     },
     "nearObjects": [
       {
-        "id": "558824fad69b5a35728b464c",
+        "id": "5594d616d69b5ae34b8b464c",
         "name": "Остановка общественного транспорта"
       }
     ]

@@ -8,30 +8,27 @@ frisby.create('Registration Agency by Admin')
         lastName: agencyLastName,
         email: agencyEmail,
         plainPassword: agencyPassword,
-        //userAvatar: userAvatar,
-        //logo: ,
         schedule: agencySchedule,
         socialAccounts: agencySocialNetworks,
-        //description: ,
-        //socialAccounts: ,
+        description: agencyDescription,
         //userAvatar: ,
         //logo: ,
         offices:[
             {
-                officeName: agencyName,
+                officeName: agencyData.offices[0].name,
                 region: regionsId,
                 city: citiesId,
-                address: agencyOfficeAddress,
-                officeNumbers: agencyOfficeNumber,
-                coordinates: agencyOfficeCoordinates,
-                phones: agencyOfficesPhones
+                address: agencyData.offices[0].address,
+                officeNumbers: agencyData.offices[0].numbers,
+                coordinates: agencyData.offices[0].coordinates,
+                phones: agencyData.offices[0].phones
             },
             {
                 officeName: agencyData.offices[1].name,
                 region: regionsId,
                 city: citiesId,
                 address: agencyData.offices[1].address,
-                officeNumbers: agencyData.offices[1].number,
+                officeNumbers: agencyData.offices[1].numbers,
                 coordinates: agencyData.offices[1].coordinates,
                 phones: agencyData.offices[1].phones
             }
@@ -39,7 +36,7 @@ frisby.create('Registration Agency by Admin')
     }, {json: true})
     .inspectJSON()
     .inspectBody()
-    .inspectRequest()
+    //.inspectRequest()
     .expectHeader('Content-Type', 'application/json')
     .expectJSONTypes({
         id: String,
@@ -47,6 +44,7 @@ frisby.create('Registration Agency by Admin')
         subdomain: String,
         firstName: String,
         lastName: String,
+        description: String,
         email: String,
         token: String,
         userType: 'agency',

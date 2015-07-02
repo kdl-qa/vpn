@@ -35,3 +35,4 @@ spec/classes/lists/wc_template.json
 spec/classes/realties/flat_object.json
 spec/classes/users/auth_user_template.json
 spec/img/user_avatar.json
+spec/img/certificate_image.json

@@ -1,0 +1,23 @@
+{
+  "id": "5593e1e2d69b5afc358b4569",
+  "thumbnails": [
+    {
+      "id": "5593e1dfd69b5afc358b4567",
+      "path": "/uploads/thumbnail/certificate_small/14/35/75/49/72/1435754972.56411435754972.jpeg",
+      "extension": ".jpeg",
+      "width": 205,
+      "mimeType": "image/jpeg",
+      "height": 285,
+      "processor": "certificate_small"
+    },
+    {
+      "id": "5593e1e2d69b5afc358b4568",
+      "path": "/uploads/thumbnail/certificate_big/14/35/75/49/75/1435754975.33791435754975.jpeg",
+      "extension": ".jpeg",
+      "width": 960,
+      "mimeType": "image/jpeg",
+      "height": 1335,
+      "processor": "certificate_big"
+    }
+  ]
+}

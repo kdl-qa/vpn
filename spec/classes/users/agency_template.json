@@ -57,12 +57,12 @@
   ],
   "schedule":[
     {
-      "dayOfWeek":"monday-friday",
+      "dayOfWeek":"1-5",
       "startTime":"9:00",
       "endTime":"18:00"
     },
     {
-      "dayOfWeek":"saturday",
+      "dayOfWeek":"6",
       "startTime":"10:00",
       "endTime":"14:00"
     }

@@ -1,0 +1,14 @@
+{
+  "first_name": "Test Edit",
+  "last_name": "Agent (e)",
+  "email": "agentedit@gmail.com",
+  "password": "qwaszx12",
+  "phones":[
+    {
+      "phone":"+380931122331"
+    },
+    {
+      "phone":"+380923456789"
+    }
+  ]
+}

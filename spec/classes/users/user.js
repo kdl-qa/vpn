@@ -8,6 +8,8 @@ authAgentTemplate = path.resolve(__dirname, 'auth_agent_template.json');
 authAdminTemplate = path.resolve(__dirname, 'auth_admin_template.json');
 
 editUserTemplate = path.resolve(__dirname, 'edit_user_template.json');
+editAgencyTemplate = path.resolve(__dirname, 'edit_agency_template.json');
+editAgentTemplate = path.resolve(__dirname, 'edit_agent_template.json');
 
 exports.getUser = function () {
     return jf.readFileSync(userTemplate);
@@ -60,4 +62,12 @@ exports.saveAdminData = function (adminData) {
 
 exports.getEditUser = function () {
     return jf.readFileSync(editUserTemplate);
+}
+
+exports.getEditAgency = function () {
+    return jf.readFileSync(editAgencyTemplate);
+}
+
+exports.getEditAgent = function () {
+    return jf.readFileSync(editAgentTemplate);
 }

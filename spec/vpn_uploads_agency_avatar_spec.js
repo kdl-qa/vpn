@@ -26,7 +26,7 @@ frisby.create('Upload Agency avatar')
         }
     })
     .afterJSON(function (json) {
-        images.saveUserAvatar(json);
+        images.saveAgencyAvatar(json);
     })
     .toss()
 

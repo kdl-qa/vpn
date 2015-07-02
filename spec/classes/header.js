@@ -12,19 +12,19 @@ headerAdminData = {
     }
 };
 
-//headerAgencyData = {
-//    request: {
-//        headers: {'token': agencyToken}
-//
-//    }
-//};
-//
-//headerAgentData = {
-//    request: {
-//        headers: {'token': agentToken}
-//
-//    }
-//};
+headerAgencyData = {
+    request: {
+        headers: {'token': agencyToken}
+
+    }
+};
+
+headerAgentData = {
+    request: {
+        headers: {'token': agentToken}
+
+    }
+};
 
 
 

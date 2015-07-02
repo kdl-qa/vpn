@@ -11,6 +11,8 @@ saveAgencyData = user.getAgencyData();
 saveAgentData = user.getAgentData();
 saveAdminData = user.getAdminData();
 editUserData = user.getEditUser();
+editAgencyData = user.getEditAgency();
+editAgentData = user.getEditAgent();
 
 //restoreData = user.getRestoreData();
 userFirstName = userData.first_name;
@@ -40,7 +42,7 @@ agencyToken = saveAgencyData.token;
 
 agentFirstName = agentData.first_name;
 agentLastName = agentData.last_name;
-agentPhone = agentData.phone;
+agentPhones = agentData.phones;
 agentPassword = agentData.password;
 agentEmail = agentData.email;
 agentAvatar = agentData.avatar;
@@ -54,6 +56,27 @@ editUserFirstName = editUserData.first_name;
 editUserLastName = editUserData.last_name;
 editUserPhones = editUserData.phones;
 editUserEmail = editUserData.email;
+
+editAgencyFirstName = editAgencyData.firstName;
+editAgencyLastName = editAgencyData.lastName;
+editAgencyName = editAgencyData.name;
+editAgencySubdomain = editAgencyData.subdomain;
+editAgencyDescription = editAgencyData.description;
+editAgencyPassword = editAgencyData.password;
+editAgencyEmail = editAgencyData.email;
+editAgencyOfficeName = editAgencyData.offices[0].name;
+editAgencyOfficeNumber = editAgencyData.offices[0].number;
+editAgencyOfficeAddress = editAgencyData.offices[0].address;
+editAgencyOfficeCoordinates = editAgencyData.offices[0].coordinates;
+editAgencyOfficesPhones = editAgencyData.offices[0].phones;
+editAgencySchedule = editAgencyData.schedule;
+editAgencySocialNetworks = editAgencyData.networks;
+//agencyAvatar = agencyData.avatar;
+
+editAgentFirstName = editAgentData.first_name;
+editAgentLastName = editAgentData.last_name;
+editAgentPhones = editAgentData.phones;
+editAgentEmail = editAgentData.email;
 
 //------------------------------Images Data-------------------------------//
 userAvatarData = images.getUserAvatar();
@@ -69,7 +92,7 @@ regionsId =  regionsData[regionsData.length-1].id;
 
 citiesData = cities.getCities();
 citiesId =  citiesData[citiesData.length-1].id;
-
+citiesName = citiesData[citiesData.length-1].latinName;
 //------------------------------Streets Data-------------------------------//
 
 streetsData = streets.getStreets();
@@ -325,6 +348,7 @@ for (var i = 0; i < catData.length; i++){
     eval("URL_category_types_" + i + "= url + 'lists/category-types/' + catId"); // GET LISTS CATEGORY-TYPES {CATEGORYID}
     eval("URL_additionals_" + i + "= url + 'lists/additionals/' + catId;") // GET LISTS ADDITIONALS {CATEGORYID}
 }
+categoryName = catData[0].type; //0,1,2,3
 //categoryId = catData.pop().id;
 
 category_type0Data = category_type0.getCategory_type0();
@@ -449,6 +473,8 @@ URL_registration_pperson = url + 'registration/private-person';
 // POST REGISTRATION AGENCY
 URL_registration_agency = url + 'registration/agency';
 
+// POST REGISTRATION AGENCY
+URL_registration_agent = url + 'registration/agent';
 
 // POST LOGIN ADMIN
 URL_login_admin = url + 'admin/login';
@@ -456,6 +482,11 @@ URL_login_admin = url + 'admin/login';
 // PUT EDIT PROFILE PRIVATE-PERSON
 URL_edit_profile_pperson = url + 'profiles/private-persons/edit';
 
+// PUT EDIT PROFILE AGENCY
+URL_edit_profile_agencies = url + 'profiles/agencies/edit';
+
+// PUT EDIT PROFILE AGENT
+URL_edit_profile_agents = url + 'profiles/agents/edit';
 
 //-----------------------------------Image API-----------------------------------//
 
@@ -467,6 +498,9 @@ URL_schema_image = url + 'uploads/schema';
 
 // POST UPLOAD USER AVATAR
 URL_user_avatar = url + 'uploads/user-avatar';
+
+// POST UPLOAD CERTIFICATE IMAGE
+URL_certificates_image = url + 'uploads/certificates';
 
 // DELETE ADVERT IMAGE {ADVERT ID / IMAGE ID}
 URL_delete_image = url + 'advs/' + advertId + '/images/' + imageId +'/delete';
@@ -555,10 +589,33 @@ URL_adverts_list_delete_advert = url + 'profiles/advs-lists/' + advertsListSlug 
 //ADVERTS LIST DELETE
 URL_adverts_list_delete = url + 'profiles/advs-lists/' + advertsListSlug + '/delete';
 
+//GET ADVERTS GROUP LIST
+URL_adverts_group_lists = url + 'lists/' + advertsListSlug + '/1/50';
+
 
 //-----------------------------------------------Info API-----------------------------------------------//
 // GET UHOME CONTACTS
 URL_contacts_uhome = url + 'info/contacts';
+
+// GET INFO PAGE ABOUT
+URL_info_page_about = url + 'info/pages/about';
+
+// GET INFO PAGE TERMS AND CONDITIONS
+URL_info_page_terms = url + 'info/pages/terms-and-conditions';
+
+// GET INFO PAGE REGISTRATION AGENCY (AGENT)
+URL_info_page_registration_agency_agent = url + 'info/pages/registration-agency-and-agent';
+
+
+//-----------------------------------------------SEO API-----------------------------------------------//
+// GET SEO MAIN TEXT
+URL_seo_main_text = url + 'seo/main-text';
+
+// GET SEO CITY LANDING PAGE
+URL_seo_landings_city = url + 'landings/' + citiesName;
+
+// GET SEO CATEGORY LANDING PAGE
+URL_seo_landings_city_category = url + 'landings/' + citiesName;
 
 //-------------------------------------------------Functions to launch the scope of tests----------------------------------------//
 getCategoriesData = function(){

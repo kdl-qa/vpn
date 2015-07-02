@@ -1,0 +1,94 @@
+{
+  "name": "API Auto Test Agency (edit)",
+  "firstName": "API Auto Test Edit",
+  "lastName": "Agency",
+  "email": "api.agencyedit@test.com",
+  "password": "qwaszx12",
+  "description": "Ни для кого не станет секретом тот факт, что львиная доля продаж квартир и домов приходится на всевозможные объявления в Интернете. Каждому хочется стать владельцем собственной жилплощади, и сделать это безопасно, быстро, а главное - выгодно! Ну что ж, теперь купить квартиру в Черкассах стало намного проще - ведь с вами верный и надежный помощник - Агенство недвижимости API Auto Test Agency",
+  "networks":[
+    "http://vk.com/api/edit",
+    "http://facebook.com/api/edit",
+    "http://plus.google.com/api/edit",
+    "ok.ru/api/edit",
+    "twitter.com/api/edit"
+  ],
+  "offices":[
+    {
+      "name": "API Office (edited)",
+      "address": "г. Черкассы, ул. Шевченка, 150",
+      "numbers": "АПИ Офис 1",
+      "coordinates":{
+        "latitude": 49.4493,
+        "longitude": 32.0491
+      },
+      "phones":[
+        {
+          "phone":"+380671112233"
+        },
+        {
+          "phone":"+380931234567"
+        },
+        {
+          "phone":"+380501113322"
+        }
+      ]
+    },
+    {
+      "name": "API Office 2 (edited)",
+      "address": "г. Черкассы, ул. Крещатик, 200",
+      "numbers": "АПИ Офис 2",
+      "coordinates":{
+        "latitude": 49.4428,
+        "longitude": 32.0650
+      },
+      "phones":[
+        {
+          "phone":"+380671472583"
+        },
+        {
+          "phone":"+380939876543"
+        },
+        {
+          "phone":"+380501122334"
+        }
+      ]
+    },
+    {
+      "name": "API Edit Office",
+      "address": "г. Черкассы, ул. Котовского, 76",
+      "numbers": "АПИ Офис 3",
+      "coordinates":{
+        "latitude": 49.44986,
+        "longitude": 32.05173
+      },
+      "phones":[
+        {
+          "phone":"+380671111111"
+        },
+        {
+          "phone":"+380932222222"
+        },
+        {
+          "phone":"+380503333333"
+        }
+      ]
+    }
+  ],
+  "schedule":[
+    {
+      "dayOfWeek":"1-3",
+      "startTime":"9:00",
+      "endTime":"18:00"
+    },
+    {
+      "dayOfWeek":"4-5",
+      "startTime":"10:00",
+      "endTime":"17:00"
+    },
+    {
+      "dayOfWeek":"6",
+      "startTime":"10:00",
+      "endTime":"14:00"
+    }
+  ]
+}

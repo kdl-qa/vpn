@@ -6,7 +6,7 @@ frisby.create('Edit profile - Private person')
         lastName: editUserLastName,
         email: editUserEmail,
         phones: editUserPhones,
-        userAvatar: userAvatar
+        //userAvatar: userAvatar
     }, {json: true})
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')

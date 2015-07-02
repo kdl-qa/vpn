@@ -1,9 +1,21 @@
 {
-  "id": "",
-  "firstName": "",
-  "lastName": "",
-  "email": "@gmail.com",
-  "phone": "",
-  "token": "",
-  "userType": ""
+  "id": "5592a62ad69b5a245d8b456a",
+  "token": "M6Og7ikTyIOC79tUYhYhiBx-XkDE-BFBgblubOHuidw",
+  "userType": "agent",
+  "firstName": "Test Edit",
+  "lastName": "Agent (e)",
+  "email": "agentedit@gmail.com",
+  "phones": [
+    {
+      "id": "5592a66bd69b5a5b5e8b4567",
+      "phone": "+380931122331"
+    },
+    {
+      "id": "5592a66bd69b5a5b5e8b4568",
+      "phone": "+380923456789"
+    }
+  ],
+  "agency": {
+    "id": "55929121d69b5afd188b4571"
+  }
 }
