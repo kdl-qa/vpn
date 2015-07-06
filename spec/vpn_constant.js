@@ -166,6 +166,10 @@ repairsId =  repairsData[0].id;
 wallmaterialsData = wallmaterials.getWallMaterials();
 wallmaterialsId =  wallmaterialsData[wallmaterialsData.length-1].id;
 
+//------------------------------Unpublish Reasosns Data-------------------------------//
+unpublishReasonsData = unpublish_reasons.getUnpublishReasons();
+unpublishReasonsId =  unpublishReasonsData[unpublishReasonsData.length-1].id;
+
 //------------------------------Water Heatings Data-------------------------------//
 waterheatData = waterheat.getWaterHeatings();
 waterheatId =  waterheatData[waterheatData.length-1].id;
@@ -457,6 +461,9 @@ URL_streets = url + 'lists/streets/' + citiesId;
 // GET LISTS WALL-MATERIALS
 URL_wall_materials = url + 'lists/wall-materials';
 
+// GET LISTS UNPUBLISH REASONS
+URL_unpublish_reasons = url + 'lists/unpublish-reasons';
+
 // GET LISTS WATER-HEATINGS
 URL_water_heatings = url + 'lists/water-heatings';
 
@@ -570,26 +577,31 @@ URL_realties_commercials_validate = url + 'realties/commercials/validate';
 //POST ADD FLATS ADVERTS
 URL_adverts_flats_add = url + 'announcements/flats/add/' + realtyFlatId;
 
-//PUT EDIT FLATS ADVERTS
-URL_adverts_flats_edit = url + 'announcements/flats/edit/' + advertsFlatSaleId;
-
 //POST ADD HOUSES ADVERTS
 URL_adverts_houses_add = url + 'announcements/houses/add/' + realtyHouseId;
-
-//PUT EDIT HOUSES ADVERTS
-URL_adverts_houses_edit = url + 'announcements/houses/edit/' + advertsHouseSaleId;
 
 //POST ADD PARCELS ADVERTS
 URL_adverts_parcels_add = url + 'announcements/parcels/add/' + realtyParcelId;
 
-//PUT EDIT PARCELS ADVERTS
-URL_adverts_parcels_edit = url + 'announcements/parcels/edit/' + advertsParcelSaleId;
-
 //POST ADD COMMERCIALS ADVERTS
 URL_adverts_commercials_add = url + 'announcements/commercials/add/' + realtyCommercialId;
 
+//-----------------------------------Edit Advert API-----------------------------------//
+//PUT EDIT FLATS ADVERTS
+URL_adverts_flats_edit = url + 'advs/flats/edit/' + advertsFlatSaleId;
+
+//PUT EDIT HOUSES ADVERTS
+URL_adverts_houses_edit = url + 'advs/houses/edit/' + advertsHouseSaleId;
+
+//PUT EDIT PARCELS ADVERTS
+URL_adverts_parcels_edit = url + 'advs/parcels/edit/' + advertsParcelSaleId;
+
 //PUT EDIT COMMERCIALS ADVERTS
 URL_adverts_commercials_edit = url + 'announcements/commercials/edit/' + advertsCommercialsSaleId;
+
+//-----------------------------------Unpublish Advert API-----------------------------------//
+//UNPUBLISH FLATS ADVERT
+URL_adverts_flats_unpublish = url + 'advs/unpublish/' + advertsFlatSaleId;
 
 //GET LAST ADVERTS
 URL_last_adverts = url + 'get-announcements/last/';

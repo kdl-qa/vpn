@@ -36,6 +36,7 @@ spec/classes/lists/periods_template.json
 spec/classes/lists/regions_template.json
 spec/classes/lists/repairs_template.json
 spec/classes/lists/streets_template.json
+spec/classes/lists/unpublish_reasons_template.json
 spec/classes/lists/wall_materials_template.json
 spec/classes/lists/water_heatings_template.json
 spec/classes/lists/wc_template.json
