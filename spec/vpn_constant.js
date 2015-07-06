@@ -1,5 +1,5 @@
 var url = "http://vpn.ua/api/v1/";
-
+domain = 'vpn.ua';
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
 agencyData = user.getAgency();
@@ -617,11 +617,20 @@ URL_profiles_send_list_adverts = url + 'profiles/advs-lists/'+ advertsListSlug +
 //GET PROFILE LIST ADVERTS
 URL_profiles_list_adverts = url + 'profiles/advs/1/25';
 
-//GET PROFILE LIST ADVERTS
+//GET ADMIN ADVERTS STATISTICS
 URL_admin_adverts_statistics = url + 'advs/statistics';
 
-//GET PROFILE LIST ADVERTS
+//GET ADMIN REALTIES STATISTICS
+URL_admin_realties_statistics = url + 'realties/statistics';
+
+//GET ADMIN SORT LIST ADVERTS
 URL_admin_adverts_list = url + 'advs/lists/1/25';
+
+//GET ADMIN SORT LIST ADVERTS
+URL_admin_realties_list = url + 'realties/lists/1/25';
+
+//GET AGENCY SUBDOMAIN ADVERTS
+URL_agency_subdomain_adverts = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/get-advs/1/24/date';
 
 
 

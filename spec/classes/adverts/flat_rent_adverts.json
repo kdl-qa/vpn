@@ -1,144 +1,120 @@
 {
-  "id": "55953b7cd69b5a16108b456a",
+  "id": "559a57bfd69b5ade438b456d",
   "operationType": {
-    "id": "5594d616d69b5ae34b8b4684",
+    "id": "559a4338d69b5a60228b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "5594d616d69b5ae34b8b468e",
+    "id": "559a4338d69b5a60228b468e",
     "name": "За месяц"
   },
   "description": "Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "55953b23d69b5a15108b456a",
-    "firstName": "Test",
-    "lastName": "User",
-    "email": "api.test@gmail.com",
-    "phones": [
-      {
-        "id": "55953b22d69b5a15108b4567",
-        "phone": "+380671112233"
-      },
-      {
-        "id": "55953b22d69b5a15108b4568",
-        "phone": "+380935556677"
-      },
-      {
-        "id": "55953b22d69b5a15108b4569",
-        "phone": "+380924448899"
-      }
-    ],
-    "userType": "private person"
+    "id": "559a44c3d69b5a0c328b4571",
+    "name": "API Auto Test Agency",
+    "firstName": "API Auto Test",
+    "lastName": "Agency",
+    "email": "api.agency@test.com",
+    "phones": [],
+    "userType": "agency"
   },
   "images": [],
   "price": 2500,
-  "convertedPrice": 110.13215859031,
+  "convertedPrice": 108.69565217391,
   "auction": false,
   "currency": {
-    "id": "5594d616d69b5ae34b8b468c",
+    "id": "559a4338d69b5a60228b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "5594d616d69b5ae34b8b468b",
+    "id": "559a4338d69b5a60228b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T16:24:11+0300",
+  "availableFrom": "2015-05-14T13:26:07+0300",
   "repair": {
-    "id": "5594d616d69b5ae34b8b4656",
+    "id": "559a4338d69b5a60228b4656",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "5594d616d69b5ae34b8b4646",
+      "id": "559a4338d69b5a60228b4646",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "5594d616d69b5ae34b8b4586",
+      "id": "559a4337d69b5a60228b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "5594d616d69b5ae34b8b4567",
+      "id": "559a4337d69b5a60228b4567",
       "name": "Лифт"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "55953b37d69b5a16108b4569",
+    "id": "559a44cfd69b5aad238b456b",
     "category": {
-      "id": "5594d616d69b5ae34b8b4671",
+      "id": "559a4338d69b5a60228b4671",
       "name": "Квартиры и комнаты",
       "type": "flat"
     },
     "categoryType": {
-      "id": "5594d616d69b5ae34b8b4675",
+      "id": "559a4338d69b5a60228b4675",
       "name": "Квартира"
     },
     "address": {
       "region": {
-        "id": "5594d616d69b5ae34b8b4593",
+        "id": "559a4337d69b5a60228b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "5594d616d69b5ae34b8b4595",
+        "id": "559a4337d69b5a60228b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
       "district": {
-        "id": "5594d616d69b5ae34b8b4599",
+        "id": "559a4337d69b5a60228b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "5594d616d69b5ae34b8b45a9",
+        "id": "559a4337d69b5a60228b45a9",
         "name": "Чехова"
       },
       "houseNumber": {
-        "id": "55953b37d69b5a16108b4567",
-        "number": 53
+        "id": "559a44cfd69b5aad238b4569",
+        "number": 55
       },
       "flatNumber": {
-        "id": "55953b37d69b5a16108b4568",
+        "id": "559a44cfd69b5aad238b456a",
         "number": 43
       }
     },
     "user": {
-      "id": "55953b23d69b5a15108b456a",
-      "firstName": "Test",
-      "lastName": "User",
-      "email": "api.test@gmail.com",
-      "phones": [
-        {
-          "id": "55953b22d69b5a15108b4567",
-          "phone": "+380671112233"
-        },
-        {
-          "id": "55953b22d69b5a15108b4568",
-          "phone": "+380935556677"
-        },
-        {
-          "id": "55953b22d69b5a15108b4569",
-          "phone": "+380924448899"
-        }
-      ],
-      "userType": "private person"
+      "id": "559a44c3d69b5a0c328b4571",
+      "firstName": "API Auto Test",
+      "lastName": "Agency",
+      "email": "api.agency@test.com",
+      "phones": [],
+      "userType": "agency",
+      "name": "API Auto Test Agency"
     },
     "marketType": {
-      "id": "5594d616d69b5ae34b8b468a",
+      "id": "559a4338d69b5a60228b468a",
       "name": "Вторичный"
     },
     "roomCount": 2,
     "wallMaterial": {
-      "id": "5594d616d69b5ae34b8b4668",
+      "id": "559a4338d69b5a60228b4668",
       "name": "Дерево и кирпич"
     },
     "area": 52,
     "areaUnit": {
-      "id": "5594d616d69b5ae34b8b4686",
+      "id": "559a4338d69b5a60228b4686",
       "name": "Кв. метры"
     },
     "livingArea": 35,
@@ -147,24 +123,24 @@
     "floorNumber": 9,
     "buildYear": 1985,
     "wc": {
-      "id": "5594d616d69b5ae34b8b466e",
+      "id": "559a4338d69b5a60228b466e",
       "name": "Раздельный"
     },
     "balcony": {
-      "id": "5594d616d69b5ae34b8b4591",
+      "id": "559a4337d69b5a60228b4591",
       "name": "3 и больше"
     },
     "heating": {
-      "id": "5594d616d69b5ae34b8b464b",
+      "id": "559a4338d69b5a60228b464b",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "5594d616d69b5ae34b8b466d",
+      "id": "559a4338d69b5a60228b466d",
       "name": "Комбинированный"
     },
     "nearObjects": [
       {
-        "id": "5594d616d69b5ae34b8b464c",
+        "id": "559a4338d69b5a60228b464c",
         "name": "Остановка общественного транспорта"
       }
     ]

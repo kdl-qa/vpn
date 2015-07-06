@@ -1,120 +1,96 @@
 {
-  "id": "5596533bd69b5a11048b4567",
+  "id": "559a453cd69b5aad238b456d",
   "operationType": {
-    "id": "5595590ad69b5af4658b4684",
+    "id": "559a4338d69b5a60228b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "5595590ad69b5af4658b468e",
+    "id": "559a4338d69b5a60228b468e",
     "name": "За месяц"
   },
   "description": "Rent Commercial property. Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "55955a18d69b5a77408b456a",
-    "firstName": "Test",
-    "lastName": "User",
-    "email": "api.test@gmail.com",
-    "phones": [
-      {
-        "id": "55955a18d69b5a77408b4567",
-        "phone": "+380671112233"
-      },
-      {
-        "id": "55955a18d69b5a77408b4568",
-        "phone": "+380935556677"
-      },
-      {
-        "id": "55955a18d69b5a77408b4569",
-        "phone": "+380924448899"
-      }
-    ],
-    "userType": "private person"
+    "id": "559a44c3d69b5a0c328b4571",
+    "name": "API Auto Test Agency",
+    "firstName": "API Auto Test",
+    "lastName": "Agency",
+    "email": "api.agency@test.com",
+    "phones": [],
+    "userType": "agency"
   },
   "images": [],
   "price": 5000,
-  "convertedPrice": 220.26431718062,
+  "convertedPrice": 217.39130434783,
   "auction": false,
   "currency": {
-    "id": "5595590ad69b5af4658b468c",
+    "id": "559a4338d69b5a60228b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "5595590ad69b5af4658b468b",
+    "id": "559a4338d69b5a60228b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T12:17:46+0300",
+  "availableFrom": "2015-05-14T12:07:07+0300",
   "additionally": [
     {
-      "id": "5595590ad69b5af4658b4584",
+      "id": "559a4337d69b5a60228b4584",
       "name": "Отдельный вход"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "55965297d69b5aea038b4568",
+    "id": "559a44e3d69b5aac238b456b",
     "category": {
-      "id": "5595590ad69b5af4658b4674",
+      "id": "559a4338d69b5a60228b4674",
       "name": "Коммерческая недвижимость",
       "type": "commercial"
     },
     "categoryType": {
-      "id": "5595590ad69b5af4658b467d",
+      "id": "559a4338d69b5a60228b467d",
       "name": "Офисное помещение"
     },
     "address": {
       "region": {
-        "id": "5595590ad69b5af4658b4593",
+        "id": "559a4337d69b5a60228b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "5595590ad69b5af4658b4595",
+        "id": "559a4337d69b5a60228b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
       "district": {
-        "id": "5595590ad69b5af4658b4599",
+        "id": "559a4337d69b5a60228b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "5595590ad69b5af4658b45a9",
+        "id": "559a4337d69b5a60228b45a9",
         "name": "Чехова"
       },
       "houseNumber": {
-        "id": "55965297d69b5aea038b4567",
+        "id": "559a44e3d69b5aac238b456a",
         "number": 27
       }
     },
     "user": {
-      "id": "55955a18d69b5a77408b456a",
-      "firstName": "Test",
-      "lastName": "User",
-      "email": "api.test@gmail.com",
-      "phones": [
-        {
-          "id": "55955a18d69b5a77408b4567",
-          "phone": "+380671112233"
-        },
-        {
-          "id": "55955a18d69b5a77408b4568",
-          "phone": "+380935556677"
-        },
-        {
-          "id": "55955a18d69b5a77408b4569",
-          "phone": "+380924448899"
-        }
-      ],
-      "userType": "private person"
+      "id": "559a44c3d69b5a0c328b4571",
+      "name": "API Auto Test Agency",
+      "firstName": "API Auto Test",
+      "lastName": "Agency",
+      "email": "api.agency@test.com",
+      "phones": [],
+      "userType": "agency"
     },
     "area": 50,
     "areaUnit": {
-      "id": "5595590ad69b5af4658b4686",
+      "id": "559a4338d69b5a60228b4686",
       "name": "Кв. метры"
     },
     "effectiveArea": 40,
     "wallMaterial": {
-      "id": "5595590ad69b5af4658b4668",
+      "id": "559a4338d69b5a60228b4668",
       "name": "Дерево и кирпич"
     },
     "roomCount": 2,
@@ -122,20 +98,20 @@
     "floorNumber": 9,
     "buildYear": 1996,
     "wc": {
-      "id": "5595590ad69b5af4658b466e",
+      "id": "559a4338d69b5a60228b466e",
       "name": "Раздельный"
     },
     "heating": {
-      "id": "5595590ad69b5af4658b464b",
+      "id": "559a4338d69b5a60228b464b",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "5595590ad69b5af4658b466d",
+      "id": "559a4338d69b5a60228b466d",
       "name": "Комбинированный"
     },
     "communication": [
       {
-        "id": "5595590ad69b5af4658b463e",
+        "id": "559a4337d69b5a60228b463e",
         "name": "Центральная канализация"
       }
     ]

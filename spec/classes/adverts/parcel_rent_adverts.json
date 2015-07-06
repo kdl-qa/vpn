@@ -1,123 +1,99 @@
 {
-  "id": "5596532ad69b5a09048b4567",
+  "id": "559a452fd69b5aac238b456d",
   "operationType": {
-    "id": "5595590ad69b5af4658b4684",
+    "id": "559a4338d69b5a60228b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "5595590ad69b5af4658b468e",
+    "id": "559a4338d69b5a60228b468e",
     "name": "За месяц"
   },
   "description": "Rent Parcel. Please, feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "55955a18d69b5a77408b456a",
-    "firstName": "Test",
-    "lastName": "User",
-    "email": "api.test@gmail.com",
-    "phones": [
-      {
-        "id": "55955a18d69b5a77408b4567",
-        "phone": "+380671112233"
-      },
-      {
-        "id": "55955a18d69b5a77408b4568",
-        "phone": "+380935556677"
-      },
-      {
-        "id": "55955a18d69b5a77408b4569",
-        "phone": "+380924448899"
-      }
-    ],
-    "userType": "private person"
+    "id": "559a44c3d69b5a0c328b4571",
+    "name": "API Auto Test Agency",
+    "firstName": "API Auto Test",
+    "lastName": "Agency",
+    "email": "api.agency@test.com",
+    "phones": [],
+    "userType": "agency"
   },
   "images": [],
   "price": 500,
-  "convertedPrice": 22.026431718062,
+  "convertedPrice": 21.739130434783,
   "auction": false,
   "currency": {
-    "id": "5595590ad69b5af4658b468c",
+    "id": "559a4338d69b5a60228b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "5595590ad69b5af4658b468b",
+    "id": "559a4338d69b5a60228b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-15T12:17:30+0300",
+  "availableFrom": "2015-05-15T12:06:55+0300",
   "additionally": [
     {
-      "id": "5595590ad69b5af4658b4577",
+      "id": "559a4337d69b5a60228b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "5596528cd69b5a02048b4567",
+    "id": "559a44dcd69b5a782d8b4569",
     "category": {
-      "id": "5595590ad69b5af4658b4673",
+      "id": "559a4338d69b5a60228b4673",
       "name": "Земельные участки",
       "type": "parcel"
     },
     "categoryType": {
-      "id": "5595590ad69b5af4658b467a",
+      "id": "559a4338d69b5a60228b467a",
       "name": "Участок под жилую застройку"
     },
     "address": {
       "region": {
-        "id": "5595590ad69b5af4658b4593",
+        "id": "559a4337d69b5a60228b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "5595590ad69b5af4658b4595",
+        "id": "559a4337d69b5a60228b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
       "district": {
-        "id": "5595590ad69b5af4658b4599",
+        "id": "559a4337d69b5a60228b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "5595590ad69b5af4658b45a9",
+        "id": "559a4337d69b5a60228b45a9",
         "name": "Чехова"
       },
       "cadastralNumber": "7110136400030102000"
     },
     "user": {
-      "id": "55955a18d69b5a77408b456a",
-      "firstName": "Test",
-      "lastName": "User",
-      "email": "api.test@gmail.com",
-      "phones": [
-        {
-          "id": "55955a18d69b5a77408b4567",
-          "phone": "+380671112233"
-        },
-        {
-          "id": "55955a18d69b5a77408b4568",
-          "phone": "+380935556677"
-        },
-        {
-          "id": "55955a18d69b5a77408b4569",
-          "phone": "+380924448899"
-        }
-      ],
-      "userType": "private person"
+      "id": "559a44c3d69b5a0c328b4571",
+      "name": "API Auto Test Agency",
+      "firstName": "API Auto Test",
+      "lastName": "Agency",
+      "email": "api.agency@test.com",
+      "phones": [],
+      "userType": "agency"
     },
     "area": 7.5,
     "areaUnit": {
-      "id": "5595590ad69b5af4658b4687",
+      "id": "559a4338d69b5a60228b4687",
       "name": "Сотки"
     },
     "communication": [
       {
-        "id": "5595590ad69b5af4658b463e",
+        "id": "559a4337d69b5a60228b463e",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "5595590ad69b5af4658b464c",
+        "id": "559a4338d69b5a60228b464c",
         "name": "Остановка общественного транспорта"
       }
     ]

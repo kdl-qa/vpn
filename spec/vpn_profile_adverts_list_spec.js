@@ -1,7 +1,8 @@
 require('./boot');
 frisby.create('Get Profile Adverts Group Lists')
-    .addHeader('token', userToken)
-    .get(URL_profiles_list_adverts+'?text=please')
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
+    .get(URL_profiles_list_adverts+'?text=please') //text=Продажа/Аренда
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
