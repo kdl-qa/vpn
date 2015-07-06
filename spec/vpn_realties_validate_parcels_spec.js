@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Validate Parcel object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_parcels_validate,
     {
         category: category_type2CategoryId,	//true

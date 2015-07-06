@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Check Commercials object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_commercials_check,
     {
         category: category_type3CategoryId,	//true

@@ -1,21 +1,124 @@
 {
-  "id": "5592a62ad69b5a245d8b456a",
-  "token": "M6Og7ikTyIOC79tUYhYhiBx-XkDE-BFBgblubOHuidw",
+  "id": "559a20ded69b5a0e288b456a",
+  "token": "2a3yFSniWwk9PV-uQyZNeVlpdFKilB0JCD7MX4I-Ur0",
   "userType": "agent",
-  "firstName": "Test Edit",
-  "lastName": "Agent (e)",
-  "email": "agentedit@gmail.com",
+  "firstName": "Test",
+  "lastName": "Agent",
+  "email": "agenttest@gmail.com",
   "phones": [
     {
-      "id": "5592a66bd69b5a5b5e8b4567",
-      "phone": "+380931122331"
+      "id": "559a20ddd69b5a0e288b4567",
+      "phone": "+380671234567"
     },
     {
-      "id": "5592a66bd69b5a5b5e8b4568",
-      "phone": "+380923456789"
+      "id": "559a20ddd69b5a0e288b4568",
+      "phone": "+380931122333"
+    },
+    {
+      "id": "559a20ddd69b5a0e288b4569",
+      "phone": "+380924455678"
     }
   ],
   "agency": {
-    "id": "55929121d69b5afd188b4571"
+    "id": "559a20d6d69b5a2d288b4578",
+    "token": "hn7EcT2T3bYpYWB1Scqyr3aEcThZ9-DcujJgsSVsS_0",
+    "name": "API Auto Test Agency",
+    "subdomain": "api-test",
+    "description": "Ни для кого не станет секретом тот факт, что львиная доля продаж квартир и домов приходится на всевозможные объявления в Интернете. Каждому хочется стать владельцем собственной жилплощади, и сделать это безопасно, быстро, а главное - выгодно! Ну что ж, теперь купить квартиру в Черкассах стало намного проще - ведь с вами верный и надежный помощник - Агенство недвижимости API Auto Test Agency",
+    "firstName": "API Auto Test",
+    "lastName": "Agency",
+    "email": "api.agency@test.com",
+    "userType": "agency",
+    "offices": [
+      {
+        "id": "559a20d5d69b5a2d288b456e",
+        "officeName": "API Office",
+        "officeNumbers": "АПИ Офис 1",
+        "phones": [
+          {
+            "id": "559a20d5d69b5a2d288b456f",
+            "phone": "+380671112233"
+          },
+          {
+            "id": "559a20d5d69b5a2d288b4570",
+            "phone": "+380931234567"
+          },
+          {
+            "id": "559a20d5d69b5a2d288b4571",
+            "phone": "+380501113322"
+          }
+        ],
+        "region": {
+          "id": "559a1f16d69b5af3298b4593",
+          "name": "Черкасская область"
+        },
+        "city": {
+          "id": "559a1f16d69b5af3298b4595",
+          "name": "Черкассы",
+          "latinName": "cherkassy"
+        },
+        "address": "г. Черкассы, ул. Шевченка, 150",
+        "coordinates": {
+          "longitude": 32.0491,
+          "latitude": 49.4493
+        }
+      },
+      {
+        "id": "559a20d5d69b5a2d288b4572",
+        "officeName": "API Office 2",
+        "officeNumbers": "АПИ Офис 2",
+        "phones": [
+          {
+            "id": "559a20d5d69b5a2d288b4573",
+            "phone": "+380671472583"
+          },
+          {
+            "id": "559a20d5d69b5a2d288b4574",
+            "phone": "+380939876543"
+          },
+          {
+            "id": "559a20d5d69b5a2d288b4575",
+            "phone": "+380501122334"
+          }
+        ],
+        "region": {
+          "id": "559a1f16d69b5af3298b4593",
+          "name": "Черкасская область"
+        },
+        "city": {
+          "id": "559a1f16d69b5af3298b4595",
+          "name": "Черкассы",
+          "latinName": "cherkassy"
+        },
+        "address": "г. Черкассы, ул. Крещатик, 200",
+        "coordinates": {
+          "longitude": 32.065,
+          "latitude": 49.4428
+        }
+      }
+    ],
+    "schedule": [
+      {
+        "id": "559a20d5d69b5a2d288b4576",
+        "dayOfWeek": "1-5",
+        "startTime": "9:00",
+        "endTime": "18:00"
+      },
+      {
+        "id": "559a20d5d69b5a2d288b4577",
+        "dayOfWeek": "6",
+        "startTime": "10:00",
+        "endTime": "14:00"
+      }
+    ],
+    "socialAccounts": [
+      "http://vk.com/api",
+      "http://facebook.com/api",
+      "http://plus.google.com/api",
+      "ok.ru/api",
+      "twitter.com/api"
+    ],
+    "services": [],
+    "certificates": []
   }
 }

@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Validate Flat object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_flats_validate,
     {
         category: category_type0CategoryId,

@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Check Parcels object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_parcels_check,
     {
         category: category_type2CategoryId,	//true

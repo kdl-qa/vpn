@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Add Houses object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_houses_add,
     {
         category: category_type1CategoryId,	//true

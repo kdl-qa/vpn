@@ -1,7 +1,8 @@
 require('./boot');
 var name = String;
 frisby.create('Edit list of adverts')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .put(URL_edit_list_adverts,
     {
         name: "API automated test list",

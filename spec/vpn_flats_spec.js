@@ -11,8 +11,8 @@ frisby.create('Get Flats numbers')
         }
     ])
     .afterJSON(function (json) {
-        if (json.id = String) {
+        //if (json.id = String) {
             flats.saveFlats(json);
-        }
+        //}
     })
     .toss()

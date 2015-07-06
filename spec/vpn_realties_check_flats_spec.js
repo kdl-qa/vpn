@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Check Flats object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_flats_check,
     {
         category: category_type0CategoryId,	//true

@@ -1,6 +1,7 @@
 require('./boot');
 frisby.create('Validate Houses object')
-    .addHeader('token', userToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_houses_validate,
     {
         category: category_type1CategoryId,
