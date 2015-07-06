@@ -2,9 +2,13 @@
 spec/boot.js
 spec/classes/adverts/advert_list.json
 spec/classes/adverts/flat_sale_adverts.json
+spec/classes/adverts/flat_rent_adverts.json
 spec/classes/adverts/commercial_sale_adverts.json
+spec/classes/adverts/commercial_rent_adverts.json
 spec/classes/adverts/house_sale_adverts.json
+spec/classes/adverts/house_rent_adverts.json
 spec/classes/adverts/parcel_sale_adverts.json
+spec/classes/adverts/parcel_rent_adverts.json
 spec/classes/lists/additionals_cat0_template.json
 spec/classes/lists/additionals_cat1_template.json
 spec/classes/lists/additionals_cat2_template.json
@@ -40,5 +44,7 @@ spec/classes/realties/commercial_object.json
 spec/classes/realties/house_object.json
 spec/classes/realties/parcel_object.json
 spec/classes/users/auth_user_template.json
+spec/classes/users/auth_admin_template.json
+spec/classes/users/auth_agency_template.json
 spec/img/user_avatar.json
 spec/img/certificate_image.json
