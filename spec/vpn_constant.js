@@ -329,6 +329,10 @@ advertsListData = adverts.getAdvertList();
 advertsListId = advertsListData.id;
 advertsListSlug = advertsListData.slug;
 
+advertsSendListData = adverts.getAdvertListSend();
+advertsSendListEmail = advertsSendListData.email;
+advertsSendListSubject = advertsSendListData.subject;
+advertsSendListText = advertsSendListData.text;
 
 //------------------------------Delete Advert Image Data-------------------------------//
 var advertId = '55376f32d69b5af43a8b459c';
@@ -555,7 +559,7 @@ URL_realties_commercials_validate = url + 'realties/commercials/validate';
 
 
 //-----------------------------------------Advert API-----------------------------------------//
-//-----------------------------------Add Advert API-----------------------------------//
+
 //POST ADD FLATS ADVERTS
 URL_adverts_flats_add = url + 'advs/flats/add/' + realtyFlatId;
 
@@ -603,6 +607,22 @@ URL_adverts_list_delete = url + 'profiles/advs-lists/' + advertsListSlug + '/del
 
 //GET ADVERTS GROUP LIST
 URL_adverts_group_lists = url + 'lists/' + advertsListSlug + '/1/50';
+
+//GET PROFILE ADVERTS GROUP LISTS
+URL_profiles_adverts_group_lists = url + 'profiles/advs-lists/lists';
+
+//POST SEND LIST ADVERTS
+URL_profiles_send_list_adverts = url + 'profiles/advs-lists/'+ advertsListSlug + '/send';
+
+//GET PROFILE LIST ADVERTS
+URL_profiles_list_adverts = url + 'profiles/advs/1/25';
+
+//GET PROFILE LIST ADVERTS
+URL_admin_adverts_statistics = url + 'advs/statistics';
+
+//GET PROFILE LIST ADVERTS
+URL_admin_adverts_list = url + 'advs/lists/1/25';
+
 
 
 //-----------------------------------------------Info API-----------------------------------------------//

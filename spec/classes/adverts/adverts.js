@@ -14,6 +14,8 @@ commercialAdvertsOptions = path.resolve(__dirname, 'commercial_options.json');
 
 advertListTemplate = path.resolve(__dirname, 'advert_list.json');
 
+advertListSendTemplate = path.resolve(__dirname, 'adverts_send_list_template.json');
+
 //advertListTemplate = path.resolve(__dirname, 'advert_list.json');
 
 exports.getFlatAdvertSale = function () {
@@ -119,4 +121,8 @@ exports.updateAdvertList = function (id) {
     advertList.advert = adverts;
 
     return jf.writeFileSync(advertListTemplate, advertList);
+}
+
+exports.getAdvertListSend = function () {
+    return jf.readFileSync(advertListSendTemplate);
 }

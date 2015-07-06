@@ -1,6 +1,6 @@
 {
-  "id": "5593e198d69b5abc2f8b4571",
-  "token": "39Du4jmL3Se6npUMThzBbEpC5jdpWGzxy0yXzi9hPRI",
+  "id": "5596271cd69b5a0a038b4574",
+  "token": "GqDYazpzV4f0vHO-j1x0YoHrRw4BLwRU5FD-dpmaqDE",
   "name": "API Auto Test Agency",
   "subdomain": "api-test",
   "description": "Ни для кого не станет секретом тот факт, что львиная доля продаж квартир и домов приходится на всевозможные объявления в Интернете. Каждому хочется стать владельцем собственной жилплощади, и сделать это безопасно, быстро, а главное - выгодно! Ну что ж, теперь купить квартиру в Черкассах стало намного проще - ведь с вами верный и надежный помощник - Агенство недвижимости API Auto Test Agency",
@@ -10,29 +10,29 @@
   "userType": "agency",
   "offices": [
     {
-      "id": "5593e197d69b5abc2f8b4567",
+      "id": "5596271bd69b5a0a038b456a",
       "officeName": "API Office",
       "officeNumbers": "АПИ Офис 1",
       "phones": [
         {
-          "id": "5593e197d69b5abc2f8b4568",
+          "id": "5596271bd69b5a0a038b456b",
           "phone": "+380671112233"
         },
         {
-          "id": "5593e197d69b5abc2f8b4569",
+          "id": "5596271bd69b5a0a038b456c",
           "phone": "+380931234567"
         },
         {
-          "id": "5593e197d69b5abc2f8b456a",
+          "id": "5596271bd69b5a0a038b456d",
           "phone": "+380501113322"
         }
       ],
       "region": {
-        "id": "55923157d69b5a82428b4593",
+        "id": "5595590ad69b5af4658b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "55923157d69b5a82428b4595",
+        "id": "5595590ad69b5af4658b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
@@ -43,29 +43,29 @@
       }
     },
     {
-      "id": "5593e197d69b5abc2f8b456b",
+      "id": "5596271bd69b5a0a038b456e",
       "officeName": "API Office 2",
       "officeNumbers": "АПИ Офис 2",
       "phones": [
         {
-          "id": "5593e197d69b5abc2f8b456c",
+          "id": "5596271bd69b5a0a038b456f",
           "phone": "+380671472583"
         },
         {
-          "id": "5593e197d69b5abc2f8b456d",
+          "id": "5596271bd69b5a0a038b4570",
           "phone": "+380939876543"
         },
         {
-          "id": "5593e197d69b5abc2f8b456e",
+          "id": "5596271bd69b5a0a038b4571",
           "phone": "+380501122334"
         }
       ],
       "region": {
-        "id": "55923157d69b5a82428b4593",
+        "id": "5595590ad69b5af4658b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "55923157d69b5a82428b4595",
+        "id": "5595590ad69b5af4658b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
@@ -78,13 +78,13 @@
   ],
   "schedule": [
     {
-      "id": "5593e197d69b5abc2f8b456f",
+      "id": "5596271bd69b5a0a038b4572",
       "dayOfWeek": "1-5",
       "startTime": "9:00",
       "endTime": "18:00"
     },
     {
-      "id": "5593e197d69b5abc2f8b4570",
+      "id": "5596271bd69b5a0a038b4573",
       "dayOfWeek": "6",
       "startTime": "10:00",
       "endTime": "14:00"
@@ -96,5 +96,7 @@
     "http://plus.google.com/api",
     "ok.ru/api",
     "twitter.com/api"
-  ]
+  ],
+  "services": [],
+  "certificates": []
 }

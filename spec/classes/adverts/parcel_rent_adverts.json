@@ -1,167 +1,123 @@
 {
-  "id": "55892a1cd69b5aa7018b4567",
+  "id": "5596532ad69b5a09048b4567",
   "operationType": {
-    "id": "558824fad69b5a35728b4684",
+    "id": "5595590ad69b5af4658b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "558824fad69b5a35728b468e",
+    "id": "5595590ad69b5af4658b468e",
     "name": "За месяц"
   },
   "description": "Rent Parcel. Please, feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "5589138cd69b5a17458b456c",
+    "id": "55955a18d69b5a77408b456a",
     "firstName": "Test",
     "lastName": "User",
     "email": "api.test@gmail.com",
     "phones": [
       {
-        "id": "5589138bd69b5a17458b4569",
+        "id": "55955a18d69b5a77408b4567",
         "phone": "+380671112233"
       },
       {
-        "id": "5589138bd69b5a17458b456a",
+        "id": "55955a18d69b5a77408b4568",
         "phone": "+380935556677"
       },
       {
-        "id": "5589138bd69b5a17458b456b",
+        "id": "55955a18d69b5a77408b4569",
         "phone": "+380924448899"
       }
     ],
-    "userAvatar": {
-      "id": "5589137cd69b5a0a458b4568",
-      "directory": "/uploads/original/14/35/04/67/80/1435046780.40561435046780.jpeg",
-      "filename": "1435046780.40561435046780",
-      "extension": ".jpeg",
-      "size": 799097,
-      "width": 1920,
-      "height": 1200,
-      "processor": "original",
-      "thumbnails": [
-        {
-          "id": "5589137cd69b5a0a458b4567",
-          "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg",
-          "extension": ".jpeg",
-          "width": 200,
-          "mimeType": "image/jpeg",
-          "height": 200,
-          "processor": "user_avatar"
-        }
-      ],
-      "mimeType": "image/jpeg"
-    },
     "userType": "private person"
   },
   "images": [],
   "price": 500,
-  "convertedPrice": 22.222222222222,
+  "convertedPrice": 22.026431718062,
   "auction": false,
   "currency": {
-    "id": "558824fad69b5a35728b468c",
+    "id": "5595590ad69b5af4658b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "558824fad69b5a35728b468b",
+    "id": "5595590ad69b5af4658b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-15T12:42:52+0300",
+  "availableFrom": "2015-05-15T12:17:30+0300",
   "additionally": [
     {
-      "id": "558824fad69b5a35728b4577",
+      "id": "5595590ad69b5af4658b4577",
       "name": "Участок правильной формы"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "558921e1d69b5af46a8b4567",
+    "id": "5596528cd69b5a02048b4567",
     "category": {
-      "id": "558824fad69b5a35728b4673",
+      "id": "5595590ad69b5af4658b4673",
       "name": "Земельные участки",
       "type": "parcel"
     },
     "categoryType": {
-      "id": "558824fad69b5a35728b467a",
+      "id": "5595590ad69b5af4658b467a",
       "name": "Участок под жилую застройку"
     },
     "address": {
       "region": {
-        "id": "558824fad69b5a35728b4593",
+        "id": "5595590ad69b5af4658b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "558824fad69b5a35728b4595",
+        "id": "5595590ad69b5af4658b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
       "district": {
-        "id": "558824fad69b5a35728b4599",
+        "id": "5595590ad69b5af4658b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "558824fad69b5a35728b45a9",
+        "id": "5595590ad69b5af4658b45a9",
         "name": "Чехова"
       },
       "cadastralNumber": "7110136400030102000"
     },
     "user": {
-      "id": "5589138cd69b5a17458b456c",
+      "id": "55955a18d69b5a77408b456a",
       "firstName": "Test",
       "lastName": "User",
       "email": "api.test@gmail.com",
       "phones": [
         {
-          "id": "5589138bd69b5a17458b4569",
+          "id": "55955a18d69b5a77408b4567",
           "phone": "+380671112233"
         },
         {
-          "id": "5589138bd69b5a17458b456a",
+          "id": "55955a18d69b5a77408b4568",
           "phone": "+380935556677"
         },
         {
-          "id": "5589138bd69b5a17458b456b",
+          "id": "55955a18d69b5a77408b4569",
           "phone": "+380924448899"
         }
       ],
-      "userAvatar": {
-        "id": "5589137cd69b5a0a458b4568",
-        "directory": "/uploads/original/14/35/04/67/80/1435046780.40561435046780.jpeg",
-        "filename": "1435046780.40561435046780",
-        "extension": ".jpeg",
-        "size": 799097,
-        "width": 1920,
-        "height": 1200,
-        "processor": "original",
-        "thumbnails": [
-          {
-            "id": "5589137cd69b5a0a458b4567",
-            "path": "/uploads/thumbnail/user_avatar/14/35/04/67/80/1435046780.42251435046780.jpeg",
-            "extension": ".jpeg",
-            "width": 200,
-            "mimeType": "image/jpeg",
-            "height": 200,
-            "processor": "user_avatar"
-          }
-        ],
-        "mimeType": "image/jpeg"
-      },
       "userType": "private person"
     },
     "area": 7.5,
     "areaUnit": {
-      "id": "558824fad69b5a35728b4687",
+      "id": "5595590ad69b5af4658b4687",
       "name": "Сотки"
     },
     "communication": [
       {
-        "id": "558824fad69b5a35728b463e",
+        "id": "5595590ad69b5af4658b463e",
         "name": "Центральная канализация"
       }
     ],
     "nearObjects": [
       {
-        "id": "558824fad69b5a35728b464c",
+        "id": "5595590ad69b5af4658b464c",
         "name": "Остановка общественного транспорта"
       }
     ]
