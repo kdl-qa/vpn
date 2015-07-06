@@ -16,6 +16,7 @@ frisby.create('Upload advert image')
     })
     .timeout(10000)
     .inspectJSON()
+    .inspectRequest()
     //.inspectBody()
     .expectJSON({
         id: String,
@@ -26,51 +27,24 @@ frisby.create('Upload advert image')
                 width: Number,
                 mimeType: String,
                 height: Number,
-                processor: 'advert_thumb_big' },
+                processor: 'adv_thumb_big' },
                 { id: String,
                     path: String,
                     extension: String,
                     width: Number,
                     mimeType: String,
                     height: Number,
-                    processor: 'advert_thumb_medium' },
+                    processor: 'adv_thumb_medium' },
                 { id: String,
                     path: String,
                     extension: String,
                     width: Number,
                     mimeType: String,
                     height: Number,
-                    processor: 'advert_thumb_small'
+                    processor: 'adv_thumb_small'
                 }
             ]
         }
     )
     .toss()
 
-/**
- {
-    id: '5530abd7d69b5ae00d8b4568',
-    thumbnails:
-        [ { id: '5530abd7d69b5ae00d8b4569',
-           path: '/uploads/thumbnail/advert_thumb_big/14/29/25/30/78/1429253078.jpeg',
-           extension: '.jpeg',
-           width: 1024,
-           mimeType: 'image/jpeg',
-           height: 768,
-           processor: 'advert_thumb_big' },
-         { id: '5530abd7d69b5ae00d8b456a',
-           path: '/uploads/thumbnail/advert_thumb_medium/14/29/25/30/78/1429253078.jpeg',
-           extension: '.jpeg',
-           width: 512,
-           mimeType: 'image/jpeg',
-           height: 384,
-           processor: 'advert_thumb_medium' },
-         { id: '5530abd7d69b5ae00d8b456b',
-           path: '/uploads/thumbnail/advert_thumb_small/14/29/25/30/79/1429253079.jpeg',
-           extension: '.jpeg',
-           width: 256,
-           mimeType: 'image/jpeg',
-           height: 192,
-           processor: 'advert_thumb_small' } ]
-}
- */

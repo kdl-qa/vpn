@@ -1,17 +1,17 @@
 {
-  "id": "559a57bfd69b5ade438b456d",
+  "id": "559a69e9d69b5a31278b4568",
   "operationType": {
-    "id": "559a4338d69b5a60228b4684",
+    "id": "559a647ed69b5a4a118b4684",
     "name": "Аренда",
     "type": "rent"
   },
   "period": {
-    "id": "559a4338d69b5a60228b468e",
+    "id": "559a647ed69b5a4a118b468e",
     "name": "За месяц"
   },
   "description": "Please feel free to call or e-mail me from 10am till 6pm",
   "user": {
-    "id": "559a44c3d69b5a0c328b4571",
+    "id": "559a65bcd69b5a561b8b4571",
     "name": "API Auto Test Agency",
     "firstName": "API Auto Test",
     "lastName": "Agency",
@@ -24,78 +24,78 @@
   "convertedPrice": 108.69565217391,
   "auction": false,
   "currency": {
-    "id": "559a4338d69b5a60228b468c",
+    "id": "559a647ed69b5a4a118b468c",
     "name": "UAH"
   },
   "convertedCurrency": {
-    "id": "559a4338d69b5a60228b468b",
+    "id": "559a647ed69b5a4a118b468b",
     "name": "USD"
   },
-  "availableFrom": "2015-05-14T13:26:07+0300",
+  "availableFrom": "2015-05-14T14:43:36+0300",
   "repair": {
-    "id": "559a4338d69b5a60228b4656",
+    "id": "559a647ed69b5a4a118b4656",
     "name": "Косметический"
   },
   "furniture": [
     {
-      "id": "559a4338d69b5a60228b4646",
+      "id": "559a647dd69b5a4a118b4646",
       "name": "Сейф"
     }
   ],
   "appliances": [
     {
-      "id": "559a4337d69b5a60228b4586",
+      "id": "559a647dd69b5a4a118b4586",
       "name": "Кондиционер"
     }
   ],
   "additionally": [
     {
-      "id": "559a4337d69b5a60228b4567",
+      "id": "559a647dd69b5a4a118b4567",
       "name": "Лифт"
     }
   ],
   "ownerName": "Frisby autotest API",
   "ownerContacts": "+380674445566",
   "realty": {
-    "id": "559a44cfd69b5aad238b456b",
+    "id": "559a660ad69b5a461c8b4569",
     "category": {
-      "id": "559a4338d69b5a60228b4671",
+      "id": "559a647ed69b5a4a118b4671",
       "name": "Квартиры и комнаты",
       "type": "flat"
     },
     "categoryType": {
-      "id": "559a4338d69b5a60228b4675",
+      "id": "559a647ed69b5a4a118b4675",
       "name": "Квартира"
     },
     "address": {
       "region": {
-        "id": "559a4337d69b5a60228b4593",
+        "id": "559a647dd69b5a4a118b4593",
         "name": "Черкасская область"
       },
       "city": {
-        "id": "559a4337d69b5a60228b4595",
+        "id": "559a647dd69b5a4a118b4595",
         "name": "Черкассы",
         "latinName": "cherkassy"
       },
       "district": {
-        "id": "559a4337d69b5a60228b4599",
+        "id": "559a647dd69b5a4a118b4599",
         "name": "Казбет"
       },
       "street": {
-        "id": "559a4337d69b5a60228b45a9",
+        "id": "559a647dd69b5a4a118b45a9",
         "name": "Чехова"
       },
       "houseNumber": {
-        "id": "559a44cfd69b5aad238b4569",
+        "id": "559a660ad69b5a461c8b4567",
         "number": 55
       },
       "flatNumber": {
-        "id": "559a44cfd69b5aad238b456a",
+        "id": "559a660ad69b5a461c8b4568",
         "number": 43
       }
     },
     "user": {
-      "id": "559a44c3d69b5a0c328b4571",
+      "id": "559a65bcd69b5a561b8b4571",
       "firstName": "API Auto Test",
       "lastName": "Agency",
       "email": "api.agency@test.com",
@@ -104,17 +104,17 @@
       "name": "API Auto Test Agency"
     },
     "marketType": {
-      "id": "559a4338d69b5a60228b468a",
+      "id": "559a647ed69b5a4a118b468a",
       "name": "Вторичный"
     },
     "roomCount": 2,
     "wallMaterial": {
-      "id": "559a4338d69b5a60228b4668",
+      "id": "559a647ed69b5a4a118b4668",
       "name": "Дерево и кирпич"
     },
     "area": 52,
     "areaUnit": {
-      "id": "559a4338d69b5a60228b4686",
+      "id": "559a647ed69b5a4a118b4686",
       "name": "Кв. метры"
     },
     "livingArea": 35,
@@ -123,24 +123,24 @@
     "floorNumber": 9,
     "buildYear": 1985,
     "wc": {
-      "id": "559a4338d69b5a60228b466e",
+      "id": "559a647ed69b5a4a118b466e",
       "name": "Раздельный"
     },
     "balcony": {
-      "id": "559a4337d69b5a60228b4591",
+      "id": "559a647dd69b5a4a118b4591",
       "name": "3 и больше"
     },
     "heating": {
-      "id": "559a4338d69b5a60228b464b",
+      "id": "559a647dd69b5a4a118b464b",
       "name": "Автономная котельная"
     },
     "waterHeating": {
-      "id": "559a4338d69b5a60228b466d",
+      "id": "559a647ed69b5a4a118b466d",
       "name": "Комбинированный"
     },
     "nearObjects": [
       {
-        "id": "559a4338d69b5a60228b464c",
+        "id": "559a647dd69b5a4a118b464c",
         "name": "Остановка общественного транспорта"
       }
     ]

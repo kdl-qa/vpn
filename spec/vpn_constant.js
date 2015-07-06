@@ -492,10 +492,14 @@ URL_edit_profile_agencies = url + 'profiles/agencies/edit';
 // PUT EDIT PROFILE AGENT
 URL_edit_profile_agents = url + 'profiles/agents/edit';
 
+// PUT FORGOT-PASSWORD
+URL_forgot_password = url + 'forgot-password';
+
+
 //-----------------------------------Image API-----------------------------------//
 
 // POST UPLOAD ADVERT IMAGE
-URL_advert_image = url + 'uploads/adv-image';
+URL_advert_image = url + 'uploads/announcement-image';
 
 // POST UPLOAD ADVERT IMAGE
 URL_schema_image = url + 'uploads/schema';
@@ -507,7 +511,7 @@ URL_user_avatar = url + 'uploads/user-avatar';
 URL_certificates_image = url + 'uploads/certificates';
 
 // DELETE ADVERT IMAGE {ADVERT ID / IMAGE ID}
-URL_delete_image = url + 'advs/' + advertId + '/images/' + imageId +'/delete';
+URL_delete_image = url + 'announcements/' + advertId + '/images/' + imageId +'/delete';
 
 //-----------------------------------Search API-----------------------------------//
 
@@ -518,6 +522,9 @@ URL_search_adverts = url + 'search';
 URL_search_adverts_sort = url + 'search/1/50/';
 
 //-----------------------------------------Realty API-----------------------------------------//
+//GET ADMIN SORT LIST REALTIES
+URL_admin_realties_list = url + 'realties/lists/1/25';
+
 //-----------------------------------Add Realty API-----------------------------------//
 //POST ADD FLATS REALTY
 URL_realties_flats_add = url + 'realties/flats/add';
@@ -561,76 +568,73 @@ URL_realties_commercials_validate = url + 'realties/commercials/validate';
 //-----------------------------------------Advert API-----------------------------------------//
 
 //POST ADD FLATS ADVERTS
-URL_adverts_flats_add = url + 'advs/flats/add/' + realtyFlatId;
+URL_adverts_flats_add = url + 'announcements/flats/add/' + realtyFlatId;
 
 //PUT EDIT FLATS ADVERTS
-URL_adverts_flats_edit = url + 'advs/flats/edit/' + advertsFlatSaleId;
+URL_adverts_flats_edit = url + 'announcements/flats/edit/' + advertsFlatSaleId;
 
 //POST ADD HOUSES ADVERTS
-URL_adverts_houses_add = url + 'advs/houses/add/' + realtyHouseId;
+URL_adverts_houses_add = url + 'announcements/houses/add/' + realtyHouseId;
 
 //PUT EDIT HOUSES ADVERTS
-URL_adverts_houses_edit = url + 'advs/houses/edit/' + advertsHouseSaleId;
+URL_adverts_houses_edit = url + 'announcements/houses/edit/' + advertsHouseSaleId;
 
 //POST ADD PARCELS ADVERTS
-URL_adverts_parcels_add = url + 'advs/parcels/add/' + realtyParcelId;
+URL_adverts_parcels_add = url + 'announcements/parcels/add/' + realtyParcelId;
 
 //PUT EDIT PARCELS ADVERTS
-URL_adverts_parcels_edit = url + 'advs/parcels/edit/' + advertsParcelSaleId;
+URL_adverts_parcels_edit = url + 'announcements/parcels/edit/' + advertsParcelSaleId;
 
 //POST ADD COMMERCIALS ADVERTS
-URL_adverts_commercials_add = url + 'advs/commercials/add/' + realtyCommercialId;
+URL_adverts_commercials_add = url + 'announcements/commercials/add/' + realtyCommercialId;
 
 //PUT EDIT COMMERCIALS ADVERTS
-URL_adverts_commercials_edit = url + 'advs/commercials/edit/' + advertsCommercialsSaleId;
+URL_adverts_commercials_edit = url + 'announcements/commercials/edit/' + advertsCommercialsSaleId;
 
 //GET LAST ADVERTS
-URL_last_adverts = url + 'get-advs/last/';
+URL_last_adverts = url + 'get-announcements/last/';
 
 //GET ADVERT
-URL_get_advert = url + 'get-advs/';
+URL_get_advert = url + 'get-announcements/';
 
 //CREATE LIST OF ADVERTS
-URL_create_list_adverts = url + 'profiles/advs-lists/create';
+URL_create_list_adverts = url + 'profiles/announcements-lists/create';
 
 //EDIT LIST OF ADVERTS
-URL_edit_list_adverts = url + 'profiles/advs-lists/' + advertsListSlug + '/edit';
+URL_edit_list_adverts = url + 'profiles/announcements-lists/' + advertsListSlug + '/edit';
 
 //ADVERTS LIST ADD ADVERTS
-URL_adverts_list_add_adverts = url + 'profiles/advs-lists/' + advertsListSlug + '/add';
+URL_adverts_list_add_adverts = url + 'profiles/announcements-lists/' + advertsListSlug + '/add';
 
 //ADVERTS LIST DELETE ADVERT
-URL_adverts_list_delete_advert = url + 'profiles/advs-lists/' + advertsListSlug + '/' + advertsFlatSaleId + '/delete';
+URL_adverts_list_delete_advert = url + 'profiles/announcements-lists/' + advertsListSlug + '/' + advertsFlatSaleId + '/delete';
 
 //ADVERTS LIST DELETE
-URL_adverts_list_delete = url + 'profiles/advs-lists/' + advertsListSlug + '/delete';
+URL_adverts_list_delete = url + 'profiles/announcements-lists/' + advertsListSlug + '/delete';
 
 //GET ADVERTS GROUP LIST
 URL_adverts_group_lists = url + 'lists/' + advertsListSlug + '/1/50';
 
 //GET PROFILE ADVERTS GROUP LISTS
-URL_profiles_adverts_group_lists = url + 'profiles/advs-lists/lists';
+URL_profiles_adverts_group_lists = url + 'profiles/announcements-lists/lists';
 
 //POST SEND LIST ADVERTS
-URL_profiles_send_list_adverts = url + 'profiles/advs-lists/'+ advertsListSlug + '/send';
+URL_profiles_send_list_adverts = url + 'profiles/announcements-lists/'+ advertsListSlug + '/send';
 
 //GET PROFILE LIST ADVERTS
-URL_profiles_list_adverts = url + 'profiles/advs/1/25';
+URL_profiles_list_adverts = url + 'profiles/announcements/1/25';
 
 //GET ADMIN ADVERTS STATISTICS
-URL_admin_adverts_statistics = url + 'advs/statistics';
+URL_admin_adverts_statistics = url + 'announcements/statistics';
 
 //GET ADMIN REALTIES STATISTICS
 URL_admin_realties_statistics = url + 'realties/statistics';
 
 //GET ADMIN SORT LIST ADVERTS
-URL_admin_adverts_list = url + 'advs/lists/1/25';
-
-//GET ADMIN SORT LIST ADVERTS
-URL_admin_realties_list = url + 'realties/lists/1/25';
+URL_admin_adverts_list = url + 'announcements/lists/1/25';
 
 //GET AGENCY SUBDOMAIN ADVERTS
-URL_agency_subdomain_adverts = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/get-advs/1/24/date';
+URL_agency_subdomain_adverts = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/get-announcements/1/24/date';
 
 
 

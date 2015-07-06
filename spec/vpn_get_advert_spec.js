@@ -6,7 +6,8 @@ frisby.create('Get Advert')
     .expectStatus(200)
     .expectJSONTypes({
         id: String,
-        title: String,
-        description: String
+        operationType: Object,
+        description: String,
+        user: Object
     })
     .toss()
