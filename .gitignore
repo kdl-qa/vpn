@@ -47,5 +47,7 @@ spec/classes/realties/parcel_object.json
 spec/classes/users/auth_user_template.json
 spec/classes/users/auth_admin_template.json
 spec/classes/users/auth_agency_template.json
+spec/classes/users/edit_user_template.json
+spec/classes/users/user_template.json
 spec/img/user_avatar.json
 spec/img/certificate_image.json
