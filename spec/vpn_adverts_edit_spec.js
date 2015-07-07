@@ -1,16 +1,18 @@
 require('./boot');
-frisby.create('Add Flat advert (sale)')
-    .addHeader('token', userToken)
-    //.addHeader('token', agencyToken)
-    .post(URL_adverts_flats_add,
+frisby.create('Edit advert (sale)')
+    //.addHeader('token', userToken)
+    .addHeader('token', adminToken)
+    .put(URL_adverts_flats_admin_edit,
     {
-        //title: advfs_title,    //true
+        status: 1,    //true
+        type: 'flat',
+        userId: userId,
         operationType: operationtypesId,    //true
         price: advfs_price,    //true
         currency: currencyId, //true
         ownerName: advfs_ownerName,    //true
         ownerContacts: advfs_ownerContacts,    //true
-        description: advfs_description,
+        description: 'edited',
         auction: true,  // true or false
         repair: repairsId,
         bedsCount: advfs_bedsCount,
@@ -21,13 +23,17 @@ frisby.create('Add Flat advert (sale)')
         //mainImage: ""
     }, {json: true}
     )
-    .inspectRequest()
     .inspectJSON()
+    .inspectBody()
+    .inspectResponse()
+    .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .expectJSON({
         id: String
     })
     .afterJSON(function (json) {
-        adverts.saveFlatAdvertSale(json);
+        if (json.id === advertsFlatSaleId ) {
+            adverts.saveFlatAdvertSale(json);
+        }
     })
     .toss()
