@@ -21,6 +21,7 @@ userPhones = userData.phones;
 userPassword = userData.password;
 userEmail = userData.email;
 userToken = saveUserData.token;
+userId = saveUserData.id;
 //userAvatar = userData.avatar;
 
 agencyFirstName = agencyData.firstName;
@@ -590,6 +591,9 @@ URL_adverts_commercials_add = url + 'announcements/commercials/add/' + realtyCom
 //PUT EDIT FLATS ADVERTS
 URL_adverts_flats_edit = url + 'advs/flats/edit/' + advertsFlatSaleId;
 
+//PUT EDIT FLATS BY ADMIN ADVERTS
+URL_adverts_flats_admin_edit = url + 'announcements/edit/' + advertsFlatSaleId;
+
 //PUT EDIT HOUSES ADVERTS
 URL_adverts_houses_edit = url + 'advs/houses/edit/' + advertsHouseSaleId;
 
@@ -635,6 +639,9 @@ URL_profiles_send_list_adverts = url + 'profiles/announcements-lists/'+ advertsL
 
 //GET PROFILE LIST ADVERTS
 URL_profiles_list_adverts = url + 'profiles/announcements/1/25';
+
+//GET PROFILE ADVERT
+URL_profiles_advert = url + 'profiles/announcements/' + advertsFlatSaleId;
 
 //GET ADMIN ADVERTS STATISTICS
 URL_admin_adverts_statistics = url + 'announcements/statistics';
