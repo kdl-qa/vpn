@@ -506,6 +506,12 @@ URL_forgot_password = url + 'forgot-password';
 //GET AGENTS OF AGENCY
 URL_profiles_agencies_agents = url + 'profiles/agencies/agents/1/25';
 
+//GET USERS STATISTICS (ADMIN)
+URL_user_statistics = url + 'users/statistics';
+
+//GET USERS (ADMIN)
+URL_admin_users = url + 'users/1/25';
+
 
 //-----------------------------------Image API-----------------------------------//
 
