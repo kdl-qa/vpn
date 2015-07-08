@@ -503,6 +503,9 @@ URL_edit_profile_agents = url + 'profiles/agents/edit';
 // PUT FORGOT-PASSWORD
 URL_forgot_password = url + 'forgot-password';
 
+//GET AGENTS OF AGENCY
+URL_profiles_agencies_agents = url + 'profiles/agencies/agents/1/25';
+
 
 //-----------------------------------Image API-----------------------------------//
 
