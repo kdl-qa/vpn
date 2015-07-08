@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Houses advert (rent)')
-    //.addHeader('token', userToken)
-    .addHeader('token', agencyToken)
+    .addHeader('token', userToken)
+    //.addHeader('token', agencyToken)
     .post(URL_adverts_houses_add,
     {
         //title: advhr_title,    //true
@@ -21,7 +21,7 @@ frisby.create('Add Houses advert (rent)')
         //images: "",
         //mainImage: ""
     }, {json: true}
-)
+    )
     .inspectRequest()
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')

@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Houses advert (sale)')
-    //.addHeader('token', userToken)
-    .addHeader('token', agencyToken)
+    .addHeader('token', userToken)
+    //.addHeader('token', agencyToken)
     .post(URL_adverts_houses_add,
     {
         //title: advhs_title,    //true

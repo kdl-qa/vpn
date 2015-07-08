@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Parcel object')
-    //.addHeader('token', userToken)
-    .addHeader('token', agencyToken)
+    .addHeader('token', userToken)
+    //.addHeader('token', agencyToken)
     .post(URL_realties_parcels_add,
     {
         category: category_type2CategoryId,	//true

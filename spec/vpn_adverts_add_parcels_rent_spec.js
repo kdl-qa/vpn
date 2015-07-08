@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Parcels advert (rent)')
-    //.addHeader('token', userToken)
-    .addHeader('token', agencyToken)
+    .addHeader('token', userToken)
+    //.addHeader('token', agencyToken)
     .post(URL_adverts_parcels_add,
     {
         //title: advpr_title,    //true

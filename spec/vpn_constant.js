@@ -588,11 +588,21 @@ URL_adverts_parcels_add = url + 'announcements/parcels/add/' + realtyParcelId;
 URL_adverts_commercials_add = url + 'announcements/commercials/add/' + realtyCommercialId;
 
 //-----------------------------------Edit Advert API-----------------------------------//
+
+//PUT EDIT FLATS ADVERTS BY ADMIN
+URL_admin_adverts_flats_edit = url + 'announcements/edit/' + advertsFlatSaleId;
+
+//PUT EDIT HOUSES ADVERTS BY ADMIN
+URL_admin_adverts_houses_edit = url + 'announcements/edit/' + advertsHouseSaleId;
+
+//PUT EDIT PARCELS ADVERTS BY ADMIN
+URL_admin_adverts_parcels_edit = url + 'announcements/edit/' + advertsParcelSaleId;
+
+//PUT EDIT COMMERCIALS ADVERTS BY ADMIN
+URL_admin_adverts_commercials_edit = url + 'announcements/edit/' + advertsCommercialsSaleId;
+
 //PUT EDIT FLATS ADVERTS
 URL_adverts_flats_edit = url + 'advs/flats/edit/' + advertsFlatSaleId;
-
-//PUT EDIT FLATS BY ADMIN ADVERTS
-URL_adverts_flats_admin_edit = url + 'announcements/edit/' + advertsFlatSaleId;
 
 //PUT EDIT HOUSES ADVERTS
 URL_adverts_houses_edit = url + 'advs/houses/edit/' + advertsHouseSaleId;

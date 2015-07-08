@@ -6,7 +6,7 @@ frisby.create('Login Agency')
     }, {json: true})
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
-    .expectJSON({
+    .expectJSONTypes({
         id: String,
         name: String,
         subdomain: String,
