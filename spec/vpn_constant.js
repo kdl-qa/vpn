@@ -510,7 +510,10 @@ URL_profiles_agencies_agents = url + 'profiles/agencies/agents/1/25';
 URL_user_statistics = url + 'users/statistics';
 
 //GET USERS (ADMIN)
-URL_admin_users = url + 'users/1/25';
+URL_admin_users = url + 'users';
+
+//CHECK-SUBDOMAIN AGENCY
+URL_agency_check_subdomain = url + 'registration/agency/check-subdomain/';
 
 
 //-----------------------------------Image API-----------------------------------//
@@ -622,7 +625,7 @@ URL_adverts_parcels_edit = url + 'advs/parcels/edit/' + advertsParcelSaleId;
 //PUT EDIT COMMERCIALS ADVERTS
 URL_adverts_commercials_edit = url + 'announcements/commercials/edit/' + advertsCommercialsSaleId;
 
-//-----------------------------------Unpublish Advert API-----------------------------------//
+//-----------------Unpublish Advert API----------//
 //UNPUBLISH FLATS ADVERT
 URL_adverts_flats_unpublish = url + 'advs/unpublish/' + advertsFlatSaleId;
 
