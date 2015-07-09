@@ -561,6 +561,9 @@ URL_search_adverts_sort = url + 'search/1/50/';
 //GET ADMIN SORT LIST REALTIES
 URL_admin_realties_list = url + 'realties/lists/1/25';
 
+//GET ADMIN REALTY
+URL_realty = url + 'profiles/realties/' + realtyFlatId;
+
 //-----------------------------------Add Realty API-----------------------------------//
 //POST ADD FLATS REALTY
 URL_realties_flats_add = url + 'realties/flats/add';
@@ -573,6 +576,19 @@ URL_realties_parcels_add = url + 'realties/parcels/add';
 
 // POST ADD COMMERCIALS REALTY
 URL_realties_commercials_add = url + 'realties/commercials/add';
+
+//-----------------------------------Edit Realty API-----------------------------------//
+//PUT EDIT FLATS REALTY
+URL_realties_flats_edit = url + 'realties/flats/edit/' + realtyFlatId;
+
+//PUT EDIT HOUSES REALTY
+URL_realties_houses_edit = url + 'realties/houses/edit/' + realtyHouseId;
+
+//PUT EDIT PARCELS REALTY
+URL_realties_parcels_edit = url + 'realties/parcels/edit/' + realtyParcelId;
+
+// PUT EDIT COMMERCIALS REALTY
+URL_realties_commercials_edit = url + 'realties/commercials/edit/' + realtyCommercialId;
 
 //-----------------------------------Check Realty API-----------------------------------//
 //POST CHECK FLATS REALTY
