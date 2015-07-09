@@ -10,7 +10,7 @@ frisby.create('Get Agency Subdomain Adverts List (sort)')
     .expectJSONTypes({
         total: Number,
         count: Number,
-        page: Number,
-        data: Array
+        page: Number
+        //data: Array
     })
     .toss()

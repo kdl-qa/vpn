@@ -79,6 +79,13 @@ editAgentLastName = editAgentData.last_name;
 editAgentPhones = editAgentData.phones;
 editAgentEmail = editAgentData.email;
 
+certificateData = images.getCertificate();
+certificate2Data = images.getCertificate2();
+
+certificate1 = certificateData.id;
+certificate2 = certificate2Data.id;
+
+
 //------------------------------Images Data-------------------------------//
 userAvatarData = images.getUserAvatar();
 
@@ -87,7 +94,7 @@ userAvatar = userAvatarData.id;
 //------------------------------Regions Data-------------------------------//
 
 regionsData = regions.getRegions();
-regionsId =  regionsData[regionsData.length-1].id;
+regionsId =  regionsData[0].id;
 
 //------------------------------Cities Data-------------------------------//
 
@@ -500,6 +507,9 @@ URL_edit_profile_agencies = url + 'profiles/agencies/edit';
 // PUT EDIT PROFILE AGENT
 URL_edit_profile_agents = url + 'profiles/agents/edit';
 
+//POST EDIT AGENCY SERVICES AND CERTIFICATES
+URL_edit_profile_services = url + 'profiles/agencies/services/edit';
+
 // PUT CHANGE-PASSWORD
 URL_change_password = url + 'profiles/change-password';
 
@@ -683,7 +693,14 @@ URL_admin_adverts_list = url + 'announcements/lists/1/25';
 //GET AGENCY SUBDOMAIN ADVERTS
 URL_agency_subdomain_adverts = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/get-announcements/1/24/date';
 
+//GET AGENCY SUBDOMAIN EMPLOYEES
+URL_agency_subdomain_employees = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/employees';
 
+//GET AGENCY SUBDOMAIN SERVICES
+URL_agency_subdomain_services = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/services';
+
+//GET AGENCY SUBDOMAIN INFO
+URL_agency_subdomain_info = 'http://' + agencySubdomain + '.' + domain + '/api/v1/info/agency';
 
 //-----------------------------------------------Info API-----------------------------------------------//
 // GET UHOME CONTACTS
