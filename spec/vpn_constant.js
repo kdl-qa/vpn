@@ -533,6 +533,9 @@ URL_search_adverts_sort = url + 'search/1/50/';
 //GET ADMIN SORT LIST REALTIES
 URL_admin_realties_list = url + 'realties/lists/1/25';
 
+//GET ADMIN REALTY
+URL_realty = url + 'profiles/realties/' + realtyFlatId;
+
 //-----------------------------------Add Realty API-----------------------------------//
 //POST ADD FLATS REALTY
 URL_realties_flats_add = url + 'realties/flats/add';
