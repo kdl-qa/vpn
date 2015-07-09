@@ -1,11 +1,9 @@
 require('./boot');
-frisby.create('Add Parcel object')
+frisby.create('Edit Parcel realty (sale)')
     //.addHeader('token', userToken)
-    .addHeader('token', userToken)
-    .post(URL_realties_parcels_add,
+    .addHeader('token', adminToken)
+    .put(URL_realties_parcels_edit,
     {
-        category: category_type2CategoryId,	//true
-        categoryType: category_type2Id, //true
         region: regionsId, //true
         city: citiesId,	//false
         district: districtsId, //false
@@ -26,7 +24,9 @@ frisby.create('Add Parcel object')
     .expectJSON({
         id: String
     })
-    .afterJSON(function (json){
-        useRealties.saveParcelObject(json);
+    .afterJSON(function (json) {
+        if (json.id === realtyParcelId ) {
+            adverts.saveParcelAdvertSale(json);
+        }
     })
     .toss()

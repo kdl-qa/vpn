@@ -1,11 +1,9 @@
 require('./boot');
-frisby.create('Add Houses object')
+frisby.create('Edit Houses object')
     //.addHeader('token', userToken)
-    .addHeader('token', userToken)
-    .post(URL_realties_houses_add,
+    .addHeader('token', adminToken)
+    .put(URL_realties_houses_edit,
     {
-        category: category_type1CategoryId,	//true
-        categoryType: category_type1Id, //true
         region: regionsId, //true
         city: citiesId,	//false
         district: districtsId, //false
@@ -37,6 +35,8 @@ frisby.create('Add Houses object')
         id: String
     })
     .afterJSON(function (json) {
-        useRealties.saveHouseObject(json);
+        if (json.id === realtyHouseId ) {
+            useRealties.saveHouseObject(json);
+        }
     })
     .toss()

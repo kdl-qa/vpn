@@ -1,11 +1,9 @@
 require('./boot');
-frisby.create('Add Commercial property')
+frisby.create('Edit Commercial property')
     //.addHeader('token', userToken)
-    .addHeader('token', userToken)
-    .post(URL_realties_commercials_add,
+    .addHeader('token', adminToken)
+    .put(URL_realties_commercials_edit,
     {
-        category: category_type3CategoryId,	//true
-        categoryType: category_type3Id, //true
         region: regionsId, //true
         city: citiesId,	//true
         district: districtsId, //false
@@ -35,6 +33,8 @@ frisby.create('Add Commercial property')
         id: String
     })
     .afterJSON(function (json){
-        useRealties.saveCommercialObject(json);
+        if (json.id === realtyCommercialId ) {
+            useRealties.saveCommercialObject(json);
+        }
     })
     .toss()
