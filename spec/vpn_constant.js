@@ -500,8 +500,14 @@ URL_edit_profile_agencies = url + 'profiles/agencies/edit';
 // PUT EDIT PROFILE AGENT
 URL_edit_profile_agents = url + 'profiles/agents/edit';
 
+// PUT CHANGE-PASSWORD
+URL_change_password = url + 'profiles/change-password';
+
 // PUT FORGOT-PASSWORD
 URL_forgot_password = url + 'forgot-password';
+
+// PUT RESET-PASSWORD
+URL_reset_password = url + 'reset-password';
 
 //GET AGENTS OF AGENCY
 URL_profiles_agencies_agents = url + 'profiles/agencies/agents/1/25';
