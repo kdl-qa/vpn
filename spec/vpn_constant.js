@@ -346,9 +346,12 @@ advertsSendListEmail = advertsSendListData.email;
 advertsSendListSubject = advertsSendListData.subject;
 advertsSendListText = advertsSendListData.text;
 
+advertImageData = images.getAdvertImage();
+advertMainImageData = images.getAdvertMainImage();
+advertImage = advertImageData.id;
+advertMainImage = advertMainImageData.id;
+
 //------------------------------Delete Advert Image Data-------------------------------//
-var advertId = '55376f32d69b5af43a8b459c';
-var imageId = '55376ab6d69b5a07118b4581';
 
 
 //------------------------------------------------Project Endpoint Link Data------------------------------------------------//
@@ -547,7 +550,7 @@ URL_user_avatar = url + 'uploads/user-avatar';
 URL_certificates_image = url + 'uploads/certificates';
 
 // DELETE ADVERT IMAGE {ADVERT ID / IMAGE ID}
-URL_delete_image = url + 'announcements/' + advertId + '/images/' + imageId +'/delete';
+URL_delete_image = url + 'announcements/' + advertsFlatSaleId + '/images/' + advertImage +'/delete'; // Flat, House, Parcel, Commercial (Sale or Rent)
 
 //-----------------------------------Search API-----------------------------------//
 

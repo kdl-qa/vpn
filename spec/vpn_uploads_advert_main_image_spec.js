@@ -1,6 +1,6 @@
 require('./boot');
 
-var filePath = path.resolve(__dirname, './img/advert_img_1.jpg');
+var filePath = path.resolve(__dirname, './img/advert_img_2.jpg');
 var form = new formData();
 
 form.append('file', fs.createReadStream(filePath), {knownLength: fs.statSync(filePath).size});
@@ -47,7 +47,7 @@ frisby.create('Upload advert image')
         }
     )
     .afterJSON(function (json) {
-        images.saveAdvertImage(json);
+        images.saveAdvertMainImage(json);
     })
     .toss()
 

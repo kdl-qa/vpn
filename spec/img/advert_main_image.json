@@ -1,0 +1,32 @@
+{
+  "id": "559f8804d69b5a01618b456a",
+  "thumbnails": [
+    {
+      "id": "559f8804d69b5a01618b4567",
+      "path": "/uploads/thumbnail/adv_thumb_big/14/36/51/84/04/1436518404.01051436518404.jpeg",
+      "extension": ".jpeg",
+      "width": 588,
+      "mimeType": "image/jpeg",
+      "height": 390,
+      "processor": "adv_thumb_big"
+    },
+    {
+      "id": "559f8804d69b5a01618b4568",
+      "path": "/uploads/thumbnail/adv_thumb_medium/14/36/51/84/04/1436518404.25531436518404.jpeg",
+      "extension": ".jpeg",
+      "width": 268,
+      "mimeType": "image/jpeg",
+      "height": 174,
+      "processor": "adv_thumb_medium"
+    },
+    {
+      "id": "559f8804d69b5a01618b4569",
+      "path": "/uploads/thumbnail/adv_thumb_small/14/36/51/84/04/1436518404.44831436518404.jpeg",
+      "extension": ".jpeg",
+      "width": 161,
+      "mimeType": "image/jpeg",
+      "height": 104,
+      "processor": "adv_thumb_small"
+    }
+  ]
+}

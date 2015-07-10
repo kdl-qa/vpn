@@ -52,3 +52,5 @@ spec/classes/users/user_template.json
 spec/img/user_avatar.json
 spec/img/certificate_image.json
 spec/img/certificate_2_image.json
+spec/img/advert_image.json
+spec/img/advert_main_image.json

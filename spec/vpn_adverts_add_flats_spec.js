@@ -4,7 +4,6 @@ frisby.create('Add Flat advert (sale)')
     //.addHeader('token', agencyToken)
     .post(URL_adverts_flats_add,
     {
-        //title: advfs_title,    //true
         operationType: operationtypesId,    //true
         price: advfs_price,    //true
         currency: currencyId, //true
@@ -16,9 +15,9 @@ frisby.create('Add Flat advert (sale)')
         bedsCount: advfs_bedsCount,
         furniture: [furnituresId],
         appliances: [appliancesId],
-        additionally: [additionals_cat0Id]
-        //images: "",
-        //mainImage: ""
+        additionally: [additionals_cat0Id],
+        images: [advertImage],
+        mainImage: advertMainImage
     }, {json: true}
     )
     .inspectRequest()

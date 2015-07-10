@@ -4,6 +4,8 @@ agentAvatarTemplate = path.resolve(__dirname, 'agent_avatar.json');
 schemaTemplate = path.resolve(__dirname, 'schema_image.json');
 certificatesTemplate = path.resolve(__dirname, 'certificate_image.json');
 certificates2Template = path.resolve(__dirname, 'certificate_2_image.json');
+advertImageTemplate = path.resolve(__dirname, 'advert_image.json');
+advertMainImageTemplate = path.resolve(__dirname, 'advert_main_image.json');
 
 exports.getUserAvatar = function () {
     return jf.readFileSync(userAvatarTemplate);
@@ -52,4 +54,21 @@ exports.getCertificate2 = function () {
 
 exports.saveCertificate2 = function (certificate2Data) {
     return jf.writeFileSync(certificates2Template, certificate2Data);
+}
+
+
+exports.getAdvertImage = function () {
+    return jf.readFileSync(advertImageTemplate);
+}
+
+exports.saveAdvertImage = function (advertImageData) {
+    return jf.writeFileSync(advertImageTemplate, advertImageData);
+}
+
+exports.getAdvertMainImage = function () {
+    return jf.readFileSync(advertMainImageTemplate);
+}
+
+exports.saveAdvertMainImage = function (advertMainImageData) {
+    return jf.writeFileSync(advertMainImageTemplate, advertMainImageData);
 }
