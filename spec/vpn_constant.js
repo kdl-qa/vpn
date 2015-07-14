@@ -709,6 +709,9 @@ URL_admin_realties_statistics = url + 'realties/statistics';
 //GET ADMIN SORT LIST ADVERTS
 URL_admin_adverts_list = url + 'announcements/lists/1/25';
 
+//GET ADMIN SORT LOGS
+URL_admin_logs = url + 'logs/1/25';
+
 //GET AGENCY SUBDOMAIN ADVERTS
 URL_agency_subdomain_adverts = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/get-announcements/1/24/date';
 
