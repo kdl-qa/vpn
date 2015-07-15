@@ -21,8 +21,7 @@ frisby.create('Edit advert (sale)')
         description: Math.random().toString(36).substring(6),
         auction: true,  // true or false
         additionally: [additionals_cat2Id, additionals_cat2Data[1].id, additionals_cat2Data[3].id]
-        //images: "",
-        //mainImage: ""
+        //images: []
     }, {json: true}
     )
     .inspectJSON()

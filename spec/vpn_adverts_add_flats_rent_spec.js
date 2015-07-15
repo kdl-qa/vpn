@@ -19,8 +19,7 @@ frisby.create('Add Flat advert (rent)')
         furniture: [furnituresId],
         appliances: [appliancesId],
         additionally: [additionals_cat0Id]
-        //images: "",
-        //mainImage: ""
+        //images: []
     }, {json: true}
     )
     .inspectRequest()
