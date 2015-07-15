@@ -16,7 +16,7 @@ frisby.create('Edit House advert (sale)')
         furniture: [furnituresId],
         appliances: [appliancesId],
         additionally: [additionals_cat1Id]
-        //images: []
+        //images: [{id:advertImage}]
     }, {json: true}
     )
     .inspectJSON()
