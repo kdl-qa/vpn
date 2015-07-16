@@ -662,7 +662,7 @@ URL_adverts_commercials_edit = url + 'announcements/commercials/edit/' + adverts
 
 //-----------------Unpublish Advert API----------//
 //UNPUBLISH FLATS ADVERT
-URL_adverts_flats_unpublish = url + 'advs/unpublish/' + advertsFlatSaleId;
+URL_adverts_flats_unpublish = url + 'announcements/unpublish/' + advertsFlatSaleId;
 
 //GET LAST ADVERTS
 URL_last_adverts = url + 'get-announcements/last/';
