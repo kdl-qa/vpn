@@ -39,6 +39,8 @@ frisby.create('Add Flat object')
         id: String
     })
     .afterJSON(function (json) {
-        useRealties.saveFlatObject(json);
+        if (json.category.id == category_type0CategoryId) {
+            useRealties.saveFlatObject(json);
+        }
     })
     .toss()

@@ -12,7 +12,7 @@ frisby.create('Edit Houses object')
         latitude: ahr_latitude, //true
         longitude: ahr_longitude, //true
         roomCount: ahr_roomCount,    //true
-        wallMaterial: wallmaterialsId, //true
+        wallMaterial: wallmaterialsData[1].id, //true
         area: ahr_area, //true
         areaUnit: areaunitsId, //true
         livingArea: ahr_livingArea,   //false
@@ -21,10 +21,10 @@ frisby.create('Edit Houses object')
         landAreaUnit: ahr_landAreaUnit,
         floorNumber: ahr_floorNumber,  //true
         buildYear: ahr_buildYear,    //false
-        heating: heatingsId,  //false
-        waterHeating: waterheatId, //false
-        communication: [communicationsId],
-        nearObjects: [nearobjectsId]    //false
+        heating: heatingsData[1].id,  //false
+        waterHeating: waterheatData[1].id, //false
+        communication: [communicationsData[0].id, communicationsData[1].id, communicationsData[2].id],
+        nearObjects: [nearobjectsData[0].id, nearobjectsData[1].id, nearobjectsData[2].id]    //false
         //schema: ""
     }, {json: true}
     )

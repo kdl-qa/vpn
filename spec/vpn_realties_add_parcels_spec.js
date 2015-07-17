@@ -27,6 +27,8 @@ frisby.create('Add Parcel object')
         id: String
     })
     .afterJSON(function (json){
-        useRealties.saveParcelObject(json);
+        if (json.category.id == category_type2CategoryId) {
+            useRealties.saveParcelObject(json);
+        }
     })
     .toss()

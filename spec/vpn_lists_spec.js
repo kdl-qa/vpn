@@ -5,6 +5,7 @@ require('./vpn_balconies_spec.js');
 require('./vpn_communications_spec.js');
 require('./vpn_countries_spec.js');
 require('./vpn_currency_spec.js');
+require('./vpn_statuses_spec.js');
 require('./vpn_furnitures_spec.js');
 require('./vpn_heatings_spec.js');
 require('./vpn_market_types_spec.js');

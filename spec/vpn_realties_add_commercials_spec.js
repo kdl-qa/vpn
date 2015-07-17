@@ -35,6 +35,8 @@ frisby.create('Add Commercial property')
         id: String
     })
     .afterJSON(function (json){
-        useRealties.saveCommercialObject(json);
+        if (json.category.id == category_type3CategoryId) {
+            useRealties.saveCommercialObject(json);
+        }
     })
     .toss()

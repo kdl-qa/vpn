@@ -5,10 +5,10 @@ frisby.create('Edit Flat object')
     .put(URL_realties_flats_edit,
     {
         region: regionsId, //true
-        city: citiesId,	//false
+        city: citiesId,	//true
         district: districtsId, //false
-        street:	streetsId,	//false
-        houseNumber: afr_houseNumber,  //true
+        street:	streetsData[1].id,	//false
+        houseNumber: ahr_houseNumber,  //true
         flatNumber: afr_flatNumber,   //true
         latitude: afr_latitude, //true
         longitude: afr_longitude, //true
@@ -26,7 +26,7 @@ frisby.create('Edit Flat object')
         balcony: balconiesId,  //false
         heating: heatingsId,  //false
         waterHeating: waterheatId, //false
-        nearObjects: [nearobjectsId]    //false
+        nearObjects: [nearobjectsData[0].id, nearobjectsData[1].id, nearobjectsData[2].id]    //false
         //schema: ""
     }, {json: true}
     )

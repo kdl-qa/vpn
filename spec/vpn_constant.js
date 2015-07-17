@@ -101,6 +101,12 @@ regionsId =  regionsData[0].id;
 citiesData = cities.getCities();
 citiesId =  citiesData[citiesData.length-1].id;
 citiesName = citiesData[citiesData.length-1].latinName;
+//------------------------------Statuses Data-------------------------------//
+
+//statusesData = statuses.getStatuses();
+//statusesId =  statusesData[statusesData.length-1].id; // 0,1,2,3,4
+
+
 //------------------------------Streets Data-------------------------------//
 
 streetsData = streets.getStreets();
@@ -468,6 +474,9 @@ URL_repairs = url + 'lists/repairs';
 
 // GET LISTS STREETS {CITYID}
 URL_streets = url + 'lists/streets/' + citiesId;
+
+// GET LISTS ANNOUNCEMENT STATUSES
+URL_statuses = url + 'lists/statuses';
 
 // GET LISTS WALL-MATERIALS
 URL_wall_materials = url + 'lists/wall-materials';

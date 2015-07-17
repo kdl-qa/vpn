@@ -37,6 +37,8 @@ frisby.create('Add Houses object')
         id: String
     })
     .afterJSON(function (json) {
-        useRealties.saveHouseObject(json);
+        if (json.category.id == category_type1CategoryId) {
+            useRealties.saveHouseObject(json);
+        }
     })
     .toss()
