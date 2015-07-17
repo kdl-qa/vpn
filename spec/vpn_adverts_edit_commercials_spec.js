@@ -14,8 +14,7 @@ frisby.create('Edit Commercial advert (sale)')
         auction: true,  // true or false
         repair: repairsId,
         additionally: [additionals_cat3Id]
-        //images: "",
-        //mainImage: ""
+        //images: [{id:advertImage}]
     }, {json: true}
     )
     .inspectJSON()

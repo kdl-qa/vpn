@@ -15,8 +15,7 @@ frisby.create('Add Parcels advert (rent)')
         description: advpr_description,
         auction: false,  // true or false
         additionally: [additionals_cat2Id]
-        //images: "",
-        //mainImage: ""
+        //images: [{id:advertImage}]
     }, {json: true}
     )
     .inspectRequest()

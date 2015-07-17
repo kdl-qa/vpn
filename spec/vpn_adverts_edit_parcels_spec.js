@@ -13,8 +13,7 @@ frisby.create('Edit Parcel advert (sale)')
         description: 'edited',
         auction: true,  // true or false
         additionally: [additionals_cat2Id]
-        //images: "",
-        //mainImage: ""
+        //images: [{id:advertImage}]
     }, {json: true}
     )
     .inspectJSON()
