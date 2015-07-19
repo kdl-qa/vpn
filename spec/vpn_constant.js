@@ -576,6 +576,9 @@ URL_admin_realties_list = url + 'realties/lists/1/25';
 //GET ADMIN REALTY
 URL_realty = url + 'profiles/realties/' + realtyFlatId;
 
+//GET REALTY HISTORY
+URL_realty_history = url + 'realties/history/' + realtyFlatId;
+
 //-----------------------------------Add Realty API-----------------------------------//
 //POST ADD FLATS REALTY
 URL_realties_flats_add = url + 'realties/flats/add';
@@ -658,13 +661,13 @@ URL_admin_adverts_parcels_edit = url + 'announcements/edit/' + advertsParcelSale
 URL_admin_adverts_commercials_edit = url + 'announcements/edit/' + advertsCommercialsSaleId;
 
 //PUT EDIT FLATS ADVERTS
-URL_adverts_flats_edit = url + 'advs/flats/edit/' + advertsFlatSaleId;
+URL_adverts_flats_edit = url + 'announcements/flats/edit/' + advertsFlatSaleId;
 
 //PUT EDIT HOUSES ADVERTS
-URL_adverts_houses_edit = url + 'advs/houses/edit/' + advertsHouseSaleId;
+URL_adverts_houses_edit = url + 'announcements/houses/edit/' + advertsHouseSaleId;
 
 //PUT EDIT PARCELS ADVERTS
-URL_adverts_parcels_edit = url + 'advs/parcels/edit/' + advertsParcelSaleId;
+URL_adverts_parcels_edit = url + 'announcements/parcels/edit/' + advertsParcelSaleId;
 
 //PUT EDIT COMMERCIALS ADVERTS
 URL_adverts_commercials_edit = url + 'announcements/commercials/edit/' + advertsCommercialsSaleId;

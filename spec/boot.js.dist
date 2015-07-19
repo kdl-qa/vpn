@@ -42,6 +42,7 @@ unpublish_reasons = require('./classes/lists/unpublish_reasons');
 wallmaterials = require('./classes/lists/wallmaterials');
 waterheat = require('./classes/lists/waterheat');
 wc = require('./classes/lists/wc');
+statuses = require('./classes/lists/statuses');
 
 realties = require('./classes/realties/realties');
 useRealties = require('./classes/realties/useRealties');
