@@ -495,6 +495,9 @@ URL_wc = url + 'lists/wc';
 // POST LOGIN
 URL_login = url + 'login';
 
+// GET USER
+URL_get_user = url + 'get-user';
+
 // POST LOGOUT
 URL_logout = url + 'logout';
 
