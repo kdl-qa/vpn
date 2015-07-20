@@ -4,6 +4,7 @@ frisby.create('Edit Flat object')
     //.addHeader('token', agencyToken)
     .put(URL_realties_flats_edit,
     {
+        status: 1,
         region: regionsId, //true
         city: citiesId,	//true
         district: districtsId, //false

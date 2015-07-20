@@ -4,6 +4,7 @@ frisby.create('Edit Commercial property')
     .addHeader('token', adminToken)
     .put(URL_realties_commercials_edit,
     {
+        status: 1,
         region: regionsId, //true
         city: citiesId,	//true
         district: districtsId, //false

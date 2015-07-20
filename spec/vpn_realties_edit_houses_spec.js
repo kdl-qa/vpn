@@ -4,6 +4,7 @@ frisby.create('Edit Houses object')
     .addHeader('token', adminToken)
     .put(URL_realties_houses_edit,
     {
+        status: 1,
         region: regionsId, //true
         city: citiesId,	//false
         district: districtsId, //false

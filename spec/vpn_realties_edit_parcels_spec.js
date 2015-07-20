@@ -4,6 +4,7 @@ frisby.create('Edit Parcel realty (sale)')
     .addHeader('token', adminToken)
     .put(URL_realties_parcels_edit,
     {
+        status: 1,
         region: regionsId, //true
         city: citiesId,	//false
         district: districtsId, //false
