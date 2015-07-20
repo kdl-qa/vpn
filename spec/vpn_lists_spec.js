@@ -18,4 +18,5 @@ require('./vpn_unpublish_reasons_spec.js');
 require('./vpn_wall_materials_spec.js');
 require('./vpn_water_heatings_spec.js');
 require('./vpn_wc_spec.js');
+require('./vpn_project_info_spec.js');
 //require('./');

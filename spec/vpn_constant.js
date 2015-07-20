@@ -193,6 +193,11 @@ waterheatId =  waterheatData[waterheatData.length-1].id;
 wcData = wc.getWc();
 wcId =  wcData[0].id;
 
+//------------------------------Project Info Data-------------------------------//
+
+projectInfoData = project_info.getProjectInfo();
+projectInfoDataLogoId = project_info.getProjectInfo().logo.id;
+
 //----------------------------------------Realty Test Data----------------------------------------//
 //------------------------------Add Flats Realty Data-------------------------------//
 realtyFlatsData = realties.getFlatsRealties();
@@ -752,6 +757,11 @@ URL_info_page_terms = url + 'info/pages/terms-and-conditions';
 // GET INFO PAGE REGISTRATION AGENCY (AGENT)
 URL_info_page_registration_agency_agent = url + 'info/pages/registration-agency-and-agent';
 
+// GET PROJECT INFO
+URL_project_info = url + 'get-project-info';
+
+// PUT EDIT PROJECT INFO
+URL_project_info_edit = url + 'project-info/edit';
 
 //-----------------------------------------------SEO API-----------------------------------------------//
 // GET SEO MAIN TEXT

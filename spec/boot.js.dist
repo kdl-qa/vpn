@@ -43,6 +43,7 @@ wallmaterials = require('./classes/lists/wallmaterials');
 waterheat = require('./classes/lists/waterheat');
 wc = require('./classes/lists/wc');
 statuses = require('./classes/lists/statuses');
+project_info = require('./classes/lists/project_info');
 
 realties = require('./classes/realties/realties');
 useRealties = require('./classes/realties/useRealties');

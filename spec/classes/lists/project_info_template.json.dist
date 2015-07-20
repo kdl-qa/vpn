@@ -1,0 +1,19 @@
+{
+  "address": "Украина, г. Черкассы, ул. Крещатик, 190",
+  "schedule": "Пн. - Пт.: 09:00 - 18:00",
+  "phones": "+380977070711, +380507701773, +380936909777",
+  "emails": "support@uhome.ck.ua",
+  "vk": "https://vk.com/uhome_ck_ua",
+  "facebook": "https://www.facebook.com/uhome.ua",
+  "google": "https://plus.google.com/u/0/106216506811232806047/posts",
+  "copyright": "2015 UHome.ua © Все права защищены",
+  "logo": {
+    "id": "55ad0bb33755df6c688b4698",
+    "path": "/uploads/original/14/37/40/40/83/1437404083.92391437404083.jpeg",
+    "thumbnails": {
+      "id": "55ad0bb33755df6c688b4699",
+      "processor": "user_avatar",
+      "path": "/uploads/thumbnail/user_avatar/14/37/40/40/83/1437404083.92651437404083.jpeg"
+    }
+  }
+}

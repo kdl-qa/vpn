@@ -41,6 +41,7 @@ spec/classes/lists/unpublish_reasons_template.json
 spec/classes/lists/wall_materials_template.json
 spec/classes/lists/water_heatings_template.json
 spec/classes/lists/wc_template.json
+spec/classes/lists/project_info_template.json
 spec/classes/realties/flat_object.json
 spec/classes/realties/commercial_object.json
 spec/classes/realties/house_object.json
