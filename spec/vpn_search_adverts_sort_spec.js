@@ -9,7 +9,7 @@ frisby.create('Search adverts and sort')
     //'&currency='+currencyId+
     //'&period='+periodId+
     //'&auction='+true+
-    '&region='+regionsData[1].id+
+    '&region='+regionsData[0].id+
     //'&city='+citiesId+
     '&lon0='+-150+
     '&lat0='+-60+

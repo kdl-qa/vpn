@@ -11,7 +11,7 @@ frisby.create('Edit Flat advert (sale)')
         unpublishDescription: "Недвижимость Продано. Более детальная информация не предоставляется.",
         unpublishPrice: 3456789,
         unpublishCurrency: currencyData[1].id,
-        type: 'flat',
+        type: 'flats',
         userId: userId,
         operationType: operationtypesData[0].id,    // Аренда = 0, Продажа = 1
         price: advfs_price,    //true
