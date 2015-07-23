@@ -196,7 +196,7 @@ wcId =  wcData[0].id;
 //------------------------------Project Info Data-------------------------------//
 
 projectInfoData = project_info.getProjectInfo();
-projectInfoDataLogoId = project_info.getProjectInfo().logo.id;
+//projectInfoDataLogoId = project_info.getProjectInfo().logo.id;
 
 //----------------------------------------Realty Test Data----------------------------------------//
 //------------------------------Add Flats Realty Data-------------------------------//
@@ -764,9 +764,6 @@ URL_project_info = url + 'get-project-info';
 URL_project_info_edit = url + 'project-info/edit';
 
 //-----------------------------------------------SEO API-----------------------------------------------//
-// GET SEO MAIN TEXT
-URL_seo_main_text = url + 'seo/main-text';
-
 // GET SEO CITY LANDING PAGE
 URL_seo_landings_city = url + 'landings/' + citiesName;
 

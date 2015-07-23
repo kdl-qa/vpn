@@ -14,7 +14,12 @@ frisby.create('Project Info Edit')
         twitter:projectInfoData.twitter,
         google:projectInfoData.google,
         copyright:projectInfoData.copyright,
-        logo:projectInfoDataLogoId
+        homepageH1:projectInfoData.homepageH1,
+        homepageContent:projectInfoData.homepageContent,
+        homepageTitle:projectInfoData.homepageTitle,
+        homepageDescription:projectInfoData.homepageDescription,
+        //homepageKeywords:projectInfoData.homepageKeywords
+        logo: userAvatar
     }, {json: true})
     .inspectJSON()
     .inspectBody()
