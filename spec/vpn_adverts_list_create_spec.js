@@ -6,7 +6,9 @@ frisby.create('Create list of adverts')
     {
         name: "API automated test list",
         slug: "api-automated-test-list111",
-        title: "API automated test list"
+        title: "API automated test list",
+        isFollow: true,
+        isIndex: true
     }, {json: true}
     )
     //.inspectRequest()
@@ -19,7 +21,8 @@ frisby.create('Create list of adverts')
         id: String,
         name: String,
         slug: String,
-        advert: Array
+        advert: Array,
+        metaRobots: String
     })
     .afterJSON(function (json) {
         adverts.saveAdvertList(json);

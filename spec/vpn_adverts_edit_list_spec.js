@@ -1,8 +1,8 @@
 require('./boot');
 var name = String;
 frisby.create('Edit list of adverts')
-    //.addHeader('token', userToken)
-    .addHeader('token', agencyToken)
+    .addHeader('token', userToken)
+    //.addHeader('token', agencyToken)
     .put(URL_edit_list_adverts,
     {
         name: "API automated test list",
@@ -20,7 +20,8 @@ frisby.create('Edit list of adverts')
         id: String,
         name: String,
         slug: String,
-        advert: Array
+        advert: Array,
+        metaRobots: String
     })
     .afterJSON(function (json) {
         if (json.id === advertsListId ) {
