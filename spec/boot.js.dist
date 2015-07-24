@@ -50,6 +50,8 @@ useRealties = require('./classes/realties/useRealties');
 
 adverts = require('./classes/adverts/adverts');
 
+info_page = require('./classes/seo/info_page');
+
 //header = require('./classes/header');
 
 constants = require('./vpn_constant');

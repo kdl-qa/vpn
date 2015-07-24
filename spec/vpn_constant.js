@@ -362,6 +362,10 @@ advertMainImageData = images.getAdvertMainImage();
 advertImage = advertImageData.id;
 advertMainImage = advertMainImageData.id;
 
+//------------------------------Info Pages Data-------------------------------//
+infoPageData = info_page.getInfoPage();
+infoPageLatinName = infoPageData.latinName;
+
 //------------------------------Delete Advert Image Data-------------------------------//
 
 
@@ -745,9 +749,6 @@ URL_agency_subdomain_services = 'http://' + agencySubdomain + '.' + domain + '/a
 URL_agency_subdomain_info = 'http://' + agencySubdomain + '.' + domain + '/api/v1/info/agency';
 
 //-----------------------------------------------Info API-----------------------------------------------//
-// GET UHOME CONTACTS
-URL_contacts_uhome = url + 'info/contacts';
-
 // GET INFO PAGE ABOUT
 URL_info_page_about = url + 'info/pages/about';
 
@@ -762,6 +763,19 @@ URL_project_info = url + 'get-project-info';
 
 // PUT EDIT PROJECT INFO
 URL_project_info_edit = url + 'project-info/edit';
+
+//-----------------------------------------------Seo Admin API-----------------------------------------------//
+//GET INFO PAGES
+URL_info_pages = url + 'admin/info-pages';
+
+//CREATE INFO PAGE
+URL_info_pages_create = url + 'admin/info-pages/create';
+
+//EDIT INFO PAGE
+URL_info_pages_edit = url + 'admin/info-pages/' + infoPageLatinName + '/edit';
+
+//DELETE INFO PAGE
+URL_info_pages_delete = url + 'admin/info-pages/' + infoPageLatinName + '/delete';
 
 //-----------------------------------------------SEO API-----------------------------------------------//
 // GET SEO CITY LANDING PAGE
