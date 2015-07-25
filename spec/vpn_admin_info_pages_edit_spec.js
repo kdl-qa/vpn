@@ -5,7 +5,7 @@ frisby.create('Edit info page')
     //.addHeader('token', agencyToken)
     .put(URL_info_pages_edit,
     {
-        h1: "api-test edited",
+        name: "api-test edited",
         latinName: "api-test",
         content: "api-test",
         title: "api-test",
@@ -20,7 +20,7 @@ frisby.create('Edit info page')
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .expectJSONTypes({
-        h1: String,
+        name: String,
         latinName: String,
         content: String,
         title: String,

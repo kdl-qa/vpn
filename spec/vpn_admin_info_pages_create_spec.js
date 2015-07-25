@@ -4,7 +4,7 @@ frisby.create('Create info page')
     .addHeader('token', adminToken)
     .post(URL_info_pages_create,
     {
-        h1: "api-test",
+        name: "api-test",
         latinName: "api-test",
         content: "api-test",
         title: "api-test",
@@ -18,7 +18,7 @@ frisby.create('Create info page')
     .expectStatus(201)
     .expectHeader('Content-Type', 'application/json')
     .expectJSONTypes({
-        h1: String,
+        name: String,
         latinName: String,
         content: String,
         title: String,
