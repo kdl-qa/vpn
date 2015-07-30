@@ -7,7 +7,7 @@ frisby.create('Get Project Info')
     .expectStatus(200)
     .expectJSON(
         {
-            name: String
+            homepageTitle: String
         }
     )
     .afterJSON(function (json) {
