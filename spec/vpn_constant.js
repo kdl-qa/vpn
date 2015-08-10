@@ -1,5 +1,5 @@
-var url = "http://neru.com.ua/api/v1/";
-domain = 'neru.com.ua';
+var url = "http://vpn.ua/api/v1/";
+domain = 'vpn.ua';
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
 agencyData = user.getAgency();
