@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Commercial advert (rent)')
-    .addHeader('token', userToken)
-    //.addHeader('token', agencyToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_adverts_commercials_add,
     {
         //title: advcr_title,    //true

@@ -1,23 +1,26 @@
 {
-  "id": "559e6e6cd69b5a28638b4569",
+  "id": "55bf1bb2d69b5ab7118b4569",
+  "path": "/uploads/original/14/38/58/78/22/1438587822.43681438587822.jpeg",
   "thumbnails": [
     {
-      "id": "559e6e69d69b5a28638b4567",
-      "path": "/uploads/thumbnail/certificate_small/14/36/44/63/09/1436446309.44061436446309.jpeg",
+      "id": "55bf1bb0d69b5ab7118b4567",
+      "path": "/uploads/thumbnail/certificate_small/14/38/58/78/22/1438587822.50411438587822.jpeg",
       "extension": ".jpeg",
       "width": 205,
-      "mimeType": "image/jpeg",
       "height": 285,
-      "processor": "certificate_small"
+      "mimeType": "image/jpeg",
+      "processor": "certificate_small",
+      "mainImage": false
     },
     {
-      "id": "559e6e6cd69b5a28638b4568",
-      "path": "/uploads/thumbnail/certificate_big/14/36/44/63/13/1436446313.47661436446313.jpeg",
+      "id": "55bf1bb2d69b5ab7118b4568",
+      "path": "/uploads/thumbnail/certificate_big/14/38/58/78/24/1438587824.39021438587824.jpeg",
       "extension": ".jpeg",
       "width": 960,
-      "mimeType": "image/jpeg",
       "height": 1335,
-      "processor": "certificate_big"
+      "mimeType": "image/jpeg",
+      "processor": "certificate_big",
+      "mainImage": false
     }
   ]
 }

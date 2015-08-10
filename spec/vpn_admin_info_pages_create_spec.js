@@ -14,7 +14,7 @@ frisby.create('Create info page')
     //.inspectRequest()
     .inspectJSON()
     .inspectBody()
-    .inspectResponse()
+    //.inspectResponse()
     .expectStatus(201)
     .expectHeader('Content-Type', 'application/json')
     .expectJSONTypes({

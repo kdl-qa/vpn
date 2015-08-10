@@ -1,7 +1,17 @@
 #!/bin/bash
 jasmine-node spec/vpn_registration_pperson_spec.js
 jasmine-node spec/vpn_realties_add_flats_spec.js
+jasmine-node spec/vpn_realties_add_houses_spec.js
+jasmine-node spec/vpn_realties_add_parcels_spec.js
+jasmine-node spec/vpn_realties_add_commercials_spec.js
 jasmine-node spec/vpn_adverts_add_flats_spec.js
+jasmine-node spec/vpn_adverts_add_flats_rent_spec.js
+jasmine-node spec/vpn_adverts_add_houses_spec.js
+jasmine-node spec/vpn_adverts_add_houses_rent_spec.js
+jasmine-node spec/vpn_adverts_add_parcels_spec.js
+jasmine-node spec/vpn_adverts_add_parcels_rent_spec.js
+jasmine-node spec/vpn_adverts_add_commercials_spec.js
+jasmine-node spec/vpn_adverts_add_commercials_rent_spec.js
 jasmine-node spec/vpn_adverts_list_create_spec.js
 jasmine-node spec/vpn_adverts_edit_list_spec.js
 jasmine-node spec/vpn_adverts_list_add_spec.js

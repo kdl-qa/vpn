@@ -11,7 +11,7 @@ frisby.create('Unpublish Flat advert (sale)')
     )
     .inspectJSON()
     .inspectBody()
-    .inspectResponse()
+    //.inspectResponse()
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .expectJSON({

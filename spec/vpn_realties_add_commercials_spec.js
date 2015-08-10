@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Commercial property')
-    .addHeader('token', userToken)
-    //.addHeader('token', agencyToken)
+    //.addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_realties_commercials_add,
     {
         category: category_type3CategoryId,	//true

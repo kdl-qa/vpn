@@ -11,7 +11,7 @@ frisby.create('Registration Agency by Admin')
         schedule: agencySchedule,
         socialAccounts: agencySocialNetworks,
         description: agencyDescription,
-        //userAvatar: ,
+        userAvatar: agencyAvatar,
         //logo: ,
         offices:[
             {

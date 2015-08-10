@@ -1,9 +1,9 @@
 require('./boot');
 frisby.create('Get Admin - list adverts (sort)')
     .addHeader('token', adminToken)
-    .get(URL_admin_adverts_list +      //
+    .get(URL_admin_adverts_list) //+
     //'?operationType='+operationtypesId+       // Sale or Rent
-    '?realtyId='+realtyFlatId)    // flats, houses, parcels, commercials
+    //'&realtyId='+realtyFlatId)    // flats, houses, parcels, commercials
     //'&status=0'+
     //'&author='+)
     //.inspectRequest()

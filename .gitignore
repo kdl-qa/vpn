@@ -57,3 +57,4 @@ spec/img/certificate_2_image.json
 spec/img/advert_image.json
 spec/img/advert_main_image.json
 spec/classes/seo/info_page.json
+spec/classes/seo/edit_info_page.json

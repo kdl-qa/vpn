@@ -5,11 +5,11 @@ frisby.create('Edit info page')
     //.addHeader('token', agencyToken)
     .put(URL_info_pages_edit,
     {
-        name: "api-test edited",
-        latinName: "api-test",
-        content: "api-test",
-        title: "api-test",
-        metaDescription: "api-test",
+        name: editInfoPageData.name,
+        latinName: editInfoPageData.latinName,
+        content: editInfoPageData.content,
+        title: editInfoPageData.title,
+        metaDescription: editInfoPageData.metaDescription,
         isIndex: true
     }, {json: true}
     )
@@ -28,7 +28,7 @@ frisby.create('Edit info page')
         metaRobots: String
     })
     .afterJSON(function (json) {
-        if (json.latinName === infoPageLatinName ) {
+        if (json.latinName === editInfoPageLatinName ) {
             info_page.saveInfoPage(json);
         }
     })

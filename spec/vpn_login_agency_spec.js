@@ -16,8 +16,7 @@ frisby.create('Login Agency')
         token: String,
         userType: 'agency',
         offices: Array,
-        schedule: Array,
-        socialAccounts: Array
+        schedule: Array
     })
     .afterJSON(function (json) {
         if (json.firstName == agencyFirstName) {

@@ -6,7 +6,7 @@ frisby.create('Registration. Private person')
         email: userEmail,
         plainPassword: userPassword,
         phones: userPhones,
-        //userAvatar: userAvatar
+        userAvatar: userAvatar
     }, {json: true})
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')

@@ -7,8 +7,4 @@ frisby.create('Admin - Check Agency Subdomain')
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
-    //.expectJSONTypes({
-    //    active: Number,
-    //    notActive: Number
-    //})
     .toss()

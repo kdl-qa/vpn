@@ -28,8 +28,8 @@ frisby.create('Add Flat object')
         balcony: balconiesId,  //false
         heating: heatingsId,  //false
         waterHeating: waterheatId, //false
-        nearObjects: [nearobjectsId]    //false
-        //schema: ""
+        nearObjects: [nearobjectsId],    //false
+        schema: schemaId
     }, {json: true}
     )
     .inspectRequest()

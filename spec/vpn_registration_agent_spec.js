@@ -6,8 +6,8 @@ frisby.create('Registration. Agent of the Agency')
         lastName: agentLastName,
         email: agentEmail,
         plainPassword: agentPassword,
-        phones: agentPhones
-        //userAvatar: agentAvatar
+        phones: agentPhones,
+        userAvatar: agentAvatar
     }, {json: true})
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')

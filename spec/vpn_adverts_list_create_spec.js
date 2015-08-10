@@ -14,7 +14,7 @@ frisby.create('Create list of adverts')
     //.inspectRequest()
     .inspectJSON()
     .inspectBody()
-    .inspectResponse()
+    //.inspectResponse()
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .expectJSONTypes({

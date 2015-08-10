@@ -5,9 +5,12 @@ frisby.create('Get Info Page - Terms and Conditions')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSONTypes({
-        latin_name: String,
+        name: String,
+        latinName: String,
+        content: String,
         title: String,
-        description: String,
-        content: String
+        metaDescription: String,
+        metaKeywords: String,
+        metaRobots: String
     })
     .toss()

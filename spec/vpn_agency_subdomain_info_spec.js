@@ -14,7 +14,7 @@ frisby.create('Subdomain Info Agency')
         email: String,
         userType: String,
         offices: Array,
-        schedule: Array,
-        socialAccounts: Array
+        schedule: Array
+        //socialAccounts: Array
     })
     .toss()

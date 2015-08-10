@@ -5,10 +5,8 @@ frisby.create('Get Landing page - Category of the City')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSONTypes({
-        city_name: String,
-        text: String,
-        category_name: String,
-        latin_category_name: String,
+        city: Object,
+        seo: Object,
         category: Array
     })
     .toss()

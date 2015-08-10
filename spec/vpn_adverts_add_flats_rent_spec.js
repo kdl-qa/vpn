@@ -29,6 +29,8 @@ frisby.create('Add Flat advert (rent)')
         id: String
     })
     .afterJSON(function (json) {
-        adverts.saveFlatAdvertRent(json);
+        if (json.operationType == operationTypeRent) {
+            adverts.saveFlatAdvertRent(json);
+        }
     })
     .toss()

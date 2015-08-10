@@ -14,7 +14,7 @@ frisby.create('Get list of parcel adverts (sell)')
     '&city='+citiesId+
     '&areaFrom='+1+
     '&areaTo='+15+
-    '&areaUnit='+areaunitsId+
+    '&areaUnit='+areaunitsData[1].id+
     '&communication[7]='+communicationsId+
     '&additionally[0]='+additionals_cat2Id+
     '&nearObjects[0]='+nearobjectsId)

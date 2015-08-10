@@ -3,7 +3,6 @@ frisby.create('Project Info Edit')
     .addHeader('token', adminToken)
     .put(URL_project_info_edit,
     {
-        name:"edited",
         address:projectInfoData.address,
         schedule:projectInfoData.schedule,
         phones:projectInfoData.phones,

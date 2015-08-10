@@ -16,13 +16,13 @@ frisby.create('Edit Flat advert (sale)')
         bedsCount: advfs_bedsCount,
         furniture: [furnituresId],
         appliances: [appliancesId],
-        additionally: [additionals_cat0Id]
-        //images: [{id:advertImage}]
+        additionally: [additionals_cat0Id],
+        images: [{id:advertImage, mainImage:false}, {id:advertImage2, mainImage:true}]
     }, {json: true}
     )
     .inspectJSON()
     .inspectBody()
-    .inspectResponse()
+    //.inspectResponse()
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .expectJSON({

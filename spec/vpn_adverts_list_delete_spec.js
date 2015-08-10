@@ -6,7 +6,7 @@ frisby.create('Adverts list delete')
     //.inspectRequest()
     .inspectJSON()
     .inspectBody()
-    .inspectResponse()
+    //.inspectResponse()
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
     .afterJSON(function (json) {

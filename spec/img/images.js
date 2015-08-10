@@ -5,7 +5,7 @@ schemaTemplate = path.resolve(__dirname, 'schema_image.json');
 certificatesTemplate = path.resolve(__dirname, 'certificate_image.json');
 certificates2Template = path.resolve(__dirname, 'certificate_2_image.json');
 advertImageTemplate = path.resolve(__dirname, 'advert_image.json');
-advertMainImageTemplate = path.resolve(__dirname, 'advert_main_image.json');
+advertImage2Template = path.resolve(__dirname, 'advert_image_2.json');
 
 exports.getUserAvatar = function () {
     return jf.readFileSync(userAvatarTemplate);
@@ -65,10 +65,10 @@ exports.saveAdvertImage = function (advertImageData) {
     return jf.writeFileSync(advertImageTemplate, advertImageData);
 }
 
-exports.getAdvertMainImage = function () {
-    return jf.readFileSync(advertMainImageTemplate);
+exports.getAdvertImage2 = function () {
+    return jf.readFileSync(advertImage2Template);
 }
 
-exports.saveAdvertMainImage = function (advertMainImageData) {
-    return jf.writeFileSync(advertMainImageTemplate, advertMainImageData);
+exports.saveAdvertImage2 = function (advertImage2Data) {
+    return jf.writeFileSync(advertImage2Template, advertImage2Data);
 }

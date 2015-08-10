@@ -47,7 +47,7 @@ frisby.create('Upload advert image')
         }
     )
     .afterJSON(function (json) {
-        images.saveAdvertMainImage(json);
+        images.saveAdvertImage2(json);
     })
     .toss()
 

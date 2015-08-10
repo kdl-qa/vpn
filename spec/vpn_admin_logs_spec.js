@@ -2,9 +2,9 @@ require('./boot');
 frisby.create('Get Admin - logs (sort)')
     .addHeader('token', adminToken)
     .get(URL_admin_logs +      //
-    //'?dateFrom=2015-07-13'
-    '?endpoint=/api/v1/logs')
-    //'&dateTo=2015-07-17'+)
+    '?dateFrom=2015-07-28'+
+    //'?endpoint=/api/v1/logs')
+    '&dateTo=2015-09-28')
     //.inspectRequest()
     .inspectHeaders()
     .inspectJSON()

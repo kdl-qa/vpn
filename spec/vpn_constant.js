@@ -1,5 +1,5 @@
-var url = "http://vpn.ua/api/v1/";
-domain = 'vpn.ua';
+var url = "http://neru.com.ua/api/v1/";
+domain = 'neru.com.ua';
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
 agencyData = user.getAgency();
@@ -38,7 +38,7 @@ agencyOfficeCoordinates = agencyData.offices[0].coordinates;
 agencyOfficesPhones = agencyData.offices[0].phones;
 agencySchedule = agencyData.schedule;
 agencySocialNetworks = agencyData.networks;
-//agencyAvatar = agencyData.avatar;
+agencyAvatar = agencyData.avatar;
 agencyToken = saveAgencyData.token;
 
 agentFirstName = agentData.first_name;
@@ -358,16 +358,29 @@ advertsSendListSubject = advertsSendListData.subject;
 advertsSendListText = advertsSendListData.text;
 
 advertImageData = images.getAdvertImage();
-advertMainImageData = images.getAdvertMainImage();
+advertImage2Data = images.getAdvertImage2();
 advertImage = advertImageData.id;
-advertMainImage = advertMainImageData.id;
+advertImage2 = advertImage2Data.id;
 
 //------------------------------Info Pages Data-------------------------------//
 infoPageData = info_page.getInfoPage();
 infoPageLatinName = infoPageData.latinName;
 
+editInfoPageData = info_page.getEditInfoPage();
+editInfoPageLatinName = editInfoPageData.latinName;
+//editInfoPageName = editInfoPageData.name;
+//editInfoPageContent = editInfoPageData.content;
+//editInfoPageTitle = editInfoPageData.title;
+//editInfoPageMetaDescription = editInfoPageData.metaDescription;
+//editInfoPageMetaRobots = editInfoPageData.metaRobots;
+
+
 //------------------------------Delete Advert Image Data-------------------------------//
 
+
+//------------------------------Schema Image Data-------------------------------//
+schemaData = images.getSchema;
+schemaId = schemaData.id;
 
 //------------------------------------------------Project Endpoint Link Data------------------------------------------------//
 
@@ -719,7 +732,7 @@ URL_profiles_adverts_group_lists = url + 'profiles/announcements-lists/lists';
 URL_profiles_send_list_adverts = url + 'profiles/announcements-lists/'+ advertsListSlug + '/send';
 
 //GET PROFILE LIST ADVERTS
-URL_profiles_list_adverts = url + 'profiles/announcements/1/25';
+URL_profiles_list_adverts = url + 'profiles/announcements';
 
 //GET PROFILE ADVERT
 URL_profiles_advert = url + 'profiles/announcements/' + advertsFlatSaleId;

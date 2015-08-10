@@ -5,7 +5,7 @@ frisby.create('Edit Flat advert (sale)')
     .put(URL_admin_adverts_flats_edit,
     {
         realtyId: realtyFlatId,
-        status: 2,    //0,1,2,3,4
+        status: 3,    //0,1,2,3,4
         rejectionReason: 'Your Announcement incorrectly added to our system. Please, add the new one, with right content.', //status: 2
         unpublishReason: unpublishReasonsData[0].id, // otherReason = unpublishReasonsData[1].id , status: 3,4
         unpublishDescription: "Недвижимость Продано. Более детальная информация не предоставляется.",
@@ -29,8 +29,8 @@ frisby.create('Edit Flat advert (sale)')
     }, {json: true}
     )
     .inspectJSON()
-    .inspectRequest()
-    //.inspectBody()
+    //.inspectRequest()
+    .inspectBody()
     //.inspectResponse()
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')
