@@ -110,17 +110,17 @@ citiesName = citiesData[citiesData.length-1].latinName;
 //------------------------------Streets Data-------------------------------//
 
 streetsData = streets.getStreets();
-streetsId =  streetsData[streetsData.length-1].id;
+streetsId =  streetsData[0].id;
 
 //------------------------------Districts Data-------------------------------//
 
 districtsData = districts.getDistricts();
-districtsId =  districtsData[districtsData.length-1].id;
+districtsId =  districtsData[0].id;
 
 //------------------------------Houses Data-------------------------------//
 
 housesData = houses.getHouses();
-housesId =  housesData[housesData.length-1].id;
+housesId =  housesData[0].id;
 
 //------------------------------Flats Data-------------------------------//
 
