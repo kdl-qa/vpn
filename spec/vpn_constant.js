@@ -759,7 +759,7 @@ URL_agency_subdomain_employees = 'http://' + agencySubdomain + '.' + domain + '/
 URL_agency_subdomain_services = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/services';
 
 //GET AGENCY SUBDOMAIN INFO
-URL_agency_subdomain_info = 'http://' + agencySubdomain + '.' + domain + '/api/v1/info/agency';
+URL_agency_subdomain_info = 'http://' + agencySubdomain + '.' + domain + '/api/v1/agencies/info';
 
 //-----------------------------------------------Info API-----------------------------------------------//
 // GET INFO PAGE ABOUT
