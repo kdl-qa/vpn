@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Add Flat object')
-    .addHeader('token', userToken)
+    .addHeader('token', agentToken)
     //.addHeader('token', agencyToken)
     .post(URL_realties_flats_add,
     {

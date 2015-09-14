@@ -13,7 +13,6 @@ frisby.create('Edit Flat object')
         flatNumber: afr_flatNumber,   //true
         latitude: afr_latitude, //true
         longitude: afr_longitude, //true
-        marketType: marketsId,   //false
         roomCount: afr_roomCount,    //true
         wallMaterial: wallmaterialsId, //true
         area: afr_area, //true

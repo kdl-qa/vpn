@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Unpublish Flat advert (sale)')
-    .addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_adverts_flats_unpublish,
     {
         unpublishReason: unpublishReasonsId,

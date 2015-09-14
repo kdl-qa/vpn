@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Add Parcel object')
-    .addHeader('token', userToken)
+    .addHeader('token', agentToken)
     //.addHeader('token', agencyToken)
     .post(URL_realties_parcels_add,
     {

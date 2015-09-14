@@ -4,7 +4,7 @@ frisby.create('Get last Adverts (sell)')
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
-    .expectJSON({
+    .expectJSONTypes({
         total: Number,
         count: Number,
         page: Number,

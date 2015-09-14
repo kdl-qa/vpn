@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Add Flat advert (rent)')
-    .addHeader('token', userToken)
+    .addHeader('token', agentToken)
     //.addHeader('token', agencyToken)
     .post(URL_adverts_flats_add,
     {
@@ -18,7 +18,8 @@ frisby.create('Add Flat advert (rent)')
         bedsCount: advfr_bedsCount,
         furniture: [furnituresId],
         appliances: [appliancesId],
-        additionally: [additionals_cat0Id]
+        additionally: [additionals_cat0Id],
+        marketType: marketsId   //false
         //images: [{id:advertImage}]
     }, {json: true}
     )

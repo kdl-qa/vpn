@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Edit Flat advert (sale)')
-    .addHeader('token', userToken)
+    .addHeader('token', agentToken)
     //.addHeader('token', agencyToken)
     .put(URL_adverts_flats_edit,
     {
@@ -17,7 +17,8 @@ frisby.create('Edit Flat advert (sale)')
         furniture: [furnituresId],
         appliances: [appliancesId],
         additionally: [additionals_cat0Id],
-        images: [{id:advertImage, mainImage:false}, {id:advertImage2, mainImage:true}]
+        marketType: marketsId   //false
+        //images: [{id:advertImage, mainImage:false}, {id:advertImage2, mainImage:true}]
     }, {json: true}
     )
     .inspectJSON()

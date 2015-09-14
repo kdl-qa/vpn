@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Edit Parcel advert (sale)')
-    .addHeader('token', userToken)
+    .addHeader('token', agentToken)
     //.addHeader('token', agencyToken)
     .put(URL_adverts_parcels_edit,
     {

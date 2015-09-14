@@ -8,7 +8,7 @@ frisby.create('Get Landing page - Category of the City')
         city: Object,
         seo: Object,
         category: Array,
-        text: String,
+        //text: String,
         city: Object,
         category: Array,
         seo: Object

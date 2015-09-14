@@ -12,7 +12,7 @@ frisby.create('Edit Commercial advert (sale)')
         unpublishPrice: 3456789,
         unpublishCurrency: currencyData[1].id,
         type: 'commercial-property',
-        userId: userId,
+        userId: agentId,
         operationType: operationtypesData[0].id,    // Аренда = 0, Продажа = 1
         price: advcs_price,    //true
         currency: currencyData[1].id, //true

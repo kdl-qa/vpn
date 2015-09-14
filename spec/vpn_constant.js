@@ -48,6 +48,7 @@ agentPassword = agentData.password;
 agentEmail = agentData.email;
 agentAvatar = agentData.avatar;
 agentToken = saveAgentData.token;
+agentId = saveAgentData.id;
 
 adminEmail = adminData.email;
 adminPassword = adminData.password;

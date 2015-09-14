@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Get Profile Advert')
-    .addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     //.addHeader('token', adminToken)
     .get(URL_profiles_advert)
     .inspectJSON()

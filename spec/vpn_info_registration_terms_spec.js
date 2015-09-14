@@ -10,7 +10,7 @@ frisby.create('Get Info Page - Registration Term Admin amd Agent')
         content: String,
         title: String,
         metaDescription: String,
-        metaKeywords: String,
+        //metaKeywords: String,
         metaRobots: String
     })
     .toss()
