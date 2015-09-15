@@ -1,6 +1,7 @@
 require('./boot');
-frisby.create('Registration Agency')
-    .post(URL_registration_agency,{
+frisby.create('Registration Agency by Admin')
+    .addHeader('token', adminToken)
+    .post(URL_registration_agency_admin,{
         name: agencyName,
         subdomain: agencySubdomain,
         firstName: agencyFirstName,

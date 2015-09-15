@@ -530,6 +530,9 @@ URL_registration_pperson = url + 'registration/private-person';
 // POST REGISTRATION AGENCY
 URL_registration_agency = url + 'registration/agency';
 
+// POST ADMIN REGISTRATION AGENCY
+URL_registration_agency_admin = url + 'admin/registration/agency';
+
 // POST REGISTRATION AGENCY
 URL_registration_agent = url + 'registration/agent';
 
