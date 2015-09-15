@@ -40,6 +40,7 @@ agencySchedule = agencyData.schedule;
 agencySocialNetworks = agencyData.networks;
 agencyAvatar = agencyData.avatar;
 agencyToken = saveAgencyData.token;
+agencyId = saveAgencyData.id;
 
 agentFirstName = agentData.first_name;
 agentLastName = agentData.last_name;
@@ -571,6 +572,12 @@ URL_admin_users = url + 'users';
 
 //CHECK-SUBDOMAIN AGENCY
 URL_agency_check_subdomain = url + 'registration/agency/check-subdomain/';
+
+//PUT CHANGE STATUS AGENT
+URL_admin_change_status_agent = url + 'admin/users/' + agentId + '/change-status';
+
+//PUT CHANGE STATUS AGENCY
+URL_admin_change_status_agency = url + 'admin/users/' + agencyId + '/change-status';
 
 
 //-----------------------------------Image API-----------------------------------//
