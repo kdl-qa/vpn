@@ -1,1 +1,24 @@
-{}
+{
+  "id": "55fd5dfa3755dfb5208b45a5",
+  "name": "API automated test list",
+  "count": 0,
+  "created": "2015-09-19T16:07:06+0300",
+  "updated": "2015-09-19T16:07:06+0300",
+  "user": {
+    "subdomain": "api-test",
+    "name": "API Auto Test Agency",
+    "profileHeader": "",
+    "firstName": "API Auto Test",
+    "lastName": "Agency",
+    "email": "api.agency@test.com",
+    "userType": "agency"
+  },
+  "client": {
+    "id": "55fd5d9a3755df9f7f8b4594",
+    "firstName": "Test",
+    "email": "pirigok@mail.ru",
+    "phones": [],
+    "userType": "private person"
+  },
+  "adverts": []
+}
