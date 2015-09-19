@@ -1,7 +1,7 @@
 require('./boot');
 frisby.create('Add Flat advert (sale)')
-    .addHeader('token', agentToken)
-    //.addHeader('token', agencyToken)
+    //.addHeader('token', agentToken)
+    .addHeader('token', agencyToken)
     .post(URL_adverts_flats_add,
     {
         operationType: operationtypesId,    //true

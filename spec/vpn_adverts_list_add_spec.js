@@ -1,7 +1,7 @@
 require('./boot');
 var name = String;
 frisby.create('Adverts list add adverts')
-    .addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_adverts_list_add_adverts,
     {
         advert: [
@@ -18,8 +18,7 @@ frisby.create('Adverts list add adverts')
     .expectJSONTypes({
         id: String,
         name: String,
-        slug: String,
-        advert: Array
+        adverts: Array
     })
     .afterJSON(function (json) {
         if (json.id === advertsListId ) {
