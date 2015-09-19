@@ -789,9 +789,6 @@ URL_project_info = url + 'get-project-info';
 URL_project_info_edit = url + 'project-info/edit';
 
 //-----------------------------------------------Seo Admin API-----------------------------------------------//
-//GET GROUPS LIST
-URL_admin_groups_list = url + 'admin/groups';
-
 //GET INFO PAGES
 URL_info_pages = url + 'admin/info-pages';
 
