@@ -1,5 +1,5 @@
-var url = "http://vpn.ua/api/v1/";
-domain = 'vpn.ua';
+var url = "http://uhome.co/api/v1/";
+domain = 'uhome.co';
 //------------------------------User Data-------------------------------//
 userData = user.getUser();
 agencyData = user.getAgency();
@@ -734,7 +734,10 @@ URL_adverts_list_delete_advert = url + 'profiles/announcements-lists/' + adverts
 URL_adverts_list_delete = url + 'profiles/announcements-lists/' + advertsListSlug + '/delete';
 
 //GET ADVERTS GROUP LIST
-URL_adverts_group_lists = url + 'lists/' + advertsListSlug + '/1/50';
+URL_adverts_group_lists = url + 'lists/' + advertsListId + '/1/50';
+
+//PUT UPDATE INTERESTING GROUP ADVERT
+URL_adverts_group_lists_update_interesting = url + 'lists/' + advertsListId + '/' + advertsFlatSaleId + '/true';
 
 //GET PROFILE ADVERTS GROUP LISTS
 URL_profiles_adverts_group_lists = url + 'profiles/announcements-lists/lists';

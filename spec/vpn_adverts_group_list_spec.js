@@ -1,5 +1,6 @@
 require('./boot');
 frisby.create('Get Advert Group List')
+    .addHeader('token', userToken)
     .get(URL_adverts_group_lists)
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
@@ -7,12 +8,10 @@ frisby.create('Get Advert Group List')
     .expectJSONTypes({
         id: String,
         name: String,
-        slug: String,
-        title: String,
         count: Number,
         created: String,
         updated: String,
         user: Object,
-        advert: Object
+        adverts: Object
     })
     .toss()
