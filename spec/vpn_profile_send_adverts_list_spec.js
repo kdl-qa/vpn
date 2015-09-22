@@ -1,6 +1,6 @@
 require('./boot');
 frisby.create('Send Adverts List to Client')
-    .addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .post(URL_profiles_send_list_adverts,{
         email: advertsSendListEmail,
         subject: advertsSendListSubject,

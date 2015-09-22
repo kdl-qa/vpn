@@ -743,7 +743,7 @@ URL_adverts_group_lists_update_interesting = url + 'lists/' + advertsListId + '/
 URL_profiles_adverts_group_lists = url + 'profiles/announcements-lists/lists';
 
 //POST SEND LIST ADVERTS
-URL_profiles_send_list_adverts = url + 'profiles/announcements-lists/'+ advertsListSlug + '/send';
+URL_profiles_send_list_adverts = url + 'profiles/announcements-lists/'+ advertsListId + '/send';
 
 //GET PROFILE LIST ADVERTS
 URL_profiles_list_adverts = url + 'profiles/announcements';
