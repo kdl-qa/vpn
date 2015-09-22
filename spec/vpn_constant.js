@@ -722,7 +722,7 @@ URL_get_advert = url + 'get-announcements/';
 URL_create_list_adverts = url + 'profiles/announcements-lists/create';
 
 //EDIT LIST OF ADVERTS
-URL_edit_list_adverts = url + 'profiles/announcements-lists/' + advertsListSlug + '/edit';
+URL_edit_list_adverts = url + 'profiles/announcements-lists/' + advertsListId + '/edit';
 
 //ADVERTS LIST ADD ADVERTS
 URL_adverts_list_add_adverts = url + 'profiles/announcements-lists/' + advertsListId + '/add';
