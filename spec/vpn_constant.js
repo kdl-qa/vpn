@@ -731,7 +731,7 @@ URL_adverts_list_add_adverts = url + 'profiles/announcements-lists/' + advertsLi
 URL_adverts_list_delete_advert = url + 'profiles/announcements-lists/' + advertsListId + '/' + advertsFlatSaleId + '/delete';
 
 //ADVERTS LIST DELETE
-URL_adverts_list_delete = url + 'profiles/announcements-lists/' + advertsListSlug + '/delete';
+URL_adverts_list_delete = url + 'profiles/announcements-lists/' + advertsListId + '/delete';
 
 //GET ADVERTS GROUP LIST
 URL_adverts_group_lists = url + 'lists/' + advertsListId + '/1/50';
