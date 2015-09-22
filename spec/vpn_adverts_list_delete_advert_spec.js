@@ -1,11 +1,11 @@
 require('./boot');
 var name = String;
 frisby.create('Adverts list delete advert')
-    .addHeader('token', userToken)
+    .addHeader('token', agencyToken)
     .delete(URL_adverts_list_delete_advert)
     //.inspectRequest()
     .inspectJSON()
-    .inspectBody()
+    //.inspectBody()
     //.inspectResponse()
     .expectStatus(200)
     .expectHeader('Content-Type', 'application/json')

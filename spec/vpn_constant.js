@@ -728,7 +728,7 @@ URL_edit_list_adverts = url + 'profiles/announcements-lists/' + advertsListId + 
 URL_adverts_list_add_adverts = url + 'profiles/announcements-lists/' + advertsListId + '/add';
 
 //ADVERTS LIST DELETE ADVERT
-URL_adverts_list_delete_advert = url + 'profiles/announcements-lists/' + advertsListSlug + '/' + advertsFlatSaleId + '/delete';
+URL_adverts_list_delete_advert = url + 'profiles/announcements-lists/' + advertsListId + '/' + advertsFlatSaleId + '/delete';
 
 //ADVERTS LIST DELETE
 URL_adverts_list_delete = url + 'profiles/announcements-lists/' + advertsListSlug + '/delete';

@@ -111,14 +111,14 @@ exports.saveAdvertList = function (advertListData) {
 
 exports.updateAdvertList = function (id) {
     var advertList = jf.readFileSync(advertListTemplate);
-    var adverts = advertList.advert;
+    var adverts = advertList.adverts;
 
     adverts.forEach(function(item, i, adverts) {
-        if (item.id === id) {
+        if (item.advert.id === id) {
             adverts.splice(i, 1);
         }
     });
-    advertList.advert = adverts;
+    advertList.adverts = adverts;
 
     return jf.writeFileSync(advertListTemplate, advertList);
 }
