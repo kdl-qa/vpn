@@ -682,6 +682,9 @@ URL_adverts_parcels_add = url + 'announcements/parcels/add/' + realtyParcelId;
 //POST ADD COMMERCIALS ADVERTS
 URL_adverts_commercials_add = url + 'announcements/commercials/add/' + realtyCommercialId;
 
+//DELETE ADVERT
+URL_admin_advert_delete = url + 'announcements/' + advertsFlatSaleId + '/delete';
+
 //-----------------------------------Edit Advert API-----------------------------------//
 
 //PUT EDIT FLATS ADVERTS BY ADMIN
