@@ -615,6 +615,9 @@ URL_realty = url + 'profiles/realties/' + realtyFlatId;
 //GET REALTY HISTORY
 URL_realty_history = url + 'realties/history/' + realtyFlatId;
 
+//DELETE REALTY
+URL_admin_realty_delete = url + 'realties/' + realtyFlatId + '/delete';
+
 //-----------------------------------Add Realty API-----------------------------------//
 //POST ADD FLATS REALTY
 URL_realties_flats_add = url + 'realties/flats/add';
