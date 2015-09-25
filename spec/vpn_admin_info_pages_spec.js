@@ -6,7 +6,6 @@ frisby.create('Get Info Pages')
     .expectHeader('Content-Type', 'application/json')
     .expectStatus(200)
     .expectJSONTypes({
-        total: Number,
-        data: Array
+        total: Number
     })
     .toss()

@@ -1,10 +1,10 @@
 require('./boot');
 frisby.create('Edit Flat advert (sale)')
-    .addHeader('token', agentToken)
-    //.addHeader('token', agencyToken)
+    //.addHeader('token', agentToken)
+    .addHeader('token', agencyToken)
     .put(URL_adverts_flats_edit,
     {
-        //title: advfs_title,    //true
+        userId: agentId,    //true
         operationType: operationtypesId,    //true
         price: advfs_price,    //true
         currency: currencyId, //true

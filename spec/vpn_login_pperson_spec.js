@@ -2,14 +2,13 @@ require('./boot');
 frisby.create('Login Private Person')
     .post(URL_login, {
         email: userEmail,
-        password: "UAYzw_mV"
+        password: userPassword
     }, {json: true})
     .inspectJSON()
     .expectHeader('Content-Type', 'application/json')
     .expectJSON({
         id: String,
         firstName: String,
-        lastName: String,
         email: String,
         token: String,
         userType: 'private person'
